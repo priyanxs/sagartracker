@@ -177,12 +177,75 @@
       font-weight: 700;
       box-shadow: 0 10px 25px rgba(0,0,0,0.7);
     }
+
+    /* Mobile & Laptop Responsive Engine */
+    @media (max-width: 767px) {
+      body {
+        height: 100dvh;
+        height: -webkit-fill-available;
+      }
+      #routesSidebar {
+        width: 100% !important;
+        height: 100% !important;
+        padding-bottom: 70px !important;
+      }
+      #mapPane {
+        width: 100% !important;
+        height: 100% !important;
+      }
+      #floatingDetailCard {
+        bottom: 74px !important;
+        left: 10px !important;
+        right: 10px !important;
+        width: auto !important;
+        max-width: none !important;
+        padding: 12px !important;
+        border-radius: 20px !important;
+      }
+      #mobileTabBar {
+        padding-bottom: max(6px, env(safe-area-inset-bottom));
+      }
+    }
+
+    @media (min-width: 768px) {
+      body {
+        height: 100vh;
+        flex-direction: row !important;
+      }
+      #routesSidebar {
+        display: flex !important;
+        height: 100% !important;
+        width: 390px !important;
+        max-width: 440px !important;
+        padding-bottom: 0 !important;
+      }
+      #mapPane {
+        display: block !important;
+        height: 100% !important;
+        flex: 1 1 0% !important;
+      }
+      #floatingDetailCard {
+        bottom: 20px !important;
+        left: 20px !important;
+        width: 370px !important;
+        max-width: calc(100% - 40px) !important;
+      }
+      #mobileTabBar {
+        display: none !important;
+      }
+    }
+
+    @media (min-width: 1280px) {
+      #routesSidebar {
+        width: 440px !important;
+      }
+    }
   </style>
 </head>
-<body class="h-screen w-screen overflow-hidden flex flex-col md:flex-row">
+<body class="h-screen w-screen overflow-hidden flex flex-col md:flex-row bg-[#111113]">
 
   <!-- ================= LEFT SIDEBAR (OFFICIAL 30 BUS ROUTES DIRECTORY) ================= -->
-  <aside id="routesSidebar" class="w-full md:w-[390px] lg:w-[430px] h-[48%] md:h-full bg-app-card border-b md:border-b-0 md:border-r border-[#242429] flex flex-col z-20 flex-shrink-0 min-h-0 transition-all duration-300">
+  <aside id="routesSidebar" class="w-full md:w-[390px] lg:w-[430px] xl:w-[440px] h-full bg-app-card border-b md:border-b-0 md:border-r border-[#242429] flex flex-col z-20 flex-shrink-0 min-h-0 transition-all duration-300">
     
     <!-- Top Header Row with Official Title -->
     <div class="px-4 py-3 flex items-center justify-between border-b border-white/5 flex-shrink-0">
@@ -271,57 +334,71 @@
   </aside>
 
   <!-- ================= RIGHT FULLSCREEN MAP PANE ================= -->
-  <section id="mapPane" class="flex-1 relative h-[52%] md:h-full w-full overflow-hidden bg-[#111113]">
+  <section id="mapPane" class="flex-1 relative h-full w-full overflow-hidden bg-[#111113]">
     
     <!-- Leaflet Map Container -->
     <div id="mapFrame"></div>
 
     <!-- Top Overlay Controls Bar (Campus Badge, Map Views & Telematics) -->
-    <div class="absolute top-3 left-3 right-3 z-20 flex flex-wrap items-center justify-between gap-2 pointer-events-none">
+    <div class="absolute top-2 md:top-3 left-2 md:left-3 right-2 md:right-3 z-20 flex flex-col md:flex-row md:items-center md:justify-between gap-1.5 md:gap-2 pointer-events-none">
       
-      <!-- Campus Badge Pill -->
-      <div class="pointer-events-auto bg-app-card/90 backdrop-blur-md border border-white/10 rounded-2xl px-3.5 py-1.5 flex items-center space-x-2 shadow-card-float">
-        <span class="w-2 h-2 rounded-full bg-app-accent radar-pulse"></span>
-        <span class="text-white text-xs font-black tracking-tight">✈️ SISTec Gandhinagar Main Campus</span>
-        <span class="hidden sm:inline text-amber-400 text-[11px] font-bold">• Terminus 09:15 AM</span>
+      <!-- Top Row on Mobile / Left on Desktop: Campus Badge & Quick Buttons -->
+      <div class="flex items-center justify-between w-full md:w-auto pointer-events-none">
+        <!-- Campus Badge Pill -->
+        <div class="pointer-events-auto bg-app-card/90 backdrop-blur-md border border-white/10 rounded-2xl px-3 py-1.5 flex items-center space-x-2 shadow-card-float max-w-[calc(100%-80px)] md:max-w-none">
+          <span class="w-2 h-2 rounded-full bg-app-accent radar-pulse flex-shrink-0"></span>
+          <span class="text-white text-xs font-black tracking-tight truncate">✈️ SISTec GN Main Campus</span>
+          <span class="hidden lg:inline text-amber-400 text-[11px] font-bold">• Terminus 09:15 AM</span>
+        </div>
+
+        <!-- Mobile-Only Quick Toggles (Theme & Center) -->
+        <div class="flex md:hidden items-center space-x-1 pointer-events-auto">
+          <button onclick="toggleTheme()" class="w-8 h-8 rounded-2xl bg-app-card/90 backdrop-blur-md border border-white/10 text-xs flex items-center justify-center active:scale-95 shadow-sm" title="Toggle Light / Dark Mode">
+            <span id="mobileThemeIcon">☀️</span>
+          </button>
+          <button onclick="centerCampus()" class="w-8 h-8 rounded-2xl bg-app-card/90 backdrop-blur-md border border-white/10 text-white flex items-center justify-center active:scale-95 shadow-sm" title="Center SISTec Campus">
+            <i data-lucide="crosshair" class="w-4 h-4 text-app-accent"></i>
+          </button>
+        </div>
       </div>
 
       <!-- Action Control Cluster (Map Views, Modes & Playback) -->
-      <div class="pointer-events-auto flex flex-wrap items-center space-x-2">
+      <div class="pointer-events-auto flex items-center space-x-1.5 overflow-x-auto no-scrollbar py-0.5 max-w-full">
         
-        <!-- Theme Switcher Toggle on Map -->
-        <button onclick="toggleTheme()" id="mapThemeBtn" class="bg-app-card/90 backdrop-blur-md border border-white/10 rounded-2xl px-2.5 py-1 text-xs font-bold shadow-card-float flex items-center space-x-1.5 pointer-events-auto active:scale-95 transition" title="Toggle Light / Dark Mode">
+        <!-- Desktop Theme Switcher Toggle on Map -->
+        <button onclick="toggleTheme()" id="mapThemeBtn" class="hidden md:flex bg-app-card/90 backdrop-blur-md border border-white/10 rounded-2xl px-2.5 py-1 text-xs font-bold shadow-card-float items-center space-x-1.5 active:scale-95 transition" title="Toggle Light / Dark Mode">
           <span id="mapThemeIcon">☀️</span>
           <span id="mapThemeText" class="text-neutral-300 font-bold">Light</span>
         </button>
 
         <!-- Clean Watermark-Free Map View Layer Switcher -->
-        <div class="bg-app-card/90 backdrop-blur-md border border-white/10 rounded-2xl p-1 flex items-center space-x-1 shadow-card-float text-xs font-bold">
-          <button onclick="changeMapTileLayer('satellite')" id="mapTabSat" class="px-2.5 py-1 rounded-xl bg-app-accent text-neutral-950 font-black transition flex items-center space-x-1 shadow active:scale-95" title="HD Satellite Imagery with Roads & Places">
-            <span>🛰️ Satellite HD</span>
+        <div class="bg-app-card/90 backdrop-blur-md border border-white/10 rounded-2xl p-0.5 md:p-1 flex items-center space-x-0.5 md:space-x-1 shadow-card-float text-xs font-bold flex-shrink-0">
+          <button onclick="changeMapTileLayer('satellite')" id="mapTabSat" class="px-2 md:px-2.5 py-1 rounded-xl bg-app-accent text-neutral-950 font-black transition flex items-center space-x-1 shadow active:scale-95 flex-shrink-0" title="HD Satellite Imagery">
+            <span>🛰️ Sat HD</span>
           </button>
-          <button onclick="changeMapTileLayer('dark')" id="mapTabDark" class="px-2.5 py-1 rounded-xl text-neutral-400 hover:text-white transition flex items-center space-x-1 active:scale-95" title="Dark High-Contrast Map">
-            <span>🌙 Dark Map</span>
+          <button onclick="changeMapTileLayer('dark')" id="mapTabDark" class="px-2 md:px-2.5 py-1 rounded-xl text-neutral-400 hover:text-white transition flex items-center space-x-1 active:scale-95 flex-shrink-0" title="Dark High-Contrast Map">
+            <span>🌙 Dark</span>
           </button>
-          <button onclick="changeMapTileLayer('street')" id="mapTabStreet" class="px-2.5 py-1 rounded-xl text-neutral-400 hover:text-white transition flex items-center space-x-1 active:scale-95" title="OpenStreetMap Streets">
+          <button onclick="changeMapTileLayer('street')" id="mapTabStreet" class="px-2 md:px-2.5 py-1 rounded-xl text-neutral-400 hover:text-white transition flex items-center space-x-1 active:scale-95 flex-shrink-0" title="OpenStreetMap Streets">
             <span>🗺️ Streets</span>
           </button>
         </div>
 
         <!-- Fleet View Modes -->
-        <div class="bg-app-card/90 backdrop-blur-md border border-white/10 rounded-2xl p-1 flex items-center space-x-1 shadow-card-float text-xs font-bold">
-          <button onclick="toggleAllFleetView()" id="fleetModeBtn" class="px-2.5 py-1 rounded-xl bg-app-accent text-neutral-950 font-black transition flex items-center space-x-1 shadow active:scale-95" title="Toggle All 30 Buses">
+        <div class="bg-app-card/90 backdrop-blur-md border border-white/10 rounded-2xl p-0.5 md:p-1 flex items-center space-x-0.5 md:space-x-1 shadow-card-float text-xs font-bold flex-shrink-0">
+          <button onclick="toggleAllFleetView()" id="fleetModeBtn" class="px-2 md:px-2.5 py-1 rounded-xl bg-app-accent text-neutral-950 font-black transition flex items-center space-x-1 shadow active:scale-95 flex-shrink-0" title="Toggle All 30 Buses">
             <i data-lucide="layers" class="w-3.5 h-3.5"></i>
-            <span id="fleetModeText">All 30 Routes</span>
+            <span id="fleetModeText" class="hidden sm:inline">All 30 Routes</span>
+            <span class="sm:hidden">All 30</span>
           </button>
-          <button onclick="toggleStopsView()" id="stopsModeBtn" class="px-2 py-1 rounded-xl bg-app-accent/20 text-app-accent border border-app-accent/40 transition flex items-center space-x-1 active:scale-95" title="Toggle Stops">
+          <button onclick="toggleStopsView()" id="stopsModeBtn" class="px-2 py-1 rounded-xl bg-app-accent/20 text-app-accent border border-app-accent/40 transition flex items-center space-x-1 active:scale-95 flex-shrink-0" title="Toggle Stops">
             <i data-lucide="map-pin" class="w-3.5 h-3.5"></i>
             <span>Stops</span>
           </button>
         </div>
 
-        <!-- Center Campus Icon Button -->
-        <button onclick="centerCampus()" class="w-8 h-8 rounded-2xl bg-app-card/90 backdrop-blur-md hover:bg-neutral-800 text-white flex items-center justify-center transition border border-white/10 active:scale-95 pointer-events-auto" title="Center SISTec Campus Terminus">
+        <!-- Desktop Center Campus Icon Button -->
+        <button onclick="centerCampus()" class="hidden md:flex w-8 h-8 rounded-2xl bg-app-card/90 backdrop-blur-md hover:bg-neutral-800 text-white items-center justify-center transition border border-white/10 active:scale-95 flex-shrink-0" title="Center SISTec Campus Terminus">
           <i data-lucide="crosshair" class="w-4 h-4 text-app-accent"></i>
         </button>
 
@@ -337,22 +414,26 @@
     </div>
 
     <!-- Mobile Bottom Tab Navigation -->
-    <div id="mobileTabBar" class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#161619]/95 backdrop-blur-xl border-t border-white/10 px-4 py-2 flex items-center justify-around shadow-2xl">
-      <button onclick="switchMobileTab('map')" id="mobileTabMap" class="flex flex-col items-center text-app-accent font-black text-[10px] active:scale-95">
+    <div id="mobileTabBar" class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#161619]/95 backdrop-blur-xl border-t border-white/10 px-2 py-1.5 flex items-center justify-around shadow-2xl">
+      <button onclick="switchMobileTab('map')" id="mobileTabMap" class="flex flex-col items-center text-app-accent font-black text-[10px] active:scale-95 py-1 px-2">
         <i data-lucide="map" class="w-4 h-4 mb-0.5"></i>
         <span>Live Map</span>
       </button>
-      <button onclick="switchMobileTab('routes')" id="mobileTabRoutes" class="flex flex-col items-center text-neutral-400 hover:text-white font-medium text-[10px] active:scale-95">
+      <button onclick="switchMobileTab('routes')" id="mobileTabRoutes" class="flex flex-col items-center text-neutral-400 hover:text-white font-medium text-[10px] active:scale-95 py-1 px-2">
         <i data-lucide="list" class="w-4 h-4 mb-0.5"></i>
         <span>30 Routes</span>
       </button>
-      <button onclick="openVehicleSpecsModal()" class="flex flex-col items-center text-neutral-400 hover:text-white font-medium text-[10px] active:scale-95">
-        <i data-lucide="user-check" class="w-4 h-4 mb-0.5"></i>
-        <span>Driver Info</span>
+      <button onclick="openPassModal()" class="flex flex-col items-center text-neutral-400 hover:text-white font-medium text-[10px] active:scale-95 py-1 px-2">
+        <i data-lucide="id-card" class="w-4 h-4 mb-0.5"></i>
+        <span>My Pass</span>
       </button>
-      <button onclick="openSosModal()" class="flex flex-col items-center text-rose-400 font-bold text-[10px] active:scale-95">
+      <button onclick="openVehicleSpecsModal()" class="flex flex-col items-center text-neutral-400 hover:text-white font-medium text-[10px] active:scale-95 py-1 px-2">
+        <i data-lucide="user-check" class="w-4 h-4 mb-0.5"></i>
+        <span>Driver</span>
+      </button>
+      <button onclick="openSosModal()" class="flex flex-col items-center text-rose-400 font-bold text-[10px] active:scale-95 py-1 px-2">
         <i data-lucide="phone-call" class="w-4 h-4 mb-0.5"></i>
-        <span>Helpline</span>
+        <span>SOS Desk</span>
       </button>
     </div>
 
@@ -482,6 +563,67 @@
     </div>
   </div>
 
+  <!-- ================= DIGITAL RFID STUDENT BUS PASS MODAL ================= -->
+  <div id="passModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden flex items-center justify-center p-4">
+    <div class="bg-[#18181B] border border-white/10 rounded-3xl w-full max-w-sm p-5 shadow-2xl animate-spring-card relative overflow-hidden">
+      
+      <button onclick="closePassModal()" class="absolute top-4 right-4 w-8 h-8 rounded-full bg-neutral-800 text-neutral-400 hover:text-white flex items-center justify-center transition active:scale-95">
+        <i data-lucide="x" class="w-4 h-4"></i>
+      </button>
+
+      <div class="flex items-center space-x-3 mb-4">
+        <div class="w-12 h-12 rounded-2xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-500">
+          <i data-lucide="id-card" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <span class="text-[10px] uppercase font-black tracking-wider text-amber-400 block">SISTec Transit Authority</span>
+          <h3 class="text-white text-base font-black leading-snug">Digital Bus Transit Pass</h3>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-[#0B1B3D] to-[#122858] p-4 rounded-2xl border border-amber-400/40 mb-4 shadow-lg text-white relative overflow-hidden">
+        <div class="flex items-center justify-between mb-3 border-b border-white/10 pb-2">
+          <div class="flex items-center space-x-2">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 radar-pulse"></span>
+            <span class="text-[11px] font-black text-amber-300">RFID: 8492-7102-SISTEC</span>
+          </div>
+          <span class="text-[10px] bg-emerald-500/20 text-emerald-300 font-black px-2 py-0.5 rounded-full border border-emerald-500/30">VALID 2026-27</span>
+        </div>
+
+        <div class="flex items-center space-x-3 mb-3">
+          <div class="w-11 h-11 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center text-xl font-black">
+            🎓
+          </div>
+          <div>
+            <div class="font-extrabold text-sm">Priyanshu Kushwaha</div>
+            <div class="text-[11px] text-neutral-300 font-mono">Roll: 0187CS241001 • B.Tech CSE</div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-2 text-[10px] bg-black/30 p-2.5 rounded-xl border border-white/5 mb-2">
+          <div>
+            <span class="text-neutral-400 block font-medium">Assigned Line:</span>
+            <span class="font-bold text-amber-300 block">Route 1 (Bairagarh)</span>
+          </div>
+          <div>
+            <span class="text-neutral-400 block font-medium">Boarding Stop:</span>
+            <span class="font-bold text-white block">Halalpura Stand</span>
+          </div>
+        </div>
+
+        <div class="text-center pt-1">
+          <div class="font-mono text-[9px] tracking-widest text-neutral-400 uppercase">||| | ||||| || |||| |||| ||| ||||</div>
+          <div class="text-[9px] text-amber-400/80 font-bold mt-0.5">Campus Gate RFID Scan Verified</div>
+        </div>
+      </div>
+
+      <button onclick="closePassModal()" class="w-full bg-neutral-800 hover:bg-neutral-700 text-white font-bold py-2.5 rounded-2xl text-xs transition active:scale-95">
+        Done
+      </button>
+
+    </div>
+  </div>
+
   <!-- ================= JAVASCRIPT LOGIC ================= -->
   <script>
     var audioCtx = null;
@@ -568,6 +710,16 @@
       updateDetailCard();
       startSimulation();
       startLiveClock();
+
+      if (window.innerWidth < 768) {
+        switchMobileTab('map');
+      } else {
+        var sidebar = document.getElementById('routesSidebar');
+        var mapPane = document.getElementById('mapPane');
+        if (sidebar) sidebar.classList.remove('hidden');
+        if (mapPane) mapPane.classList.remove('hidden');
+      }
+
       lucide.createIcons();
     }
 
@@ -734,6 +886,10 @@
       updateMapRoute();
       renderStopMarkers();
       centerBus();
+      
+      if (window.innerWidth < 768) {
+        switchMobileTab('map');
+      }
       
       var card = document.getElementById('floatingDetailCard');
       if (card) {
@@ -1075,15 +1231,22 @@
       playClickSound(640);
       if (!map || !ROUTES_DATA[routeIdx] || !ROUTES_DATA[routeIdx].stops[stopIdx]) return;
       var stop = ROUTES_DATA[routeIdx].stops[stopIdx];
-      map.flyTo([stop.lat, stop.lng], 16, { duration: 1.0 });
-      for (var i = 0; i < stopMarkers.length; i++) {
-        var m = stopMarkers[i];
-        var ll = m.getLatLng();
-        if (Math.abs(ll.lat - stop.lat) < 0.0002 && Math.abs(ll.lng - stop.lng) < 0.0002) {
-          m.openPopup();
-          break;
-        }
+      
+      if (window.innerWidth < 768) {
+        switchMobileTab('map');
       }
+      
+      setTimeout(function() {
+        map.flyTo([stop.lat, stop.lng], 16, { duration: 1.0 });
+        for (var i = 0; i < stopMarkers.length; i++) {
+          var m = stopMarkers[i];
+          var ll = m.getLatLng();
+          if (Math.abs(ll.lat - stop.lat) < 0.0002 && Math.abs(ll.lng - stop.lng) < 0.0002) {
+            m.openPopup();
+            break;
+          }
+        }
+      }, window.innerWidth < 768 ? 100 : 0);
     };
 
     window.focusStopOnRoad = function(lat, lng, name) {
@@ -1319,30 +1482,65 @@
       renderRouteList();
     };
 
+    var currentMobileTab = 'map';
+
     window.switchMobileTab = function(tab) {
       playClickSound(650);
+      currentMobileTab = tab;
+      var isMobile = window.innerWidth < 768;
       var sidebar = document.getElementById('routesSidebar');
       var mapPane = document.getElementById('mapPane');
       var tabMap = document.getElementById('mobileTabMap');
       var tabRoutes = document.getElementById('mobileTabRoutes');
 
-      if (tab === 'map') {
-        sidebar.classList.add('hidden');
-        sidebar.classList.remove('h-[48%]', 'h-full');
-        mapPane.classList.remove('h-[52%]');
-        mapPane.classList.add('h-full');
-        tabMap.className = 'flex flex-col items-center text-app-accent font-black text-[10px] active:scale-95';
-        tabRoutes.className = 'flex flex-col items-center text-neutral-400 hover:text-white font-medium text-[10px] active:scale-95';
-        if (map) setTimeout(function() { map.invalidateSize(); }, 50);
-      } else if (tab === 'routes') {
-        sidebar.classList.remove('hidden');
-        sidebar.classList.remove('h-[48%]');
-        sidebar.classList.add('h-full');
-        mapPane.classList.add('hidden');
-        tabRoutes.className = 'flex flex-col items-center text-app-accent font-black text-[10px] active:scale-95';
-        tabMap.className = 'flex flex-col items-center text-neutral-400 hover:text-white font-medium text-[10px] active:scale-95';
+      if (isMobile) {
+        if (tab === 'map') {
+          if (sidebar) sidebar.classList.add('hidden');
+          if (mapPane) mapPane.classList.remove('hidden');
+          if (tabMap) tabMap.className = 'flex flex-col items-center text-app-accent font-black text-[10px] active:scale-95 py-1 px-2';
+          if (tabRoutes) tabRoutes.className = 'flex flex-col items-center text-neutral-400 hover:text-white font-medium text-[10px] active:scale-95 py-1 px-2';
+          if (map) setTimeout(function() { map.invalidateSize(); }, 80);
+        } else if (tab === 'routes') {
+          if (sidebar) sidebar.classList.remove('hidden');
+          if (mapPane) mapPane.classList.add('hidden');
+          if (tabRoutes) tabRoutes.className = 'flex flex-col items-center text-app-accent font-black text-[10px] active:scale-95 py-1 px-2';
+          if (tabMap) tabMap.className = 'flex flex-col items-center text-neutral-400 hover:text-white font-medium text-[10px] active:scale-95 py-1 px-2';
+        }
+      } else {
+        if (sidebar) sidebar.classList.remove('hidden');
+        if (mapPane) mapPane.classList.remove('hidden');
+        if (map) setTimeout(function() { map.invalidateSize(); }, 80);
       }
       lucide.createIcons();
+    };
+
+    window.addEventListener('resize', function() {
+      var isMobile = window.innerWidth < 768;
+      var sidebar = document.getElementById('routesSidebar');
+      var mapPane = document.getElementById('mapPane');
+      if (!isMobile) {
+        if (sidebar) sidebar.classList.remove('hidden');
+        if (mapPane) mapPane.classList.remove('hidden');
+      } else {
+        if (currentMobileTab === 'routes') {
+          if (sidebar) sidebar.classList.remove('hidden');
+          if (mapPane) mapPane.classList.add('hidden');
+        } else {
+          if (sidebar) sidebar.classList.add('hidden');
+          if (mapPane) mapPane.classList.remove('hidden');
+        }
+      }
+      if (map) setTimeout(function() { map.invalidateSize(); }, 80);
+    });
+
+    window.openPassModal = function() {
+      playClickSound(520);
+      document.getElementById('passModal').classList.remove('hidden');
+      lucide.createIcons();
+    };
+    window.closePassModal = function() {
+      playClickSound(450);
+      document.getElementById('passModal').classList.add('hidden');
     };
 
     window.openVehicleSpecsModal = function(routeId) {
@@ -1402,6 +1600,7 @@
       var sText = document.getElementById('themeText');
       var mIcon = document.getElementById('mapThemeIcon');
       var mText = document.getElementById('mapThemeText');
+      var mobIcon = document.getElementById('mobileThemeIcon');
       var sBtn = document.getElementById('sidebarThemeBtn');
       var mBtn = document.getElementById('mapThemeBtn');
 
@@ -1409,6 +1608,7 @@
       if (sText) sText.innerText = dark ? 'Light' : 'Dark';
       if (mIcon) mIcon.innerText = dark ? '☀️' : '🌙';
       if (mText) mText.innerText = dark ? 'Light' : 'Dark';
+      if (mobIcon) mobIcon.innerText = dark ? '☀️' : '🌙';
 
       if (sBtn) {
         if (dark) {
