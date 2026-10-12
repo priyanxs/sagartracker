@@ -60,8 +60,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:10",
         "estimatedTime": "8:10",
         "coordinates": {
-          "latitude": 23.238,
-          "longitude": 77.487
+          "latitude": 23.23728,
+          "longitude": 77.48698
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -76,7 +76,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "8:15",
         "coordinates": {
           "latitude": 23.242,
-          "longitude": 77.48
+          "longitude": 77.4729
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -90,8 +90,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:20",
         "estimatedTime": "8:20",
         "coordinates": {
-          "latitude": 23.245,
-          "longitude": 77.472
+          "latitude": 23.24512,
+          "longitude": 77.47198
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -105,7 +105,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:30",
         "estimatedTime": "8:30",
         "coordinates": {
-          "latitude": 23.252,
+          "latitude": 23.2533,
           "longitude": 77.468
         },
         "landmark": "Scheduled Pickup Point",
@@ -121,7 +121,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "8:35",
         "coordinates": {
           "latitude": 23.258,
-          "longitude": 77.465
+          "longitude": 77.4648
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -135,7 +135,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:37",
         "estimatedTime": "8:37",
         "coordinates": {
-          "latitude": 23.262,
+          "latitude": 23.2634,
           "longitude": 77.462
         },
         "landmark": "Scheduled Pickup Point",
@@ -150,8 +150,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:38",
         "estimatedTime": "8:38",
         "coordinates": {
-          "latitude": 23.268,
-          "longitude": 77.46
+          "latitude": 23.26798,
+          "longitude": 77.4601
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -165,8 +165,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:40",
         "estimatedTime": "8:40",
         "coordinates": {
-          "latitude": 23.271,
-          "longitude": 77.458
+          "latitude": 23.27072,
+          "longitude": 77.45832
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -180,8 +180,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:42",
         "estimatedTime": "8:42",
         "coordinates": {
-          "latitude": 23.274,
-          "longitude": 77.455
+          "latitude": 23.2745,
+          "longitude": 77.4552
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -195,8 +195,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:44",
         "estimatedTime": "8:44",
         "coordinates": {
-          "latitude": 23.278,
-          "longitude": 77.45
+          "latitude": 23.2798,
+          "longitude": 77.4503
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -210,8 +210,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "9:15",
         "estimatedTime": "9:15",
         "coordinates": {
-          "latitude": 23.2985,
-          "longitude": 77.351
+          "latitude": 23.299,
+          "longitude": 77.3509
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -289,7 +289,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:55",
         "estimatedTime": "8:55",
         "coordinates": {
-          "latitude": 23.307,
+          "latitude": 23.3068,
           "longitude": 77.382
         },
         "landmark": "Scheduled Pickup Point",
@@ -368,8 +368,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:25",
         "estimatedTime": "8:25",
         "coordinates": {
-          "latitude": 23.278,
-          "longitude": 77.345
+          "latitude": 23.27801,
+          "longitude": 77.34499
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -398,8 +398,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:35",
         "estimatedTime": "8:35",
         "coordinates": {
-          "latitude": 23.279,
-          "longitude": 77.351
+          "latitude": 23.2783,
+          "longitude": 77.35011
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -492,8 +492,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:05",
         "estimatedTime": "8:05",
         "coordinates": {
-          "latitude": 23.251,
-          "longitude": 77.51
+          "latitude": 23.25099,
+          "longitude": 77.51006
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -507,8 +507,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:10",
         "estimatedTime": "8:10",
         "coordinates": {
-          "latitude": 23.258,
-          "longitude": 77.498
+          "latitude": 23.25804,
+          "longitude": 77.49792
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -537,8 +537,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:25",
         "estimatedTime": "8:25",
         "coordinates": {
-          "latitude": 23.253,
-          "longitude": 77.492
+          "latitude": 23.2528,
+          "longitude": 77.4917
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -552,8 +552,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:30",
         "estimatedTime": "8:30",
         "coordinates": {
-          "latitude": 23.255,
-          "longitude": 77.485
+          "latitude": 23.25505,
+          "longitude": 77.48494
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -582,8 +582,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:35",
         "estimatedTime": "8:35",
         "coordinates": {
-          "latitude": 23.263,
-          "longitude": 77.475
+          "latitude": 23.26289,
+          "longitude": 77.47509
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -598,7 +598,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "8:38",
         "coordinates": {
           "latitude": 23.269,
-          "longitude": 77.465
+          "longitude": 77.4651
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -676,8 +676,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:30",
         "estimatedTime": "7:30",
         "coordinates": {
-          "latitude": 23.397,
-          "longitude": 77.097
+          "latitude": 23.39708,
+          "longitude": 77.09716
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -691,8 +691,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:45",
         "estimatedTime": "7:45",
         "coordinates": {
-          "latitude": 23.515,
-          "longitude": 77.8
+          "latitude": 23.2975,
+          "longitude": 77.3537
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -706,8 +706,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:00",
         "estimatedTime": "8:00",
         "coordinates": {
-          "latitude": 23.3845,
-          "longitude": 77.1426
+          "latitude": 23.29784,
+          "longitude": 77.3535
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -721,8 +721,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:05",
         "estimatedTime": "8:05",
         "coordinates": {
-          "latitude": 23.25,
-          "longitude": 77.417
+          "latitude": 23.29818,
+          "longitude": 77.3533
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -736,8 +736,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:15",
         "estimatedTime": "8:15",
         "coordinates": {
-          "latitude": 23.3631,
-          "longitude": 77.1883
+          "latitude": 23.29852,
+          "longitude": 77.3531
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -751,8 +751,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:30",
         "estimatedTime": "8:30",
         "coordinates": {
-          "latitude": 23.28,
-          "longitude": 77.02
+          "latitude": 23.27416,
+          "longitude": 77.0213
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -766,8 +766,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:45",
         "estimatedTime": "8:45",
         "coordinates": {
-          "latitude": 23.3416,
-          "longitude": 77.2339
+          "latitude": 23.2992,
+          "longitude": 77.3527
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -781,8 +781,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:50",
         "estimatedTime": "8:50",
         "coordinates": {
-          "latitude": 23.3354,
-          "longitude": 77.2597
+          "latitude": 23.29932,
+          "longitude": 77.35244
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -796,8 +796,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:55",
         "estimatedTime": "8:55",
         "coordinates": {
-          "latitude": 23.3292,
-          "longitude": 77.2795
+          "latitude": 23.29923,
+          "longitude": 77.35206
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -811,8 +811,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "9:00",
         "estimatedTime": "9:00",
         "coordinates": {
-          "latitude": 23.314,
-          "longitude": 77.3054
+          "latitude": 23.29915,
+          "longitude": 77.35167
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -826,8 +826,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "9:05",
         "estimatedTime": "9:05",
         "coordinates": {
-          "latitude": 23.3077,
-          "longitude": 77.3252
+          "latitude": 23.29908,
+          "longitude": 77.35129
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -905,8 +905,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:40",
         "estimatedTime": "8:40",
         "coordinates": {
-          "latitude": 23.293,
-          "longitude": 77.41
+          "latitude": 23.29305,
+          "longitude": 77.41002
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -1014,8 +1014,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:05",
         "estimatedTime": "8:05",
         "coordinates": {
-          "latitude": 23.281,
-          "longitude": 77.415
+          "latitude": 23.28095,
+          "longitude": 77.41499
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -1029,8 +1029,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:12",
         "estimatedTime": "8:12",
         "coordinates": {
-          "latitude": 23.282,
-          "longitude": 77.418
+          "latitude": 23.281,
+          "longitude": 77.4191
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1044,8 +1044,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:25",
         "estimatedTime": "8:25",
         "coordinates": {
-          "latitude": 23.283,
-          "longitude": 77.42
+          "latitude": 23.28274,
+          "longitude": 77.42052
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1059,8 +1059,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:27",
         "estimatedTime": "8:27",
         "coordinates": {
-          "latitude": 23.285,
-          "longitude": 77.422
+          "latitude": 23.28486,
+          "longitude": 77.42221
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1074,8 +1074,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:30",
         "estimatedTime": "8:30",
         "coordinates": {
-          "latitude": 23.291,
-          "longitude": 77.42
+          "latitude": 23.29092,
+          "longitude": 77.41996
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1089,8 +1089,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:32",
         "estimatedTime": "8:32",
         "coordinates": {
-          "latitude": 23.291,
-          "longitude": 77.425
+          "latitude": 23.28997,
+          "longitude": 77.42631
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1104,8 +1104,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:34",
         "estimatedTime": "8:34",
         "coordinates": {
-          "latitude": 23.292,
-          "longitude": 77.428
+          "latitude": 23.29204,
+          "longitude": 77.42792
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1119,8 +1119,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:35",
         "estimatedTime": "8:35",
         "coordinates": {
-          "latitude": 23.295,
-          "longitude": 77.432
+          "latitude": 23.2954,
+          "longitude": 77.4302
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1149,8 +1149,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:38",
         "estimatedTime": "8:38",
         "coordinates": {
-          "latitude": 23.293,
-          "longitude": 77.41
+          "latitude": 23.29324,
+          "longitude": 77.41012
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1164,8 +1164,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:40",
         "estimatedTime": "8:40",
         "coordinates": {
-          "latitude": 23.296,
-          "longitude": 77.405
+          "latitude": 23.29596,
+          "longitude": 77.40508
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1243,8 +1243,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:00",
         "estimatedTime": "8:00",
         "coordinates": {
-          "latitude": 23.279,
-          "longitude": 77.418
+          "latitude": 23.27903,
+          "longitude": 77.41802
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -1258,8 +1258,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:02",
         "estimatedTime": "8:02",
         "coordinates": {
-          "latitude": 23.273,
-          "longitude": 77.414
+          "latitude": 23.27319,
+          "longitude": 77.41369
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1273,8 +1273,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:05",
         "estimatedTime": "8:05",
         "coordinates": {
-          "latitude": 23.2685,
-          "longitude": 77.408
+          "latitude": 23.2693,
+          "longitude": 77.4082
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1288,8 +1288,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:15",
         "estimatedTime": "8:15",
         "coordinates": {
-          "latitude": 23.269,
-          "longitude": 77.404
+          "latitude": 23.26951,
+          "longitude": 77.40094
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1303,8 +1303,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:17",
         "estimatedTime": "8:17",
         "coordinates": {
-          "latitude": 23.265,
-          "longitude": 77.402
+          "latitude": 23.26975,
+          "longitude": 77.40098
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1319,7 +1319,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "8:20",
         "coordinates": {
           "latitude": 23.27,
-          "longitude": 77.4
+          "longitude": 77.401
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1333,8 +1333,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:25",
         "estimatedTime": "8:25",
         "coordinates": {
-          "latitude": 23.205,
-          "longitude": 77.085
+          "latitude": 23.2047,
+          "longitude": 77.08531
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1348,8 +1348,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:30",
         "estimatedTime": "8:30",
         "coordinates": {
-          "latitude": 23.275,
-          "longitude": 77.399
+          "latitude": 23.27444,
+          "longitude": 77.40237
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1364,7 +1364,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "8:35",
         "coordinates": {
           "latitude": 23.278,
-          "longitude": 77.402
+          "longitude": 77.4022
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1378,8 +1378,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:37",
         "estimatedTime": "8:37",
         "coordinates": {
-          "latitude": 23.281,
-          "longitude": 77.401
+          "latitude": 23.28029,
+          "longitude": 77.40049
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1393,8 +1393,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:40",
         "estimatedTime": "8:40",
         "coordinates": {
-          "latitude": 23.284,
-          "longitude": 77.4
+          "latitude": 23.28376,
+          "longitude": 77.39996
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1408,8 +1408,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:45",
         "estimatedTime": "8:45",
         "coordinates": {
-          "latitude": 23.2995,
-          "longitude": 77.397
+          "latitude": 23.2989,
+          "longitude": 77.3964
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1423,8 +1423,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:50",
         "estimatedTime": "8:50",
         "coordinates": {
-          "latitude": 23.297,
-          "longitude": 77.398
+          "latitude": 23.30104,
+          "longitude": 77.3731
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1642,7 +1642,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "8:50",
         "coordinates": {
           "latitude": 23.3105,
-          "longitude": 77.3615
+          "longitude": 77.3616
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1720,8 +1720,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:30",
         "estimatedTime": "7:30",
         "coordinates": {
-          "latitude": 23.63,
-          "longitude": 77.43
+          "latitude": 23.62988,
+          "longitude": 77.42917
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -1750,8 +1750,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:42",
         "estimatedTime": "7:42",
         "coordinates": {
-          "latitude": 23.61,
-          "longitude": 77.433
+          "latitude": 23.43572,
+          "longitude": 77.3999
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1765,8 +1765,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:45",
         "estimatedTime": "7:45",
         "coordinates": {
-          "latitude": 23.6,
-          "longitude": 77.435
+          "latitude": 23.60241,
+          "longitude": 77.42588
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1780,8 +1780,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:50",
         "estimatedTime": "7:50",
         "coordinates": {
-          "latitude": 23.58,
-          "longitude": 77.438
+          "latitude": 23.57312,
+          "longitude": 77.43647
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1795,8 +1795,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:10",
         "estimatedTime": "8:10",
         "coordinates": {
-          "latitude": 23.54,
-          "longitude": 77.435
+          "latitude": 23.5431,
+          "longitude": 77.4356
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1810,8 +1810,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:20",
         "estimatedTime": "8:20",
         "coordinates": {
-          "latitude": 23.5,
-          "longitude": 77.425
+          "latitude": 23.49525,
+          "longitude": 77.43213
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1825,8 +1825,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:25",
         "estimatedTime": "8:25",
         "coordinates": {
-          "latitude": 23.45,
-          "longitude": 77.41
+          "latitude": 23.4462,
+          "longitude": 77.4111
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1904,8 +1904,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:10",
         "estimatedTime": "8:10",
         "coordinates": {
-          "latitude": 23.248,
-          "longitude": 77.432
+          "latitude": 23.24797,
+          "longitude": 77.43196
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -1919,8 +1919,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:12",
         "estimatedTime": "8:12",
         "coordinates": {
-          "latitude": 23.245,
-          "longitude": 77.434
+          "latitude": 23.2473,
+          "longitude": 77.4322
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1934,8 +1934,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:15",
         "estimatedTime": "8:15",
         "coordinates": {
-          "latitude": 23.248,
-          "longitude": 77.431
+          "latitude": 23.24812,
+          "longitude": 77.43136
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1949,7 +1949,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:17",
         "estimatedTime": "8:17",
         "coordinates": {
-          "latitude": 23.25,
+          "latitude": 23.2502,
           "longitude": 77.428
         },
         "landmark": "Scheduled Pickup Point",
@@ -1964,8 +1964,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:20",
         "estimatedTime": "8:20",
         "coordinates": {
-          "latitude": 23.253,
-          "longitude": 77.425
+          "latitude": 23.25373,
+          "longitude": 77.42512
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1979,8 +1979,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:25",
         "estimatedTime": "8:25",
         "coordinates": {
-          "latitude": 23.258,
-          "longitude": 77.428
+          "latitude": 23.2594,
+          "longitude": 77.4252
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -1995,7 +1995,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "8:27",
         "coordinates": {
           "latitude": 23.26,
-          "longitude": 77.425
+          "longitude": 77.4249
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2009,8 +2009,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:35",
         "estimatedTime": "8:35",
         "coordinates": {
-          "latitude": 23.262,
-          "longitude": 77.415
+          "latitude": 23.2622,
+          "longitude": 77.4134
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2024,8 +2024,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:37",
         "estimatedTime": "8:37",
         "coordinates": {
-          "latitude": 23.264,
-          "longitude": 77.41
+          "latitude": 23.2619,
+          "longitude": 77.4088
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2040,7 +2040,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "8:40",
         "coordinates": {
           "latitude": 23.268,
-          "longitude": 77.395
+          "longitude": 77.3949
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2054,8 +2054,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:42",
         "estimatedTime": "8:42",
         "coordinates": {
-          "latitude": 23.2823,
-          "longitude": 77.3743
+          "latitude": 23.2753,
+          "longitude": 77.3691
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2069,8 +2069,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:45",
         "estimatedTime": "8:45",
         "coordinates": {
-          "latitude": 23.265,
-          "longitude": 77.392
+          "latitude": 23.27893,
+          "longitude": 77.36286
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2084,8 +2084,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:48",
         "estimatedTime": "8:48",
         "coordinates": {
-          "latitude": 23.263,
-          "longitude": 77.39
+          "latitude": 23.28383,
+          "longitude": 77.35754
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2099,8 +2099,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:50",
         "estimatedTime": "8:50",
         "coordinates": {
-          "latitude": 23.269,
-          "longitude": 77.385
+          "latitude": 23.2887,
+          "longitude": 77.35217
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2114,8 +2114,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:52",
         "estimatedTime": "8:52",
         "coordinates": {
-          "latitude": 23.273,
-          "longitude": 77.38
+          "latitude": 23.29493,
+          "longitude": 77.3544
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2208,8 +2208,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:15",
         "estimatedTime": "7:15",
         "coordinates": {
-          "latitude": 23.21,
-          "longitude": 77.1
+          "latitude": 23.20736,
+          "longitude": 77.10055
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2223,8 +2223,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:20",
         "estimatedTime": "7:20",
         "coordinates": {
-          "latitude": 23.215,
-          "longitude": 77.12
+          "latitude": 23.21204,
+          "longitude": 77.12074
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2238,8 +2238,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:40",
         "estimatedTime": "7:40",
         "coordinates": {
-          "latitude": 23.21,
-          "longitude": 77.15
+          "latitude": 23.21976,
+          "longitude": 77.14241
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2253,8 +2253,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:45",
         "estimatedTime": "7:45",
         "coordinates": {
-          "latitude": 23.212,
-          "longitude": 77.2
+          "latitude": 23.2117,
+          "longitude": 77.2012
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2268,8 +2268,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:00",
         "estimatedTime": "8:00",
         "coordinates": {
-          "latitude": 23.215,
-          "longitude": 77.24
+          "latitude": 23.2341,
+          "longitude": 77.2511
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2283,8 +2283,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:10",
         "estimatedTime": "8:10",
         "coordinates": {
-          "latitude": 23.21,
-          "longitude": 77.395
+          "latitude": 23.21004,
+          "longitude": 77.39502
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2298,8 +2298,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:15",
         "estimatedTime": "8:15",
         "coordinates": {
-          "latitude": 23.212,
-          "longitude": 77.33
+          "latitude": 23.21983,
+          "longitude": 77.3164
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2313,8 +2313,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:40",
         "estimatedTime": "8:40",
         "coordinates": {
-          "latitude": 23.25,
-          "longitude": 77.25
+          "latitude": 23.24513,
+          "longitude": 77.25177
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2392,8 +2392,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:45",
         "estimatedTime": "8:45",
         "coordinates": {
-          "latitude": 23.282,
-          "longitude": 77.365
+          "latitude": 23.28174,
+          "longitude": 77.36513
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -2407,8 +2407,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:50",
         "estimatedTime": "8:50",
         "coordinates": {
-          "latitude": 23.2805,
-          "longitude": 77.3625
+          "latitude": 23.27991,
+          "longitude": 77.36201
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2486,8 +2486,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:00",
         "estimatedTime": "8:00",
         "coordinates": {
-          "latitude": 23.228,
-          "longitude": 77.395
+          "latitude": 23.22798,
+          "longitude": 77.39498
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -2501,8 +2501,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:02",
         "estimatedTime": "8:02",
         "coordinates": {
-          "latitude": 23.225,
-          "longitude": 77.392
+          "latitude": 23.2243,
+          "longitude": 77.3953
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2516,8 +2516,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:07",
         "estimatedTime": "8:07",
         "coordinates": {
-          "latitude": 23.222,
-          "longitude": 77.395
+          "latitude": 23.22197,
+          "longitude": 77.39509
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2531,8 +2531,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:10",
         "estimatedTime": "8:10",
         "coordinates": {
-          "latitude": 23.22,
-          "longitude": 77.398
+          "latitude": 23.21944,
+          "longitude": 77.39688
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2547,7 +2547,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "8:12",
         "coordinates": {
           "latitude": 23.215,
-          "longitude": 77.407
+          "longitude": 77.4067
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2561,8 +2561,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:17",
         "estimatedTime": "8:17",
         "coordinates": {
-          "latitude": 23.242,
-          "longitude": 77.41
+          "latitude": 23.24312,
+          "longitude": 77.40933
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2576,8 +2576,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:20",
         "estimatedTime": "8:20",
         "coordinates": {
-          "latitude": 23.244,
-          "longitude": 77.412
+          "latitude": 23.2437,
+          "longitude": 77.4119
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2591,8 +2591,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:30",
         "estimatedTime": "8:30",
         "coordinates": {
-          "latitude": 23.247,
-          "longitude": 77.415
+          "latitude": 23.2476,
+          "longitude": 77.4124
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2607,7 +2607,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "8:37",
         "coordinates": {
           "latitude": 23.25,
-          "longitude": 77.417
+          "longitude": 77.4173
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2621,8 +2621,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:40",
         "estimatedTime": "8:40",
         "coordinates": {
-          "latitude": 23.254,
-          "longitude": 77.418
+          "latitude": 23.25634,
+          "longitude": 77.39763
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2636,8 +2636,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:42",
         "estimatedTime": "8:42",
         "coordinates": {
-          "latitude": 23.252,
-          "longitude": 77.414
+          "latitude": 23.26833,
+          "longitude": 77.37778
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2651,8 +2651,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:44",
         "estimatedTime": "8:44",
         "coordinates": {
-          "latitude": 23.248,
-          "longitude": 77.408
+          "latitude": 23.28185,
+          "longitude": 77.35965
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2730,8 +2730,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:30",
         "estimatedTime": "8:30",
         "coordinates": {
-          "latitude": 23.257,
-          "longitude": 77.398
+          "latitude": 23.25759,
+          "longitude": 77.39818
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -2745,8 +2745,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:35",
         "estimatedTime": "8:35",
         "coordinates": {
-          "latitude": 23.261,
-          "longitude": 77.394
+          "latitude": 23.2608,
+          "longitude": 77.3939
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2775,8 +2775,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:45",
         "estimatedTime": "8:45",
         "coordinates": {
-          "latitude": 23.271,
-          "longitude": 77.382
+          "latitude": 23.27103,
+          "longitude": 77.3816
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2805,8 +2805,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:50",
         "estimatedTime": "8:50",
         "coordinates": {
-          "latitude": 23.2805,
-          "longitude": 77.3625
+          "latitude": 23.27991,
+          "longitude": 77.36201
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2820,8 +2820,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:52",
         "estimatedTime": "8:52",
         "coordinates": {
-          "latitude": 23.2825,
-          "longitude": 77.358
+          "latitude": 23.28261,
+          "longitude": 77.35809
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2914,8 +2914,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:35",
         "estimatedTime": "7:35",
         "coordinates": {
-          "latitude": 23.17,
-          "longitude": 77.418
+          "latitude": 23.16996,
+          "longitude": 77.41785
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -2929,8 +2929,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:40",
         "estimatedTime": "7:40",
         "coordinates": {
-          "latitude": 23.173,
-          "longitude": 77.416
+          "latitude": 23.1732,
+          "longitude": 77.4146
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2944,8 +2944,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:45",
         "estimatedTime": "7:45",
         "coordinates": {
-          "latitude": 23.176,
-          "longitude": 77.415
+          "latitude": 23.17599,
+          "longitude": 77.41503
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2959,8 +2959,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:42",
         "estimatedTime": "7:42",
         "coordinates": {
-          "latitude": 23.18,
-          "longitude": 77.414
+          "latitude": 23.17997,
+          "longitude": 77.41432
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2975,7 +2975,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "7:48",
         "coordinates": {
           "latitude": 23.183,
-          "longitude": 77.413
+          "longitude": 77.4129
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -2989,8 +2989,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:50",
         "estimatedTime": "7:50",
         "coordinates": {
-          "latitude": 23.186,
-          "longitude": 77.412
+          "latitude": 23.1848,
+          "longitude": 77.4119
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3004,8 +3004,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:55",
         "estimatedTime": "7:55",
         "coordinates": {
-          "latitude": 23.189,
-          "longitude": 77.411
+          "latitude": 23.1891,
+          "longitude": 77.4105
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3019,7 +3019,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:58",
         "estimatedTime": "7:58",
         "coordinates": {
-          "latitude": 23.192,
+          "latitude": 23.1899,
           "longitude": 77.41
         },
         "landmark": "Scheduled Pickup Point",
@@ -3034,8 +3034,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:00",
         "estimatedTime": "8:00",
         "coordinates": {
-          "latitude": 23.195,
-          "longitude": 77.409
+          "latitude": 23.19477,
+          "longitude": 77.40929
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3049,8 +3049,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:35",
         "estimatedTime": "8:35",
         "coordinates": {
-          "latitude": 23.21,
-          "longitude": 77.395
+          "latitude": 23.2209,
+          "longitude": 77.4038
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3079,8 +3079,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:48",
         "estimatedTime": "8:48",
         "coordinates": {
-          "latitude": 23.235,
-          "longitude": 77.375
+          "latitude": 23.28769,
+          "longitude": 77.35334
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3158,8 +3158,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:20",
         "estimatedTime": "7:20",
         "coordinates": {
-          "latitude": 23.12,
-          "longitude": 77.53
+          "latitude": 23.12012,
+          "longitude": 77.52995
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -3173,8 +3173,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:30",
         "estimatedTime": "7:30",
         "coordinates": {
-          "latitude": 23.13,
-          "longitude": 77.525
+          "latitude": 23.1324,
+          "longitude": 77.5262
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3188,8 +3188,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:40",
         "estimatedTime": "7:40",
         "coordinates": {
-          "latitude": 23.14,
-          "longitude": 77.52
+          "latitude": 23.14626,
+          "longitude": 77.52383
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3203,8 +3203,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:45",
         "estimatedTime": "7:45",
         "coordinates": {
-          "latitude": 23.155,
-          "longitude": 77.51
+          "latitude": 23.1544,
+          "longitude": 77.5113
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3218,8 +3218,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:50",
         "estimatedTime": "7:50",
         "coordinates": {
-          "latitude": 23.17,
-          "longitude": 77.5
+          "latitude": 23.17143,
+          "longitude": 77.50171
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3233,8 +3233,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:10",
         "estimatedTime": "8:10",
         "coordinates": {
-          "latitude": 23.19,
-          "longitude": 77.485
+          "latitude": 23.19017,
+          "longitude": 77.48479
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3248,8 +3248,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:15",
         "estimatedTime": "8:15",
         "coordinates": {
-          "latitude": 23.198,
-          "longitude": 77.475
+          "latitude": 23.19729,
+          "longitude": 77.47518
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3263,8 +3263,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:20",
         "estimatedTime": "8:20",
         "coordinates": {
-          "latitude": 23.208,
-          "longitude": 77.465
+          "latitude": 23.2056,
+          "longitude": 77.4621
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3278,8 +3278,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:25",
         "estimatedTime": "8:25",
         "coordinates": {
-          "latitude": 23.215,
-          "longitude": 77.458
+          "latitude": 23.2145,
+          "longitude": 77.4554
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3293,7 +3293,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:27",
         "estimatedTime": "8:27",
         "coordinates": {
-          "latitude": 23.22,
+          "latitude": 23.2205,
           "longitude": 77.452
         },
         "landmark": "Scheduled Pickup Point",
@@ -3308,8 +3308,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:30",
         "estimatedTime": "8:30",
         "coordinates": {
-          "latitude": 23.225,
-          "longitude": 77.448
+          "latitude": 23.22535,
+          "longitude": 77.44552
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3323,8 +3323,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:32",
         "estimatedTime": "8:32",
         "coordinates": {
-          "latitude": 23.229,
-          "longitude": 77.445
+          "latitude": 23.22885,
+          "longitude": 77.44592
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3339,7 +3339,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "8:35",
         "coordinates": {
           "latitude": 23.235,
-          "longitude": 77.442
+          "longitude": 77.4422
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3353,8 +3353,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:40",
         "estimatedTime": "8:40",
         "coordinates": {
-          "latitude": 23.238,
-          "longitude": 77.433
+          "latitude": 23.2335,
+          "longitude": 77.4352
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3368,8 +3368,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:42",
         "estimatedTime": "8:42",
         "coordinates": {
-          "latitude": 23.236,
-          "longitude": 77.425
+          "latitude": 23.23085,
+          "longitude": 77.42468
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3383,7 +3383,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:45",
         "estimatedTime": "8:45",
         "coordinates": {
-          "latitude": 23.235,
+          "latitude": 23.2348,
           "longitude": 77.418
         },
         "landmark": "Scheduled Pickup Point",
@@ -3398,8 +3398,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:48",
         "estimatedTime": "8:48",
         "coordinates": {
-          "latitude": 23.2825,
-          "longitude": 77.358
+          "latitude": 23.28299,
+          "longitude": 77.35846
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3413,8 +3413,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:50",
         "estimatedTime": "8:50",
         "coordinates": {
-          "latitude": 23.235,
-          "longitude": 77.402
+          "latitude": 23.29119,
+          "longitude": 77.35279
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3492,8 +3492,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:20",
         "estimatedTime": "7:20",
         "coordinates": {
-          "latitude": 23.52,
-          "longitude": 77.81
+          "latitude": 23.51985,
+          "longitude": 77.81008
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -3507,8 +3507,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:25",
         "estimatedTime": "7:25",
         "coordinates": {
-          "latitude": 23.515,
-          "longitude": 77.8
+          "latitude": 23.5178,
+          "longitude": 77.7979
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3522,8 +3522,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:27",
         "estimatedTime": "7:27",
         "coordinates": {
-          "latitude": 23.51,
-          "longitude": 77.79
+          "latitude": 23.51035,
+          "longitude": 77.78965
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3537,8 +3537,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:30",
         "estimatedTime": "7:30",
         "coordinates": {
-          "latitude": 23.505,
-          "longitude": 77.78
+          "latitude": 23.50592,
+          "longitude": 77.77923
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3552,8 +3552,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:33",
         "estimatedTime": "7:33",
         "coordinates": {
-          "latitude": 23.5,
-          "longitude": 77.77
+          "latitude": 23.50008,
+          "longitude": 77.76997
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3567,8 +3567,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:40",
         "estimatedTime": "7:40",
         "coordinates": {
-          "latitude": 23.495,
-          "longitude": 77.76
+          "latitude": 23.49583,
+          "longitude": 77.75976
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3582,8 +3582,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:50",
         "estimatedTime": "7:50",
         "coordinates": {
-          "latitude": 23.48,
-          "longitude": 77.73
+          "latitude": 23.47943,
+          "longitude": 77.73063
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3597,8 +3597,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:25",
         "estimatedTime": "8:25",
         "coordinates": {
-          "latitude": 23.42,
-          "longitude": 77.62
+          "latitude": 23.4571,
+          "longitude": 77.6211
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3612,8 +3612,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:30",
         "estimatedTime": "8:30",
         "coordinates": {
-          "latitude": 23.35,
-          "longitude": 77.49
+          "latitude": 23.3532,
+          "longitude": 77.4865
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3627,8 +3627,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:45",
         "estimatedTime": "8:45",
         "coordinates": {
-          "latitude": 23.33,
-          "longitude": 77.45
+          "latitude": 23.3298,
+          "longitude": 77.4505
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3642,8 +3642,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:50",
         "estimatedTime": "8:50",
         "coordinates": {
-          "latitude": 23.32,
-          "longitude": 77.42
+          "latitude": 23.34221,
+          "longitude": 77.41894
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3658,7 +3658,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "8:55",
         "coordinates": {
           "latitude": 23.315,
-          "longitude": 77.39
+          "longitude": 77.3902
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3672,7 +3672,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:57",
         "estimatedTime": "8:57",
         "coordinates": {
-          "latitude": 23.31,
+          "latitude": 23.3094,
           "longitude": 77.375
         },
         "landmark": "Scheduled Pickup Point",
@@ -3687,8 +3687,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "9:00",
         "estimatedTime": "9:00",
         "coordinates": {
-          "latitude": 23.305,
-          "longitude": 77.36
+          "latitude": 23.30113,
+          "longitude": 77.36111
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3766,8 +3766,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:25",
         "estimatedTime": "7:25",
         "coordinates": {
-          "latitude": 23.195,
-          "longitude": 77.06
+          "latitude": 23.19854,
+          "longitude": 77.06259
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -3781,8 +3781,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:27",
         "estimatedTime": "7:27",
         "coordinates": {
-          "latitude": 23.198,
-          "longitude": 77.07
+          "latitude": 23.20661,
+          "longitude": 77.06509
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3796,8 +3796,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:30",
         "estimatedTime": "7:30",
         "coordinates": {
-          "latitude": 23.202,
-          "longitude": 77.075
+          "latitude": 23.2065,
+          "longitude": 77.0752
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3811,8 +3811,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:35",
         "estimatedTime": "7:35",
         "coordinates": {
-          "latitude": 23.205,
-          "longitude": 77.08
+          "latitude": 23.20522,
+          "longitude": 77.08008
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3826,7 +3826,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:40",
         "estimatedTime": "7:40",
         "coordinates": {
-          "latitude": 23.208,
+          "latitude": 23.2075,
           "longitude": 77.085
         },
         "landmark": "Scheduled Pickup Point",
@@ -3841,8 +3841,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:45",
         "estimatedTime": "7:45",
         "coordinates": {
-          "latitude": 23.21,
-          "longitude": 77.09
+          "latitude": 23.207,
+          "longitude": 77.0882
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3856,8 +3856,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:48",
         "estimatedTime": "7:48",
         "coordinates": {
-          "latitude": 23.212,
-          "longitude": 77.095
+          "latitude": 23.2065,
+          "longitude": 77.0974
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3871,8 +3871,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:50",
         "estimatedTime": "7:50",
         "coordinates": {
-          "latitude": 23.215,
-          "longitude": 77.1
+          "latitude": 23.20766,
+          "longitude": 77.10184
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3886,8 +3886,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:55",
         "estimatedTime": "7:55",
         "coordinates": {
-          "latitude": 23.218,
-          "longitude": 77.105
+          "latitude": 23.21,
+          "longitude": 77.1081
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3901,8 +3901,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:00",
         "estimatedTime": "8:00",
         "coordinates": {
-          "latitude": 23.22,
-          "longitude": 77.11
+          "latitude": 23.21,
+          "longitude": 77.1089
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3916,8 +3916,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:02",
         "estimatedTime": "8:02",
         "coordinates": {
-          "latitude": 23.222,
-          "longitude": 77.115
+          "latitude": 23.2115,
+          "longitude": 77.11875
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3931,8 +3931,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:05",
         "estimatedTime": "8:05",
         "coordinates": {
-          "latitude": 23.225,
-          "longitude": 77.12
+          "latitude": 23.2124,
+          "longitude": 77.1222
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3946,8 +3946,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:10",
         "estimatedTime": "8:10",
         "coordinates": {
-          "latitude": 23.228,
-          "longitude": 77.13
+          "latitude": 23.2166,
+          "longitude": 77.1326
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3961,8 +3961,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:15",
         "estimatedTime": "8:15",
         "coordinates": {
-          "latitude": 23.23,
-          "longitude": 77.14
+          "latitude": 23.2226,
+          "longitude": 77.1452
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3976,8 +3976,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:20",
         "estimatedTime": "8:20",
         "coordinates": {
-          "latitude": 23.235,
-          "longitude": 77.16
+          "latitude": 23.22356,
+          "longitude": 77.15928
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -3991,8 +3991,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:25",
         "estimatedTime": "8:25",
         "coordinates": {
-          "latitude": 23.24,
-          "longitude": 77.18
+          "latitude": 23.2223,
+          "longitude": 77.1822
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4006,8 +4006,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:30",
         "estimatedTime": "8:30",
         "coordinates": {
-          "latitude": 23.245,
-          "longitude": 77.21
+          "latitude": 23.2431,
+          "longitude": 77.2113
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4036,8 +4036,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:45",
         "estimatedTime": "8:45",
         "coordinates": {
-          "latitude": 23.255,
-          "longitude": 77.27
+          "latitude": 23.25788,
+          "longitude": 77.26424
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4051,8 +4051,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:55",
         "estimatedTime": "8:55",
         "coordinates": {
-          "latitude": 23.275,
-          "longitude": 77.285
+          "latitude": 23.28099,
+          "longitude": 77.27874
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4066,8 +4066,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "9:00",
         "estimatedTime": "9:00",
         "coordinates": {
-          "latitude": 23.285,
-          "longitude": 77.31
+          "latitude": 23.28488,
+          "longitude": 77.30994
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4145,8 +4145,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:30",
         "estimatedTime": "7:30",
         "coordinates": {
-          "latitude": 23.202,
-          "longitude": 77.075
+          "latitude": 23.20082,
+          "longitude": 77.07633
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -4160,8 +4160,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:45",
         "estimatedTime": "7:45",
         "coordinates": {
-          "latitude": 23.67,
-          "longitude": 77.085
+          "latitude": 23.6736,
+          "longitude": 77.0671
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4176,7 +4176,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "7:50",
         "coordinates": {
           "latitude": 23.64,
-          "longitude": 77.075
+          "longitude": 77.0748
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4190,8 +4190,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:55",
         "estimatedTime": "7:55",
         "coordinates": {
-          "latitude": 23.6,
-          "longitude": 77.065
+          "latitude": 23.6043,
+          "longitude": 77.064
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4205,8 +4205,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:10",
         "estimatedTime": "8:10",
         "coordinates": {
-          "latitude": 23.56,
-          "longitude": 77.05
+          "latitude": 23.5588,
+          "longitude": 77.0485
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4220,8 +4220,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:20",
         "estimatedTime": "8:20",
         "coordinates": {
-          "latitude": 23.495,
-          "longitude": 77.025
+          "latitude": 23.49631,
+          "longitude": 77.01844
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4235,8 +4235,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:25",
         "estimatedTime": "8:25",
         "coordinates": {
-          "latitude": 23.51,
-          "longitude": 77.035
+          "latitude": 23.5097,
+          "longitude": 77.0347
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4250,8 +4250,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:35",
         "estimatedTime": "8:35",
         "coordinates": {
-          "latitude": 23.505,
-          "longitude": 77.03
+          "latitude": 23.5075,
+          "longitude": 77.0354
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4329,7 +4329,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:15",
         "estimatedTime": "8:15",
         "coordinates": {
-          "latitude": 23.252,
+          "latitude": 23.25191,
           "longitude": 77.437
         },
         "landmark": "Scheduled Pickup Point",
@@ -4344,8 +4344,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:17",
         "estimatedTime": "8:17",
         "coordinates": {
-          "latitude": 23.2598,
-          "longitude": 77.4301
+          "latitude": 23.2528,
+          "longitude": 77.4286
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4359,8 +4359,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:25",
         "estimatedTime": "8:25",
         "coordinates": {
-          "latitude": 23.2677,
-          "longitude": 77.4172
+          "latitude": 23.2678,
+          "longitude": 77.417
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4374,8 +4374,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:30",
         "estimatedTime": "8:30",
         "coordinates": {
-          "latitude": 23.2665,
-          "longitude": 77.4103
+          "latitude": 23.2658,
+          "longitude": 77.41378
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4389,8 +4389,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:32",
         "estimatedTime": "8:32",
         "coordinates": {
-          "latitude": 23.2743,
-          "longitude": 77.3974
+          "latitude": 23.2745,
+          "longitude": 77.3975
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4404,8 +4404,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:35",
         "estimatedTime": "8:35",
         "coordinates": {
-          "latitude": 23.2822,
-          "longitude": 77.3906
+          "latitude": 23.28235,
+          "longitude": 77.39075
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4419,8 +4419,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:38",
         "estimatedTime": "8:38",
         "coordinates": {
-          "latitude": 23.281,
-          "longitude": 77.3777
+          "latitude": 23.28104,
+          "longitude": 77.37772
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4434,8 +4434,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:40",
         "estimatedTime": "8:40",
         "coordinates": {
-          "latitude": 23.2888,
-          "longitude": 77.3708
+          "latitude": 23.28095,
+          "longitude": 77.36065
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4449,8 +4449,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:45",
         "estimatedTime": "8:45",
         "coordinates": {
-          "latitude": 23.2967,
-          "longitude": 77.3579
+          "latitude": 23.2966,
+          "longitude": 77.3571
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4528,8 +4528,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:25",
         "estimatedTime": "7:25",
         "coordinates": {
-          "latitude": 23.47,
-          "longitude": 76.98
+          "latitude": 23.47036,
+          "longitude": 76.97872
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -4543,8 +4543,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:35",
         "estimatedTime": "7:35",
         "coordinates": {
-          "latitude": 23.475,
-          "longitude": 77.0
+          "latitude": 23.4759,
+          "longitude": 77.0161
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4558,8 +4558,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:45",
         "estimatedTime": "7:45",
         "coordinates": {
-          "latitude": 23.48,
-          "longitude": 77.01
+          "latitude": 23.46704,
+          "longitude": 77.01722
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4573,8 +4573,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:55",
         "estimatedTime": "7:55",
         "coordinates": {
-          "latitude": 23.485,
-          "longitude": 77.015
+          "latitude": 23.4848,
+          "longitude": 77.0166
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4588,8 +4588,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:00",
         "estimatedTime": "8:00",
         "coordinates": {
-          "latitude": 23.49,
-          "longitude": 77.02
+          "latitude": 23.4903,
+          "longitude": 77.0176
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4603,8 +4603,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:05",
         "estimatedTime": "8:05",
         "coordinates": {
-          "latitude": 23.495,
-          "longitude": 77.025
+          "latitude": 23.49631,
+          "longitude": 77.01844
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4618,8 +4618,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:07",
         "estimatedTime": "8:07",
         "coordinates": {
-          "latitude": 23.5,
-          "longitude": 77.03
+          "latitude": 23.5049,
+          "longitude": 77.0233
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4697,8 +4697,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:20",
         "estimatedTime": "8:20",
         "coordinates": {
-          "latitude": 23.265,
-          "longitude": 77.295
+          "latitude": 23.26513,
+          "longitude": 77.29499
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -4712,8 +4712,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:25",
         "estimatedTime": "8:25",
         "coordinates": {
-          "latitude": 23.268,
-          "longitude": 77.305
+          "latitude": 23.2673,
+          "longitude": 77.3042
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4727,8 +4727,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:22",
         "estimatedTime": "8:22",
         "coordinates": {
-          "latitude": 23.27,
-          "longitude": 77.315
+          "latitude": 23.2693,
+          "longitude": 77.3144
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4743,7 +4743,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "8:30",
         "coordinates": {
           "latitude": 23.271,
-          "longitude": 77.325
+          "longitude": 77.3236
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4772,8 +4772,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:45",
         "estimatedTime": "8:45",
         "coordinates": {
-          "latitude": 23.274,
-          "longitude": 77.34
+          "latitude": 23.27412,
+          "longitude": 77.33994
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4787,8 +4787,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:50",
         "estimatedTime": "8:50",
         "coordinates": {
-          "latitude": 23.272,
-          "longitude": 77.361
+          "latitude": 23.2722,
+          "longitude": 77.3607
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4802,8 +4802,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:52",
         "estimatedTime": "8:52",
         "coordinates": {
-          "latitude": 23.2805,
-          "longitude": 77.3625
+          "latitude": 23.27991,
+          "longitude": 77.36201
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4881,8 +4881,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "6:30",
         "estimatedTime": "6:30",
         "coordinates": {
-          "latitude": 23.4,
-          "longitude": 76.72
+          "latitude": 23.40236,
+          "longitude": 76.72044
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -4896,8 +4896,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:15",
         "estimatedTime": "7:15",
         "coordinates": {
-          "latitude": 23.38,
-          "longitude": 76.78
+          "latitude": 23.3797,
+          "longitude": 76.77803
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4912,7 +4912,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "7:30",
         "coordinates": {
           "latitude": 23.35,
-          "longitude": 76.84
+          "longitude": 76.8369
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4926,8 +4926,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:35",
         "estimatedTime": "7:35",
         "coordinates": {
-          "latitude": 23.345,
-          "longitude": 76.85
+          "latitude": 23.3491,
+          "longitude": 76.8453
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4942,7 +4942,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "7:45",
         "coordinates": {
           "latitude": 23.33,
-          "longitude": 76.89
+          "longitude": 76.8947
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4956,8 +4956,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:55",
         "estimatedTime": "7:55",
         "coordinates": {
-          "latitude": 23.31,
-          "longitude": 76.92
+          "latitude": 23.30531,
+          "longitude": 76.92281
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -4971,8 +4971,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:05",
         "estimatedTime": "8:05",
         "coordinates": {
-          "latitude": 23.3,
-          "longitude": 76.95
+          "latitude": 23.29853,
+          "longitude": 76.94764
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5001,8 +5001,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "9:15",
         "estimatedTime": "9:15",
         "coordinates": {
-          "latitude": 23.2985,
-          "longitude": 77.351
+          "latitude": 23.299,
+          "longitude": 77.3509
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5065,8 +5065,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:40",
         "estimatedTime": "8:40",
         "coordinates": {
-          "latitude": 23.293,
-          "longitude": 77.41
+          "latitude": 23.29305,
+          "longitude": 77.41002
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -5095,8 +5095,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:45",
         "estimatedTime": "8:45",
         "coordinates": {
-          "latitude": 23.302,
-          "longitude": 77.389
+          "latitude": 23.30239,
+          "longitude": 77.38894
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5189,8 +5189,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:30",
         "estimatedTime": "7:30",
         "coordinates": {
-          "latitude": 23.81,
-          "longitude": 77.49
+          "latitude": 23.81003,
+          "longitude": 77.48995
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -5204,8 +5204,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "7:55",
         "estimatedTime": "7:55",
         "coordinates": {
-          "latitude": 23.78,
-          "longitude": 77.48
+          "latitude": 23.77064,
+          "longitude": 77.47688
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5219,8 +5219,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:30",
         "estimatedTime": "8:30",
         "coordinates": {
-          "latitude": 23.68,
-          "longitude": 77.45
+          "latitude": 23.67666,
+          "longitude": 77.45891
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5313,8 +5313,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:10",
         "estimatedTime": "8:10",
         "coordinates": {
-          "latitude": 23.22,
-          "longitude": 77.472
+          "latitude": 23.22004,
+          "longitude": 77.47197
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -5328,8 +5328,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:15",
         "estimatedTime": "8:15",
         "coordinates": {
-          "latitude": 23.223,
-          "longitude": 77.468
+          "latitude": 23.22264,
+          "longitude": 77.4674
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5358,8 +5358,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:25",
         "estimatedTime": "8:25",
         "coordinates": {
-          "latitude": 23.227,
-          "longitude": 77.462
+          "latitude": 23.22622,
+          "longitude": 77.46093
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5373,8 +5373,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:30",
         "estimatedTime": "8:30",
         "coordinates": {
-          "latitude": 23.229,
-          "longitude": 77.458
+          "latitude": 23.22907,
+          "longitude": 77.459
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5388,8 +5388,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:32",
         "estimatedTime": "8:32",
         "coordinates": {
-          "latitude": 23.231,
-          "longitude": 77.453
+          "latitude": 23.23179,
+          "longitude": 77.45293
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5403,8 +5403,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:35",
         "estimatedTime": "8:35",
         "coordinates": {
-          "latitude": 23.233,
-          "longitude": 77.448
+          "latitude": 23.23304,
+          "longitude": 77.44802
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5418,8 +5418,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:37",
         "estimatedTime": "8:37",
         "coordinates": {
-          "latitude": 23.235,
-          "longitude": 77.442
+          "latitude": 23.2334,
+          "longitude": 77.4412
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5433,8 +5433,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:40",
         "estimatedTime": "8:40",
         "coordinates": {
-          "latitude": 23.238,
-          "longitude": 77.435
+          "latitude": 23.2381,
+          "longitude": 77.4352
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5448,8 +5448,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:45",
         "estimatedTime": "8:45",
         "coordinates": {
-          "latitude": 23.236,
-          "longitude": 77.428
+          "latitude": 23.2318,
+          "longitude": 77.41431
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5464,7 +5464,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "8:47",
         "coordinates": {
           "latitude": 23.215,
-          "longitude": 77.407
+          "longitude": 77.4067
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5478,8 +5478,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:50",
         "estimatedTime": "8:50",
         "coordinates": {
-          "latitude": 23.222,
-          "longitude": 77.398
+          "latitude": 23.2206,
+          "longitude": 77.3961
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5557,8 +5557,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:35",
         "estimatedTime": "8:35",
         "coordinates": {
-          "latitude": 23.268,
-          "longitude": 77.402
+          "latitude": 23.26806,
+          "longitude": 77.40162
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -5572,8 +5572,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:40",
         "estimatedTime": "8:40",
         "coordinates": {
-          "latitude": 23.272,
-          "longitude": 77.4
+          "latitude": 23.2719,
+          "longitude": 77.3999
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5587,8 +5587,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:41",
         "estimatedTime": "8:41",
         "coordinates": {
-          "latitude": 23.275,
-          "longitude": 77.398
+          "latitude": 23.27498,
+          "longitude": 77.39806
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5602,8 +5602,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:42",
         "estimatedTime": "8:42",
         "coordinates": {
-          "latitude": 23.277,
-          "longitude": 77.397
+          "latitude": 23.27712,
+          "longitude": 77.39706
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5617,8 +5617,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:45",
         "estimatedTime": "8:45",
         "coordinates": {
-          "latitude": 23.28,
-          "longitude": 77.395
+          "latitude": 23.28012,
+          "longitude": 77.39506
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5696,8 +5696,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:05",
         "estimatedTime": "8:05",
         "coordinates": {
-          "latitude": 23.188,
-          "longitude": 77.442
+          "latitude": 23.18799,
+          "longitude": 77.44193
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": true,
@@ -5711,8 +5711,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:08",
         "estimatedTime": "8:08",
         "coordinates": {
-          "latitude": 23.19,
-          "longitude": 77.44
+          "latitude": 23.1917,
+          "longitude": 77.4419
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5726,7 +5726,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:12",
         "estimatedTime": "8:12",
         "coordinates": {
-          "latitude": 23.195,
+          "latitude": 23.1948,
           "longitude": 77.435
         },
         "landmark": "Scheduled Pickup Point",
@@ -5742,7 +5742,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "8:17",
         "coordinates": {
           "latitude": 23.198,
-          "longitude": 77.432
+          "longitude": 77.4315
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5756,8 +5756,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:20",
         "estimatedTime": "8:20",
         "coordinates": {
-          "latitude": 23.2,
-          "longitude": 77.43
+          "latitude": 23.20006,
+          "longitude": 77.43018
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5771,8 +5771,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:22",
         "estimatedTime": "8:22",
         "coordinates": {
-          "latitude": 23.203,
-          "longitude": 77.426
+          "latitude": 23.20179,
+          "longitude": 77.42613
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5786,8 +5786,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:24",
         "estimatedTime": "8:24",
         "coordinates": {
-          "latitude": 23.207,
-          "longitude": 77.422
+          "latitude": 23.20751,
+          "longitude": 77.41998
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5801,8 +5801,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:25",
         "estimatedTime": "8:25",
         "coordinates": {
-          "latitude": 23.212,
-          "longitude": 77.415
+          "latitude": 23.2113,
+          "longitude": 77.4191
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5816,8 +5816,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:27",
         "estimatedTime": "8:27",
         "coordinates": {
-          "latitude": 23.214,
-          "longitude": 77.412
+          "latitude": 23.2156,
+          "longitude": 77.4078
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5831,8 +5831,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:30",
         "estimatedTime": "8:30",
         "coordinates": {
-          "latitude": 23.217,
-          "longitude": 77.408
+          "latitude": 23.21828,
+          "longitude": 77.40493
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5846,8 +5846,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:35",
         "estimatedTime": "8:35",
         "coordinates": {
-          "latitude": 23.22,
-          "longitude": 77.402
+          "latitude": 23.22003,
+          "longitude": 77.40199
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5877,7 +5877,7 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "estimatedTime": "8:40",
         "coordinates": {
           "latitude": 23.224,
-          "longitude": 77.392
+          "longitude": 77.3921
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5891,8 +5891,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:42",
         "estimatedTime": "8:42",
         "coordinates": {
-          "latitude": 23.226,
-          "longitude": 77.387
+          "latitude": 23.22755,
+          "longitude": 77.38855
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
@@ -5906,8 +5906,8 @@ export const INITIAL_MOCK_ROUTES: BusRoute[] = [
         "scheduledTime": "8:45",
         "estimatedTime": "8:45",
         "coordinates": {
-          "latitude": 23.225,
-          "longitude": 77.392
+          "latitude": 23.26453,
+          "longitude": 77.38133
         },
         "landmark": "Scheduled Pickup Point",
         "isPassed": false,
