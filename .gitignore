@@ -28,3 +28,4 @@ yarn-error.log*
 local_lib/
 video_build/
 *.mp4
+reference_frames/
