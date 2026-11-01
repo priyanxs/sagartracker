@@ -29,11 +29,16 @@ It merges all essential college utilities into a single, unified interface:
 | **Degree & Branch** | **B.Tech — Computer Science & Engineering (CSE Core)** |
 | **Academic Year** | **1st Year (2024–2028)** |
 | **Section & Room** | **Section CSE 3 • Room 210** |
+| **Category** | **OBC (Kushwaha / Other Backward Class)** |
+| **MP Taas Scholar ID** | `MPT-2024-KUSH9755` (Active) |
+| **MOBC Book Bank** | `MOBC-MP-2024-6523402` (4 Textbooks Disbursed) |
 | **Institute** | **SISTec (Sagar Institute of Science & Technology), Gandhi Nagar, Bhopal** |
 | **Email** | `priyanshukushwaha292@gmail.com` |
 | **Mobile** | `+91 9755755992` |
 | **Library Barcode** | `SISTEC-LIB-2024-9755` |
 | **Telegram Bot** | [`@Butlerrxsbot`](https://t.me/Butlerrxsbot) |
+| **Live Web App (Vercel)** | [https://apertu-priyanxs.vercel.app](https://apertu-priyanxs.vercel.app) |
+| **Live Web App (GitHub)** | [https://priyanxs.github.io/sagartracker/](https://priyanxs.github.io/sagartracker/) |
 
 ---
 
@@ -96,6 +101,19 @@ It merges all essential college utilities into a single, unified interface:
 
 ---
 
+### 4.5. 📚 RGPV B.Tech Semester Notes & Exam Vault (1st to 4th Year)
+- **Comprehensive 4-Year B.Tech CSE Coverage**: 14+ core RGPV subjects spanning Semesters 1 through 8.
+- **High-Yield 5-Unit Cheat Sheets**: Condensed formula sheets, principles, and critical exam definitions.
+- **7-Mark & 14-Mark University Model Q&A**: Frequent RGPV theory exam questions solved with derivations, diagrams, and bullet points.
+- **Previous 5 Years PYQ Question Bank (2020–2024)**: Tagged with exam sessions (Dec 2024, June 2024, Dec 2023).
+- **1-Click 2–3 Page PDF Generator**: Formatted with Apertu website branding, logo, watermark, and `@media print` layout.
+
+![RGPV Notes Vault](docs/screenshots/rgpv_notes_vault.png)
+
+![Notes Reader Modal](docs/screenshots/notes_reader_modal.png)
+
+---
+
 ### 5. 📖 M-OPAC Central Library Management System
 - **Digital Student Library Smart Card**:
   - Member Name: `Priyanshu Kushwaha`
@@ -106,12 +124,15 @@ It merges all essential college utilities into a single, unified interface:
   2. *Programming in ANSI C* – E. Balagurusamy (Due: 21 Nov 2026, 20 days left)
   3. *Basic Electrical & Electronics Engineering* – D.C. Kulshreshtha (Due: 24 Nov 2026, 23 days left)
   - 1-Click **Online Book Renewal** (+15 days).
+- **🏛️ MOBC / OBC Free Book Bank Scheme (Govt of MP)**:
+  - Official scheme under MP Backward Classes & Minorities Welfare Department.
+  - Beneficiary: `Priyanshu Kushwaha (OBC - Kushwaha)` • Grant: `MOBC-MP-2024-6523402`.
+  - 4 Semester-long reference textbooks provided with **₹0 daily fines** until end-semester university exams.
 - **Library Dues & Penalties**:
   - `₹0.00` Total Overdue Fine (All Clear).
   - Exam No-Dues Clearance: **Approved ✅** (Admit card unblocked).
-- **New Acquisitions & OPAC Search**:
-  - Real-time catalog search with shelf rack numbers (`Shelf 4B`, `Shelf 2A`).
-  - Book reservation hold system.
+
+![MOBC Book Bank Scheme](docs/screenshots/mobc_book_bank.png)
 
 ![M-OPAC Library System](docs/screenshots/mopac.png)
 

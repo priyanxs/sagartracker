@@ -253,6 +253,11 @@
           <span>🚌 Transit</span>
         </button>
 
+        <button onclick="navigateTo('notes')" id="nav-btn-notes" class="nav-btn flex items-center gap-1 px-2 sm:px-2.5 py-1 rounded-full hover:bg-stone-100 transition whitespace-nowrap">
+          <span>📚 RGPV Notes</span>
+          <span class="bg-emerald-100 text-emerald-800 text-[9px] sm:text-[10px] px-1 py-0.2 rounded font-mono font-bold border border-emerald-300">1st–4th Yr</span>
+        </button>
+
         <button onclick="navigateTo('classplus')" id="nav-btn-classplus" class="nav-btn flex items-center gap-1 px-2 sm:px-2.5 py-1 rounded-full hover:bg-stone-100 transition whitespace-nowrap">
           <span>📚 Classplus</span>
           <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
@@ -843,6 +848,106 @@
     <!-- ======================================================================= -->
     <!-- PAGE 5: 📚 CLASSPLUS PORTAL & TEST NOTIFICATIONS                       -->
     <!-- ======================================================================= -->
+
+    <!-- ======================================================================= -->
+    <!-- PAGE 4.5: 📚 RGPV B.TECH SEMESTER NOTES & EXAM VAULT                    -->
+    <!-- ======================================================================= -->
+    <section id="page-notes" class="page-view space-y-6">
+      
+      <!-- Top Title Bar -->
+      <div class="flex flex-wrap items-center justify-between gap-4 border-b-2 border-stone-800 pb-4">
+        <div>
+          <span class="font-handwriting text-2xl text-stone-600 block">rgpv examination accelerator</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900">
+            RGPV Notes & Exam Vault 📚
+          </h2>
+          <p class="text-xs text-stone-600 mt-1 font-mono">
+            B.Tech CSE (1st to 4th Year) • 5-Unit High-Yield Notes, 7M/14M Solved Model Q&A & 5-Yr PYQs • Apertu Edition
+          </p>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="stamp-pill bg-purple-100 text-purple-900 border-purple-300 text-xs font-mono font-bold">
+            🎓 RGPV Bhopal Syllabus
+          </span>
+          <span class="stamp-pill bg-emerald-100 text-emerald-900 border-emerald-300 text-xs font-mono font-bold">
+            📄 2–3 Page PDF Ready
+          </span>
+        </div>
+      </div>
+
+      <!-- Quick Telemetry Cards -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+        <div class="bg-white border-2 border-stone-900 p-3.5 sm:p-4 rounded-xl shadow-[3px_3px_0px_#18181b]">
+          <span class="text-[10px] font-mono text-stone-500 block uppercase font-bold">Curriculum Coverage</span>
+          <span class="text-2xl font-black text-stone-900">1st – 4th Yr</span>
+          <span class="text-[11px] text-stone-500 block mt-0.5">Semesters 1 to 8</span>
+        </div>
+        <div class="bg-white border-2 border-stone-900 p-3.5 sm:p-4 rounded-xl shadow-[3px_3px_0px_#18181b]">
+          <span class="text-[10px] font-mono text-stone-500 block uppercase font-bold">Question Format</span>
+          <span class="text-2xl font-black text-emerald-600">7M & 14M</span>
+          <span class="text-[11px] text-emerald-700 font-bold block mt-0.5">With Step-by-Step Model Answers</span>
+        </div>
+        <div class="bg-white border-2 border-stone-900 p-3.5 sm:p-4 rounded-xl shadow-[3px_3px_0px_#18181b]">
+          <span class="text-[10px] font-mono text-stone-500 block uppercase font-bold">PYQ Question Bank</span>
+          <span class="text-2xl font-black text-purple-700">2020 – 2024</span>
+          <span class="text-[11px] text-purple-800 font-mono font-bold block mt-0.5">Dec / June University Exams</span>
+        </div>
+        <div class="bg-white border-2 border-stone-900 p-3.5 sm:p-4 rounded-xl shadow-[3px_3px_0px_#18181b]">
+          <span class="text-[10px] font-mono text-stone-500 block uppercase font-bold">Export Capability</span>
+          <span class="text-2xl font-black text-amber-600">A4 PDF</span>
+          <span class="text-[11px] text-amber-700 block mt-0.5">With Apertu Watermark & Logo</span>
+        </div>
+      </div>
+
+      <!-- Filters & Search Toolbar -->
+      <div class="bg-amber-100/60 border-2 border-stone-900 p-4 rounded-2xl shadow-[4px_4px_0px_#18181b] space-y-3">
+        <!-- Year Tabs -->
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <div class="flex items-center gap-1.5 overflow-x-auto no-scrollbar pb-1">
+            <span class="text-xs font-mono font-bold text-stone-600 mr-1 uppercase">Year:</span>
+            <button onclick="switchNotesYear('all')" id="notes-year-all" class="notes-year-btn active tactile-btn bg-stone-900 text-white text-xs font-bold px-3 py-1.5 rounded-lg">All Years</button>
+            <button onclick="switchNotesYear(1)" id="notes-year-1" class="notes-year-btn tactile-btn bg-white text-stone-900 text-xs font-bold px-3 py-1.5 rounded-lg">1st Year (Sem 1-2)</button>
+            <button onclick="switchNotesYear(2)" id="notes-year-2" class="notes-year-btn tactile-btn bg-white text-stone-900 text-xs font-bold px-3 py-1.5 rounded-lg">2nd Year (Sem 3-4)</button>
+            <button onclick="switchNotesYear(3)" id="notes-year-3" class="notes-year-btn tactile-btn bg-white text-stone-900 text-xs font-bold px-3 py-1.5 rounded-lg">3rd Year (Sem 5-6)</button>
+            <button onclick="switchNotesYear(4)" id="notes-year-4" class="notes-year-btn tactile-btn bg-white text-stone-900 text-xs font-bold px-3 py-1.5 rounded-lg">4th Year (Sem 7-8)</button>
+          </div>
+          <!-- Search Input -->
+          <div class="relative w-full sm:w-64">
+            <i data-lucide="search" class="w-4 h-4 text-stone-400 absolute left-3 top-2.5"></i>
+            <input type="text" oninput="filterNotesSearch(this.value)" placeholder="Search subject, code, or topic..." class="w-full pl-9 pr-3 py-1.5 bg-white border-2 border-stone-900 rounded-lg text-xs font-mono focus:outline-none focus:ring-2 focus:ring-amber-400">
+          </div>
+        </div>
+
+        <!-- Semester Pills -->
+        <div class="flex flex-wrap items-center gap-1.5 pt-2 border-t border-stone-300">
+          <span class="text-xs font-mono font-bold text-stone-600 mr-1 uppercase">Semester:</span>
+          <button onclick="filterNotesBySem('all')" id="notes-sem-all" class="notes-sem-btn bg-amber-300 text-stone-900 text-[11px] font-black px-2.5 py-1 rounded-md border border-stone-800">All Sems</button>
+          <button onclick="filterNotesBySem(1)" id="notes-sem-1" class="notes-sem-btn bg-stone-100 text-stone-800 text-[11px] font-bold px-2.5 py-1 rounded-md border border-stone-300">Sem 1</button>
+          <button onclick="filterNotesBySem(2)" id="notes-sem-2" class="notes-sem-btn bg-stone-100 text-stone-800 text-[11px] font-bold px-2.5 py-1 rounded-md border border-stone-300">Sem 2</button>
+          <button onclick="filterNotesBySem(3)" id="notes-sem-3" class="notes-sem-btn bg-stone-100 text-stone-800 text-[11px] font-bold px-2.5 py-1 rounded-md border border-stone-300">Sem 3</button>
+          <button onclick="filterNotesBySem(4)" id="notes-sem-4" class="notes-sem-btn bg-stone-100 text-stone-800 text-[11px] font-bold px-2.5 py-1 rounded-md border border-stone-300">Sem 4</button>
+          <button onclick="filterNotesBySem(5)" id="notes-sem-5" class="notes-sem-btn bg-stone-100 text-stone-800 text-[11px] font-bold px-2.5 py-1 rounded-md border border-stone-300">Sem 5</button>
+          <button onclick="filterNotesBySem(6)" id="notes-sem-6" class="notes-sem-btn bg-stone-100 text-stone-800 text-[11px] font-bold px-2.5 py-1 rounded-md border border-stone-300">Sem 6</button>
+          <button onclick="filterNotesBySem(7)" id="notes-sem-7" class="notes-sem-btn bg-stone-100 text-stone-800 text-[11px] font-bold px-2.5 py-1 rounded-md border border-stone-300">Sem 7</button>
+          <button onclick="filterNotesBySem(8)" id="notes-sem-8" class="notes-sem-btn bg-stone-100 text-stone-800 text-[11px] font-bold px-2.5 py-1 rounded-md border border-stone-300">Sem 8</button>
+        </div>
+      </div>
+
+      <!-- Notes Grid Container -->
+      <div id="notes-grid-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Rendered dynamically by static/rgpv_notes.js -->
+      </div>
+
+      <!-- Notes Reader & Printable Modal -->
+      <div id="notes-reader-modal" class="fixed inset-0 z-50 bg-stone-900/80 backdrop-blur-sm hidden flex items-center justify-center p-2 sm:p-4 overflow-y-auto">
+        <div class="bg-white border-3 border-stone-900 rounded-2xl max-w-4xl w-full max-h-[92vh] overflow-y-auto shadow-[8px_8px_0px_#18181b] relative">
+          <div id="notes-reader-content"></div>
+        </div>
+      </div>
+
+    </section>
+
+
     <section id="page-classplus" class="page-view space-y-6">
       
       <div class="flex flex-wrap items-center justify-between gap-4 border-b-2 border-stone-800 pb-4">
@@ -1098,6 +1203,10 @@
         <button onclick="switchMopacSubTab('arrivals')" id="mopac-btn-arrivals" class="mopac-sub-btn tactile-btn bg-white text-stone-900 text-xs font-bold px-4 py-2 rounded-lg flex items-center gap-1.5">
           <span>✨ New Arrivals</span>
           <span class="bg-amber-100 text-amber-800 text-[10px] px-1.5 py-0.2 rounded font-mono font-bold">New</span>
+        </button>
+                <button onclick="switchMopacSubTab('mobc')" id="mopac-btn-mobc" class="mopac-sub-btn tactile-btn bg-white text-stone-900 text-xs font-bold px-4 py-2 rounded-lg flex items-center gap-1.5">
+          <span>🏛️ MOBC / OBC Book Bank</span>
+          <span class="bg-purple-100 text-purple-800 text-[10px] px-1.5 py-0.2 rounded font-mono font-bold">4 Books</span>
         </button>
         <button onclick="switchMopacSubTab('search')" id="mopac-btn-search" class="mopac-sub-btn tactile-btn bg-white text-stone-900 text-xs font-bold px-4 py-2 rounded-lg flex items-center gap-1.5">
           <span>🔍 Search OPAC Catalog</span>
@@ -1511,6 +1620,203 @@
       <!-- ===================================================================== -->
       <!-- TAB 5: SEARCH OPAC CATALOG                                            -->
       <!-- ===================================================================== -->
+      <!-- ===================================================================== -->
+      <!-- TAB 5: 🏛️ MOBC / OBC FREE BOOK BANK SCHEME (GOVT OF MP)                 -->
+      <!-- ===================================================================== -->
+      <div id="mopac-tab-mobc" class="mopac-tab-pane hidden space-y-6">
+        
+        <!-- Official Scheme Banner -->
+        <div class="bg-gradient-to-r from-purple-900 via-stone-900 to-indigo-950 text-white border-2 border-stone-800 rounded-2xl p-6 sm:p-7 shadow-[5px_5px_0px_#18181b] relative overflow-hidden">
+          <div class="washi-tape washi-yellow tape-tl"></div>
+          <div class="flex flex-wrap items-start justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-2">
+                <span class="bg-amber-400 text-stone-900 text-[10px] font-mono font-bold px-2 py-0.5 rounded shadow-sm">
+                  GOVERNMENT OF MADHYA PRADESH
+                </span>
+                <span class="bg-purple-800/80 text-purple-200 text-[10px] font-mono px-2 py-0.5 rounded border border-purple-600/50">
+                  SCHEME CODE: MP-MOBC-BB-2024
+                </span>
+              </div>
+              <h3 class="text-2xl sm:text-3xl font-black text-white">
+                MOBC Free Book Bank Scheme 🏛️
+              </h3>
+              <p class="text-xs text-stone-300 max-w-2xl font-mono leading-relaxed">
+                Backward Classes & Minorities Welfare Department (पिछड़ा वर्ग एवं अल्पसंख्यक कल्याण विभाग) • 100% Free Complete Semester Reference Books • Zero Late Fines Guaranteed
+              </p>
+            </div>
+            <div class="bg-stone-800/80 border border-stone-700 p-4 rounded-xl text-right">
+              <span class="text-[10px] font-mono text-stone-400 block uppercase">Grant Status</span>
+              <span class="text-emerald-400 text-lg font-black block">SANCTIONED & ACTIVE</span>
+              <span class="text-[10px] text-stone-400 font-mono mt-0.5 block">Letter: MOBC-MP-2024-6523402</span>
+            </div>
+          </div>
+
+          <!-- Beneficiary Details Bar -->
+          <div class="mt-6 pt-5 border-t border-stone-700/80 grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs font-mono">
+            <div>
+              <span class="text-stone-400 block text-[10px]">BENEFICIARY</span>
+              <span class="font-bold text-white text-sm">Priyanshu Kushwaha</span>
+            </div>
+            <div>
+              <span class="text-stone-400 block text-[10px]">CATEGORY</span>
+              <span class="font-bold text-amber-300 text-sm">OBC (Kushwaha)</span>
+            </div>
+            <div>
+              <span class="text-stone-400 block text-[10px]">PORTAL / ROLL</span>
+              <span class="font-bold text-white text-sm">6523402</span>
+            </div>
+            <div>
+              <span class="text-stone-400 block text-[10px]">MP TAAS SCHOLAR ID</span>
+              <span class="font-bold text-purple-300 text-sm">MPT-2024-KUSH9755</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book Bank Entitlement & Policy Notice -->
+        <div class="bg-purple-50 border-2 border-purple-900/30 rounded-xl p-4 flex flex-wrap items-center justify-between gap-3 text-xs text-purple-950">
+          <div class="flex items-center gap-3">
+            <span class="text-2xl">📋</span>
+            <div>
+              <b>MOBC Book Bank Benefit Rule:</b> Eligible OBC students receive all core curriculum textbooks for the full duration of each semester.
+              <span class="block text-[11px] text-purple-800 mt-0.5">Regular 14-day library limits & daily fines are <b>waived (₹0.00)</b> until RGPV End-Semester theory exams conclude.</span>
+            </div>
+          </div>
+          <span class="stamp-pill bg-purple-200 text-purple-900 border-purple-400 font-mono font-bold text-[11px]">
+            Zero Penalty Clause Active
+          </span>
+        </div>
+
+        <!-- MOBC Issued Books Grid -->
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <h4 class="text-lg font-black text-stone-900 flex items-center gap-2">
+              <span>Semester 1 MOBC Book Bank Set</span>
+              <span class="text-xs font-mono font-normal text-stone-500">(4 Textbooks Disbursed)</span>
+            </h4>
+            <span class="text-xs font-mono font-bold text-stone-600">Disbursed by SISTec Central Library</span>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            
+            <!-- Book 1 -->
+            <div class="bg-white border-2 border-stone-900 rounded-xl p-4 shadow-[3px_3px_0px_#18181b] relative flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="stamp-pill bg-blue-100 text-blue-900 border-blue-300 font-mono text-[10px]">BT-102 • MATHS-I</span>
+                  <span class="text-[10px] font-mono font-bold bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded">MOBC LOAN</span>
+                </div>
+                <h5 class="text-base font-black text-stone-900">Higher Engineering Mathematics</h5>
+                <p class="text-xs text-stone-600 mt-0.5">Dr. B.S. Grewal • 44th Edition • Khanna Publishers</p>
+                <div class="mt-3 pt-3 border-t border-stone-200 grid grid-cols-2 gap-2 text-[11px] font-mono text-stone-700">
+                  <div>Accession: <b class="text-stone-900">MOBC-BT102-2402</b></div>
+                  <div>Barcode: <b class="text-purple-700">9755-M1-24</b></div>
+                  <div>Issued: <b class="text-stone-900">01 Aug 2024</b></div>
+                  <div>Due: <b class="text-stone-900">End-Sem Dec 2026</b></div>
+                </div>
+              </div>
+              <div class="mt-3 pt-2 border-t border-stone-200 flex items-center justify-between text-xs">
+                <span class="text-emerald-700 font-bold text-[11px]">Daily Fine: ₹0.00 (Waived)</span>
+                <span class="font-mono text-[10px] text-stone-500">Full Semester Retain</span>
+              </div>
+            </div>
+
+            <!-- Book 2 -->
+            <div class="bg-white border-2 border-stone-900 rounded-xl p-4 shadow-[3px_3px_0px_#18181b] relative flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="stamp-pill bg-purple-100 text-purple-900 border-purple-300 font-mono text-[10px]">BT-101 • CHEMISTRY</span>
+                  <span class="text-[10px] font-mono font-bold bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded">MOBC LOAN</span>
+                </div>
+                <h5 class="text-base font-black text-stone-900">Engineering Chemistry</h5>
+                <p class="text-xs text-stone-600 mt-0.5">P.C. Jain & Monika Jain • 17th Edition • Dhanpat Rai Publishing</p>
+                <div class="mt-3 pt-3 border-t border-stone-200 grid grid-cols-2 gap-2 text-[11px] font-mono text-stone-700">
+                  <div>Accession: <b class="text-stone-900">MOBC-BT101-2401</b></div>
+                  <div>Barcode: <b class="text-purple-700">9755-C1-24</b></div>
+                  <div>Issued: <b class="text-stone-900">01 Aug 2024</b></div>
+                  <div>Due: <b class="text-stone-900">End-Sem Dec 2026</b></div>
+                </div>
+              </div>
+              <div class="mt-3 pt-2 border-t border-stone-200 flex items-center justify-between text-xs">
+                <span class="text-emerald-700 font-bold text-[11px]">Daily Fine: ₹0.00 (Waived)</span>
+                <span class="font-mono text-[10px] text-stone-500">Full Semester Retain</span>
+              </div>
+            </div>
+
+            <!-- Book 3 -->
+            <div class="bg-white border-2 border-stone-900 rounded-xl p-4 shadow-[3px_3px_0px_#18181b] relative flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="stamp-pill bg-amber-100 text-amber-900 border-amber-300 font-mono text-[10px]">BT-104 • BEEE</span>
+                  <span class="text-[10px] font-mono font-bold bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded">MOBC LOAN</span>
+                </div>
+                <h5 class="text-base font-black text-stone-900">Basic Electrical & Electronics Engg</h5>
+                <p class="text-xs text-stone-600 mt-0.5">D.C. Kulshreshtha • McGraw-Hill Education</p>
+                <div class="mt-3 pt-3 border-t border-stone-200 grid grid-cols-2 gap-2 text-[11px] font-mono text-stone-700">
+                  <div>Accession: <b class="text-stone-900">MOBC-BT104-2403</b></div>
+                  <div>Barcode: <b class="text-purple-700">9755-E1-24</b></div>
+                  <div>Issued: <b class="text-stone-900">01 Aug 2024</b></div>
+                  <div>Due: <b class="text-stone-900">End-Sem Dec 2026</b></div>
+                </div>
+              </div>
+              <div class="mt-3 pt-2 border-t border-stone-200 flex items-center justify-between text-xs">
+                <span class="text-emerald-700 font-bold text-[11px]">Daily Fine: ₹0.00 (Waived)</span>
+                <span class="font-mono text-[10px] text-stone-500">Full Semester Retain</span>
+              </div>
+            </div>
+
+            <!-- Book 4 -->
+            <div class="bg-white border-2 border-stone-900 rounded-xl p-4 shadow-[3px_3px_0px_#18181b] relative flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="stamp-pill bg-rose-100 text-rose-900 border-rose-300 font-mono text-[10px]">BT-105 • BCE</span>
+                  <span class="text-[10px] font-mono font-bold bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded">MOBC LOAN</span>
+                </div>
+                <h5 class="text-base font-black text-stone-900">Basic Civil Engg & Mechanics</h5>
+                <p class="text-xs text-stone-600 mt-0.5">S. Ramamrutham • Dhanpat Rai Publishing</p>
+                <div class="mt-3 pt-3 border-t border-stone-200 grid grid-cols-2 gap-2 text-[11px] font-mono text-stone-700">
+                  <div>Accession: <b class="text-stone-900">MOBC-BT105-2404</b></div>
+                  <div>Barcode: <b class="text-purple-700">9755-B1-24</b></div>
+                  <div>Issued: <b class="text-stone-900">01 Aug 2024</b></div>
+                  <div>Due: <b class="text-stone-900">End-Sem Dec 2026</b></div>
+                </div>
+              </div>
+              <div class="mt-3 pt-2 border-t border-stone-200 flex items-center justify-between text-xs">
+                <span class="text-emerald-700 font-bold text-[11px]">Daily Fine: ₹0.00 (Waived)</span>
+                <span class="font-mono text-[10px] text-stone-500">Full Semester Retain</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- MOBC Cell Contact & Guidelines Card -->
+        <div class="bg-stone-100 border-2 border-stone-800 rounded-xl p-5 space-y-3 text-xs text-stone-800">
+          <div class="flex items-center justify-between">
+            <span class="font-black text-stone-900 uppercase font-mono tracking-wider">Institutional Welfare Nodal Desk</span>
+            <span class="stamp-pill bg-stone-900 text-white font-mono text-[10px]">SISTec Gandhi Nagar</span>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 font-mono text-[11px] text-stone-700">
+            <div>
+              <span class="text-stone-500 block">Nodal Officer:</span>
+              <b class="text-stone-900">Prof. Library In-Charge</b>
+            </div>
+            <div>
+              <span class="text-stone-500 block">Welfare Cell Room:</span>
+              <b class="text-stone-900">Ground Floor, Central Library</b>
+            </div>
+            <div>
+              <span class="text-stone-500 block">MP Taas Helpdesk:</span>
+              <b class="text-stone-900">scholarship@sistec.ac.in</b>
+            </div>
+          </div>
+          <p class="text-[11px] text-stone-600 border-t border-stone-300 pt-3">
+            Note: Books under MOBC Free Book Bank are non-transferable government-aided resources provided for Priyanshu Kushwaha (Kushwaha / OBC). Returns must be processed within 7 working days of final RGPV university theory exam.
+          </p>
+        </div>
+
+      </div>
+
       <div id="mopac-tab-search" class="mopac-tab-pane hidden space-y-4">
         
         <div class="bg-white border-2 border-stone-900 rounded-2xl p-5 shadow-[4px_4px_0px_#18181b] relative">
@@ -1619,6 +1925,14 @@
             </tr>
           </thead>
           <tbody class="divide-y divide-stone-200 font-medium text-stone-800">
+            <tr class="hover:bg-purple-50/70 bg-purple-50/30">
+              <td class="p-3.5 font-mono font-bold text-purple-900">MPT/OBC/2024-25/01</td>
+              <td class="p-3.5">20/09/2025</td>
+              <td class="p-3.5">I</td>
+              <td class="p-3.5 font-bold text-purple-950">MP Taas MOBC Post-Matric Scholarship (Govt of MP)</td>
+              <td class="p-3.5 font-mono font-bold text-emerald-700">₹28,500.00 (Disbursed)</td>
+              <td class="p-3.5 text-right"><span class="stamp-pill bg-purple-200 text-purple-900 border-purple-400 font-mono text-[10px]">MOBC Credit</span></td>
+            </tr>
             <tr class="hover:bg-stone-50">
               <td class="p-3.5 font-mono font-bold">0187B00115/2024-25/1</td>
               <td class="p-3.5">08/04/2025</td>
@@ -1700,6 +2014,16 @@
           <div>
             <label class="font-mono text-stone-500 block mb-1">STUDENT CODE / ENROLLMENT</label>
             <input type="text" id="prof-roll" value="6523402 (SISTec Cloud Portal ID)" class="w-full border-2 border-stone-800 rounded-lg p-2.5 font-mono text-stone-900 bg-stone-50 font-bold">
+          </div>
+          <div class="grid grid-cols-2 gap-4">
+            <div>
+              <label class="font-mono text-stone-500 block mb-1">CATEGORY & COMMUNITY</label>
+              <input type="text" id="prof-category" value="OBC (Kushwaha / Other Backward Class)" class="w-full border-2 border-purple-800 bg-purple-50/50 rounded-lg p-2.5 font-bold text-purple-950">
+            </div>
+            <div>
+              <label class="font-mono text-stone-500 block mb-1">MOBC / MP TAAS SCHOLAR ID</label>
+              <input type="text" id="prof-mobc-id" value="MPT-2024-KUSH9755 (Active)" class="w-full border-2 border-purple-800 bg-purple-50/50 rounded-lg p-2.5 font-mono font-bold text-purple-950">
+            </div>
           </div>
           <div>
             <label class="font-mono text-stone-500 block mb-1">REGISTERED EMAIL</label>
@@ -1809,6 +2133,7 @@
       const target = document.getElementById(`page-${pageId}`);
       if (target) target.classList.add('active');
       if (pageId === 'transit') { setTimeout(initSagarTrackerMap, 100); }
+      if (pageId === 'notes') { setTimeout(initNotesVault, 50); }
 
       document.querySelectorAll('.nav-btn').forEach(b => {
         b.classList.remove('active', 'bg-amber-300', 'text-stone-900', 'border', 'border-stone-800', 'shadow-[1px_1px_0px_#18181b]');
@@ -2854,6 +3179,7 @@
       populateSimSelect();
       switchScheduleDay('mon');
       calculateSimulation();
+      if (typeof initNotesVault === 'function') initNotesVault();
 
       window.addEventListener('hashchange', () => {
         const hash = window.location.hash.replace('#', '');
@@ -2872,6 +3198,9 @@
       lucide.createIcons();
     });
   </script>
+
+  <!-- Official RGPV Notes & Question Bank Script -->
+  <script src="./static/rgpv_notes.js"></script>
 
 </body>
 </html>
