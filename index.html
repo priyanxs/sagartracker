@@ -217,10 +217,7 @@
       
       <!-- Left: Brand & Live Class/Activity Routine Indicator -->
       <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
-        <div onclick="navigateTo('dashboard')" class="flex items-center gap-1.5 cursor-pointer group" title="Apertu Home">
-          <div class="w-6 h-6 sm:w-7 sm:h-7 rounded-lg border-2 border-stone-800 flex items-center justify-center bg-amber-300 shadow-[1px_1px_0px_#18181b] group-hover:rotate-6 transition-all shrink-0">
-            <span class="font-pixel text-[10px] sm:text-[11px] font-black text-stone-900">A</span>
-          </div>
+        <div onclick="navigateTo('dashboard')" class="flex items-center cursor-pointer group" title="Apertu Home">
           <span class="font-pixel text-xs sm:text-sm font-black text-stone-900 tracking-wider group-hover:text-rose-600 transition">APERTU</span>
         </div>
         
@@ -584,6 +581,87 @@
           </div>
         </div>
 
+        <!-- FOLDER 03: SAGARTRACKER.XYZ TRANSIT RADAR -->
+        <div class="folder-container bg-stone-900 text-white p-6 sm:p-10 relative border-2 border-stone-800">
+          <div class="folder-tab bg-stone-900 text-white border-stone-800">
+            <span>● MODULE 03</span>
+            <span class="text-emerald-400">/</span>
+            <span>SAGARTRACKER.XYZ TRANSIT</span>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div class="lg:col-span-5 space-y-4">
+              <span class="text-xs font-mono text-emerald-400 uppercase tracking-widest block font-bold">
+                ● 43 BUS ROUTES • LIVE GPS RADAR
+              </span>
+              <h3 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+                SagarTracker.xyz 🚍
+              </h3>
+              <p class="text-stone-300 text-sm leading-relaxed">
+                Official transit telemetry engine for SISTec Bhopal. Live GPS tracking across 43 bus lines, real-time stop announcements, route speeds, and delay predictions.
+              </p>
+              
+              <div class="pt-2 flex flex-wrap gap-3">
+                <button onclick="navigateTo('transit')" class="tactile-btn bg-emerald-400 hover:bg-emerald-300 text-stone-950 text-xs font-black uppercase tracking-wider px-5 py-2.5 rounded-lg flex items-center gap-2">
+                  <span>Launch Live Radar</span>
+                  <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                </button>
+                <a href="./sagartracker.html" target="_blank" class="tactile-btn bg-stone-800 hover:bg-stone-700 text-white text-xs font-bold uppercase tracking-wider px-4 py-2.5 rounded-lg flex items-center gap-1.5 border border-stone-700">
+                  <span>Open Standalone</span>
+                  <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="lg:col-span-7">
+              <div class="bg-stone-950 border border-stone-700 rounded-xl p-5 relative shadow-xl">
+                <div class="washi-tape washi-green tape-tl"></div>
+                <div class="washi-tape washi-green tape-tr"></div>
+
+                <div class="flex flex-wrap items-center justify-between gap-3 border-b border-stone-800 pb-3 mb-3">
+                  <div class="flex items-center gap-2">
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></span>
+                    <span class="font-mono text-xs font-bold text-emerald-400">LINE 01 • ACTIVE RADAR</span>
+                  </div>
+                  <span class="stamp-pill bg-emerald-950 text-emerald-300 border-emerald-700 text-[10px] py-0.5 px-2">
+                    SISTec Gandhi Nagar
+                  </span>
+                </div>
+
+                <div class="p-3 bg-stone-900 rounded-lg border border-stone-800 mb-3">
+                  <div class="flex items-center justify-between mb-1">
+                    <span class="text-sm font-black text-white">Line 01: Piplani BHEL Vanguard</span>
+                    <span class="text-xs font-mono font-bold text-emerald-400">38 km/h</span>
+                  </div>
+                  <p class="text-[11px] text-stone-400 font-mono">
+                    Bus #01 • Driver: Rameshwar Sharma • ETA: 14 mins
+                  </p>
+                </div>
+
+                <div class="space-y-1.5 text-xs">
+                  <div class="flex items-center justify-between p-2 rounded bg-stone-900 border border-stone-800 text-[11px]">
+                    <span class="text-stone-300 font-mono">1. Piplani Petrol Pump</span>
+                    <span class="text-emerald-400 font-bold">Departed 08:05</span>
+                  </div>
+                  <div class="flex items-center justify-between p-2 rounded bg-stone-900 border border-stone-800 text-[11px]">
+                    <span class="text-stone-300 font-mono">2. Ayodhya Bypass</span>
+                    <span class="text-emerald-400 font-bold">Departed 08:22</span>
+                  </div>
+                  <div class="flex items-center justify-between p-2 rounded bg-emerald-950/60 border border-emerald-800 text-[11px]">
+                    <span class="text-emerald-300 font-mono font-bold">3. Karond Square (Next Stop)</span>
+                    <span class="text-amber-400 font-bold animate-pulse">Approaching (3 min)</span>
+                  </div>
+                  <div class="flex items-center justify-between p-2 rounded bg-stone-900 border border-stone-800 text-[11px]">
+                    <span class="text-stone-400 font-mono">4. SISTec Campus</span>
+                    <span class="text-stone-500 font-bold">ETA 08:55</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
     </section>
@@ -714,9 +792,13 @@
             <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i>
             <span>Expand Fullscreen</span>
           </button>
-          <a href="/sagartracker.html" target="_blank" class="tactile-btn bg-stone-900 text-white text-xs font-bold px-4 py-2 rounded-lg flex items-center gap-1.5">
+          <a href="./sagartracker.html" target="_blank" class="tactile-btn bg-stone-900 text-white text-xs font-bold px-4 py-2 rounded-lg flex items-center gap-1.5">
             <span>Open Standalone</span>
             <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+          </a>
+          <a href="https://www.sagartracker.xyz" target="_blank" class="tactile-btn bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold px-3.5 py-2 rounded-lg flex items-center gap-1.5 shadow-sm">
+            <span>SagarTracker.xyz</span>
+            <i data-lucide="globe" class="w-3.5 h-3.5"></i>
           </a>
         </div>
       </div>
@@ -753,11 +835,10 @@
           <span>Exit Fullscreen (Esc)</span>
         </button>
 
-        <iframe id="sagartracker-frame" src="/sagartracker.html" class="w-full h-full border-0 select-none" allow="geolocation" title="SagarTracker.xyz Official Live Transit Platform"></iframe>
+        <iframe id="sagartracker-frame" src="./sagartracker.html" class="w-full h-full border-0 select-none" allow="geolocation" title="SagarTracker.xyz Official Live Transit Platform"></iframe>
       </div>
 
     </section>
-</section>
 
     <!-- ======================================================================= -->
     <!-- PAGE 5: 📚 CLASSPLUS PORTAL & TEST NOTIFICATIONS                       -->
@@ -1617,8 +1698,8 @@
             </div>
           </div>
           <div>
-            <label class="font-mono text-stone-500 block mb-1">ENROLLMENT NUMBER</label>
-            <input type="text" id="prof-roll" value="Awaiting RGPV Allotment" class="w-full border-2 border-stone-800 rounded-lg p-2.5 font-mono text-stone-600 bg-stone-50">
+            <label class="font-mono text-stone-500 block mb-1">STUDENT CODE / ENROLLMENT</label>
+            <input type="text" id="prof-roll" value="6523402 (SISTec Cloud Portal ID)" class="w-full border-2 border-stone-800 rounded-lg p-2.5 font-mono text-stone-900 bg-stone-50 font-bold">
           </div>
           <div>
             <label class="font-mono text-stone-500 block mb-1">REGISTERED EMAIL</label>
@@ -2526,7 +2607,7 @@
         } else if (cont.webkitRequestFullscreen) {
           cont.webkitRequestFullscreen();
         } else {
-          window.open('/sagartracker.html', '_blank');
+          window.open('./sagartracker.html', '_blank');
         }
       } else {
         if (document.exitFullscreen) {
