@@ -279,7 +279,7 @@
 
       <!-- Right: User Avatar -->
       <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
-        <div onclick="navigateTo('profile')" class="flex items-center gap-1 bg-amber-400 hover:bg-amber-500 border border-stone-800 rounded-full px-1.5 sm:px-2 py-0.5 cursor-pointer transition shadow-[1px_1px_0px_#18181b] shrink-0" title="Priyanshu Kushwaha (CSE Core)">
+        <div id="header-user-avatar" onclick="navigateTo('profile')" class="flex items-center gap-1 bg-amber-400 hover:bg-amber-500 border border-stone-800 rounded-full px-1.5 sm:px-2 py-0.5 cursor-pointer transition shadow-[1px_1px_0px_#18181b] shrink-0" title="Priyanshu Kushwaha (CSE Core)">
           <div class="w-4 h-4 sm:w-5 sm:h-5 rounded-full bg-stone-900 text-white font-mono text-[9px] sm:text-[10px] font-bold flex items-center justify-center">
             PK
           </div>
@@ -667,6 +667,140 @@
           </div>
         </div>
 
+
+        <!-- FOLDER 04: RGPV B.TECH NOTES & EXAM VAULT -->
+        <div class="folder-container bg-emerald-950 text-white p-6 sm:p-10 relative border-2 border-stone-800">
+          <div class="folder-tab bg-emerald-950 text-white border-stone-800">
+            <span>● MODULE 04</span>
+            <span class="text-emerald-400">/</span>
+            <span>RGPV NOTES &amp; EXAM VAULT</span>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div class="lg:col-span-5 space-y-4">
+              <span class="text-xs font-mono text-emerald-400 uppercase tracking-widest block font-bold">
+                ● 1ST TO 4TH YEAR • ALL SISTEC STREAMS
+              </span>
+              <h3 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+                Notes &amp; Exam Vault 📚
+              </h3>
+              <p class="text-stone-300 text-sm leading-relaxed">
+                Complete examination booster repository. 5-Unit concise summaries, high-yield formula cheat sheets, 7M/14M step-by-step solved questions, and 5-year PYQs (2020–2024) across all SISTec engineering branches.
+              </p>
+              
+              <div class="pt-2 flex flex-wrap gap-3">
+                <button onclick="navigateTo('notes')" class="tactile-btn bg-amber-400 hover:bg-amber-300 text-stone-950 text-xs font-black uppercase tracking-wider px-5 py-2.5 rounded-lg flex items-center gap-2 shadow-[2px_2px_0px_#18181b]">
+                  <span>Explore Notes Vault</span>
+                  <i data-lucide="book-open" class="w-3.5 h-3.5"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="lg:col-span-7">
+              <div class="bg-stone-900 border border-stone-700 rounded-xl p-5 relative shadow-xl space-y-3">
+                <div class="washi-tape washi-yellow tape-tl"></div>
+                <div class="washi-tape washi-yellow tape-tr"></div>
+
+                <div class="flex items-center justify-between border-b border-stone-800 pb-3">
+                  <span class="font-mono text-xs font-bold text-amber-400">SISTEC MULTI-STREAM COVERAGE</span>
+                  <span class="stamp-pill bg-purple-900 text-purple-200 border-purple-600 text-[10px]">19 Subjects Ready</span>
+                </div>
+
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 text-xs font-mono">
+                  <div class="p-2.5 rounded-lg bg-stone-950 border border-stone-800">
+                    <span class="text-stone-400 block text-[10px]">CSE / IT</span>
+                    <b class="text-white">DSA, OS, DBMS</b>
+                  </div>
+                  <div class="p-2.5 rounded-lg bg-stone-950 border border-stone-800">
+                    <span class="text-stone-400 block text-[10px]">AI-DS / AI-ML</span>
+                    <b class="text-white">AI, Deep Learning</b>
+                  </div>
+                  <div class="p-2.5 rounded-lg bg-stone-950 border border-stone-800">
+                    <span class="text-stone-400 block text-[10px]">ECE &amp; EE</span>
+                    <b class="text-white">DSP, Control Sys</b>
+                  </div>
+                  <div class="p-2.5 rounded-lg bg-stone-950 border border-stone-800">
+                    <span class="text-stone-400 block text-[10px]">ME &amp; CE</span>
+                    <b class="text-white">Thermo, Struct.</b>
+                  </div>
+                  <div class="p-2.5 rounded-lg bg-stone-950 border border-stone-800">
+                    <span class="text-stone-400 block text-[10px]">1ST YEAR (COMMON)</span>
+                    <b class="text-white">Maths, Chemistry</b>
+                  </div>
+                  <div class="p-2.5 rounded-lg bg-stone-950 border border-stone-800">
+                    <span class="text-stone-400 block text-[10px]">EXPORT</span>
+                    <b class="text-emerald-400">Themed A4 PDF</b>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FOLDER 05: M-OPAC CENTRAL LIBRARY & MOBC BOOK BANK -->
+        <div class="folder-container bg-purple-950 text-white p-6 sm:p-10 relative border-2 border-stone-800">
+          <div class="folder-tab bg-purple-950 text-white border-stone-800">
+            <span>● MODULE 05</span>
+            <span class="text-purple-300">/</span>
+            <span>M-OPAC &amp; MOBC BOOK BANK</span>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div class="lg:col-span-5 space-y-4">
+              <span class="text-xs font-mono text-purple-300 uppercase tracking-widest block font-bold">
+                ● SISTEC CENTRAL LIBRARY • DOME 1ST FLOOR
+              </span>
+              <h3 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+                M-OPAC &amp; MOBC 📖
+              </h3>
+              <p class="text-stone-300 text-sm leading-relaxed">
+                Smart digital student card with zero overdue fines. Includes the official MP State MOBC Welfare Free Book Bank Scheme with 4 semester reference textbooks.
+              </p>
+              
+              <div class="pt-2 flex flex-wrap gap-3">
+                <button onclick="navigateTo('mopac')" class="tactile-btn bg-white text-stone-950 text-xs font-black uppercase tracking-wider px-5 py-2.5 rounded-lg flex items-center gap-2 shadow-[2px_2px_0px_#18181b]">
+                  <span>Open Library Card &amp; Dues</span>
+                  <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="lg:col-span-7">
+              <div class="bg-stone-900 border border-stone-700 rounded-xl p-5 relative shadow-xl space-y-3">
+                <div class="washi-tape washi-purple tape-tl"></div>
+                <div class="washi-tape washi-purple tape-tr"></div>
+
+                <div class="flex flex-wrap items-center justify-between gap-3 border-b border-stone-800 pb-3">
+                  <div>
+                    <span class="text-[10px] font-mono text-purple-400 block font-bold">MEMBER BARCODE</span>
+                    <span class="text-lg font-mono font-black text-white">LIB-9755 (Priyanshu)</span>
+                  </div>
+                  <div class="text-right">
+                    <span class="text-[10px] font-mono text-emerald-400 block font-bold">LIBRARY DUES</span>
+                    <span class="text-lg font-black text-emerald-400">₹0.00 (Clear ✅)</span>
+                  </div>
+                </div>
+
+                <div class="space-y-1.5 text-xs font-mono">
+                  <div class="p-2 rounded bg-stone-950 border border-stone-800 flex justify-between">
+                    <span class="text-stone-300">1. Higher Engg. Mathematics (B.S. Grewal)</span>
+                    <span class="text-emerald-400">Active Loan</span>
+                  </div>
+                  <div class="p-2 rounded bg-stone-950 border border-stone-800 flex justify-between">
+                    <span class="text-stone-300">2. Programming in ANSI C (Balagurusamy)</span>
+                    <span class="text-emerald-400">Active Loan</span>
+                  </div>
+                  <div class="p-2 rounded bg-stone-950 border border-stone-800 flex justify-between">
+                    <span class="text-stone-300">3. MOBC Welfare Grant (4 Textbooks)</span>
+                    <span class="text-purple-300 font-bold">₹0 Fine (Sanctioned)</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
     </section>
@@ -955,13 +1089,6 @@
         <!-- Rendered dynamically by static/rgpv_notes.js -->
       </div>
 
-      <!-- Notes Reader & Printable Modal -->
-      <div id="notes-reader-modal" class="fixed inset-0 z-50 bg-stone-900/80 backdrop-blur-sm hidden flex items-center justify-center p-2 sm:p-4 overflow-y-auto">
-        <div class="bg-white border-3 border-stone-900 rounded-2xl max-w-4xl w-full max-h-[92vh] overflow-y-auto shadow-[8px_8px_0px_#18181b] relative">
-          <div id="notes-reader-content"></div>
-        </div>
-      </div>
-
     </section>
 
 
@@ -1037,7 +1164,7 @@
                 <span class="text-emerald-700 font-bold flex items-center gap-1">
                   <i data-lucide="check-circle" class="w-3.5 h-3.5"></i> Notification Synced
                 </span>
-                <button onclick="alert('Test study syllabus & formula sheet opened!')" class="tactile-btn bg-stone-900 text-white font-bold text-[11px] px-3 py-1 rounded-md">
+                <button onclick="openNotesModal('BT-102')" class="tactile-btn bg-stone-900 text-white font-bold text-[11px] px-3 py-1 rounded-md">
                   View Syllabus
                 </button>
               </div>
@@ -2051,14 +2178,15 @@
             <input type="tel" id="prof-phone" value="+91 9755755992" class="w-full border-2 border-stone-800 rounded-lg p-2.5 font-mono font-bold">
           </div>
 
-          <div class="pt-2 flex gap-3">
+          <div class="pt-2 flex items-center gap-3">
             <button onclick="saveProfile()" class="tactile-btn bg-stone-900 text-white font-bold text-xs px-6 py-2.5 rounded-lg flex items-center gap-2">
               <i data-lucide="check" class="w-4 h-4"></i>
               <span>Save & Update Details</span>
             </button>
-            <button onclick="alert('Profile details reset to verified values!')" class="tactile-btn bg-stone-100 text-stone-800 font-bold text-xs px-4 py-2.5 rounded-lg">
+            <button onclick="resetProfile()" class="tactile-btn bg-stone-100 text-stone-800 font-bold text-xs px-4 py-2.5 rounded-lg">
               Reset
             </button>
+            <span id="prof-save-status" class="text-xs font-mono font-bold text-emerald-700 bg-emerald-100 border border-emerald-300 px-2 py-1 rounded hidden">✓ Saved locally</span>
           </div>
         </div>
 
@@ -2128,6 +2256,13 @@
     </div>
   </div>
 
+  <!-- Notes Reader & Printable Modal (Root Level) -->
+  <div id="notes-reader-modal" class="fixed inset-0 z-50 bg-stone-900/80 backdrop-blur-sm hidden flex items-center justify-center p-2 sm:p-4 overflow-y-auto">
+    <div class="bg-white border-3 border-stone-900 rounded-2xl max-w-4xl w-full max-h-[92vh] overflow-y-auto shadow-[8px_8px_0px_#18181b] relative">
+      <div id="notes-reader-content"></div>
+    </div>
+  </div>
+
   <!-- JAVASCRIPT LOGIC -->
   <script>
     const SUBJECTS = [
@@ -2160,8 +2295,18 @@
         activeBtn.classList.add('active', 'bg-amber-300', 'text-stone-900', 'border', 'border-stone-800', 'shadow-[1px_1px_0px_#18181b]');
       }
 
+      const avatar = document.getElementById('header-user-avatar');
+      if (avatar) {
+        if (pageId === 'profile') {
+          avatar.classList.add('ring-2', 'ring-stone-900', 'bg-amber-500');
+        } else {
+          avatar.classList.remove('ring-2', 'ring-stone-900', 'bg-amber-500');
+        }
+      }
+
       window.location.hash = pageId;
       window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (window.lucide) lucide.createIcons();
     }
 
     
@@ -2431,7 +2576,7 @@
         <div class="my-4 space-y-2 text-xs text-stone-700">
           <div class="flex justify-between"><span>Candidate:</span><span class="font-bold text-stone-900">PRIYANSHU KUSHWAHA</span></div>
           <div class="flex justify-between"><span>Branch:</span><span class="font-bold text-stone-900">B.Tech CSE Core (Section CSE 3)</span></div>
-          <div class="flex justify-between"><span>Enrollment:</span><span class="font-mono text-stone-600">Awaiting RGPV Allotment</span></div>
+          <div class="flex justify-between"><span>Roll / Portal ID:</span><span class="font-mono font-bold text-stone-900">6523402 • Barcode: LIB-9755</span></div>
           <div class="flex justify-between"><span>Center:</span><span class="font-bold text-stone-900">SISTec Main Campus</span></div>
           <div class="p-2.5 bg-amber-100 rounded-lg border border-amber-300 text-amber-900 text-[11px] leading-relaxed mt-2 font-medium">
             ⚠️ <b>Undertaking Note:</b> Attendance is 43.40%. Present signed undertaking at First Year Cell counter.
@@ -2446,7 +2591,57 @@
 
     function saveProfile() {
       const name = document.getElementById('prof-name')?.value;
-      alert(`Profile updated successfully for ${name}!`);
+      const branch = document.getElementById('prof-branch')?.value;
+      const sec = document.getElementById('prof-sec')?.value;
+      const roll = document.getElementById('prof-roll')?.value;
+      const category = document.getElementById('prof-category')?.value;
+      const mobcId = document.getElementById('prof-mobc-id')?.value;
+      const email = document.getElementById('prof-email')?.value;
+      const phone = document.getElementById('prof-phone')?.value;
+
+      const profileData = { name, branch, sec, roll, category, mobcId, email, phone };
+      localStorage.setItem('apertu_student_profile', JSON.stringify(profileData));
+
+      const status = document.getElementById('prof-save-status');
+      if (status) {
+        status.textContent = `✓ Details saved for ${name}!`;
+        status.classList.remove('hidden');
+        setTimeout(() => status.classList.add('hidden'), 3500);
+      }
+    }
+
+    function loadSavedProfile() {
+      const saved = localStorage.getItem('apertu_student_profile');
+      if (!saved) return;
+      try {
+        const p = JSON.parse(saved);
+        if (p.name && document.getElementById('prof-name')) document.getElementById('prof-name').value = p.name;
+        if (p.branch && document.getElementById('prof-branch')) document.getElementById('prof-branch').value = p.branch;
+        if (p.sec && document.getElementById('prof-sec')) document.getElementById('prof-sec').value = p.sec;
+        if (p.category && document.getElementById('prof-category')) document.getElementById('prof-category').value = p.category;
+        if (p.mobcId && document.getElementById('prof-mobc-id')) document.getElementById('prof-mobc-id').value = p.mobcId;
+        if (p.email && document.getElementById('prof-email')) document.getElementById('prof-email').value = p.email;
+        if (p.phone && document.getElementById('prof-phone')) document.getElementById('prof-phone').value = p.phone;
+      } catch (e) {}
+    }
+
+    function resetProfile() {
+      localStorage.removeItem('apertu_student_profile');
+      if (document.getElementById('prof-name')) document.getElementById('prof-name').value = 'Priyanshu Kushwaha';
+      if (document.getElementById('prof-branch')) document.getElementById('prof-branch').value = 'CSE Core';
+      if (document.getElementById('prof-sec')) document.getElementById('prof-sec').value = '1st Year • Section CSE 3';
+      if (document.getElementById('prof-roll')) document.getElementById('prof-roll').value = '6523402 (SISTec Cloud Portal ID)';
+      if (document.getElementById('prof-category')) document.getElementById('prof-category').value = 'OBC (Kushwaha / Other Backward Class)';
+      if (document.getElementById('prof-mobc-id')) document.getElementById('prof-mobc-id').value = 'MPT-2024-KUSH9755 (Active)';
+      if (document.getElementById('prof-email')) document.getElementById('prof-email').value = 'priyanshukushwaha292@gmail.com';
+      if (document.getElementById('prof-phone')) document.getElementById('prof-phone').value = '+91 9755755992';
+
+      const status = document.getElementById('prof-save-status');
+      if (status) {
+        status.textContent = '↺ Defaults restored!';
+        status.classList.remove('hidden');
+        setTimeout(() => status.classList.add('hidden'), 3500);
+      }
     }
 
     function closeModal() {
@@ -2629,7 +2824,7 @@
           <div style="font-family:'Plus Jakarta Sans',sans-serif; padding:4px;">
             <b style="font-size:14px; color:#18181b;">SISTec Gandhi Nagar Campus</b><br>
             <span style="font-size:11px; color:#64748b;">Central Academic Dome & Fleet Terminal</span><br>
-            <span style="display:inline-block; margin-top:4px; font-size:10px; background:#dcfce7; color:#166534; padding:2px 6px; border-radius:4px; font-weight:bold;">All 6 Fleet Routes Terminate Here</span>
+            <span style="display:inline-block; margin-top:4px; font-size:10px; background:#dcfce7; color:#166534; padding:2px 6px; border-radius:4px; font-weight:bold;">All 43 Fleet Routes Terminate Here</span>
           </div>
         `);
 
@@ -3189,6 +3384,31 @@
     }
 
     window.addEventListener('DOMContentLoaded', () => {
+      loadSavedProfile();
+
+      // Modal backdrop click-outside handlers
+      ['schedule-quickview-modal', 'modal-container', 'notes-reader-modal'].forEach(id => {
+        const modalEl = document.getElementById(id);
+        if (modalEl) {
+          modalEl.addEventListener('click', (e) => {
+            if (e.target === modalEl) {
+              if (id === 'schedule-quickview-modal') closeTodayScheduleQuickView();
+              if (id === 'modal-container') closeModal();
+              if (id === 'notes-reader-modal' && typeof closeNotesModal === 'function') closeNotesModal();
+            }
+          });
+        }
+      });
+
+      // Escape key listener for all modals
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          closeTodayScheduleQuickView();
+          closeModal();
+          if (typeof closeNotesModal === 'function') closeNotesModal();
+        }
+      });
+
       updateLiveClassStatus();
       setInterval(updateLiveClassStatus, 10000);
       selectBusLine(1);

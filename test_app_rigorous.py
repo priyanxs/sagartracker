@@ -158,8 +158,57 @@ async def run_tests():
         assert 'MP Taas MOBC Post-Matric Scholarship' in fees_text, "MOBC scholarship not in fees"
         print("✔ Verified MP Taas MOBC Scholarship credit in Fees Ledger")
 
+        # Test Classplus to Notes Modal integration
+        print("\n8. Testing Classplus Quiz 02 'View Syllabus' modal trigger...")
+        await page.click('#nav-btn-classplus')
+        await asyncio.sleep(0.3)
+        classplus_visible = await page.is_visible('#page-classplus')
+        assert classplus_visible, "page-classplus not visible"
+
+        # Click Quiz 02 View Syllabus
+        quiz_btn = page.locator('#page-classplus button[onclick*="openNotesModal"]').first
+        await quiz_btn.click()
+        await asyncio.sleep(0.3)
+        modal_visible = await page.is_visible('#notes-reader-modal')
+        assert modal_visible, "Modal did not open from Classplus!"
+        print("✔ Modal opened successfully from Classplus page")
+
+        # Test closing via Escape key
+        print("\n9. Testing Modal dismissal via Escape key...")
+        await page.keyboard.press('Escape')
+        await asyncio.sleep(0.3)
+        modal_hidden = not await page.is_visible('#notes-reader-modal')
+        assert modal_hidden, "Modal did not close on Escape key"
+        print("✔ Modal closed cleanly on Escape key press")
+
+        # Test Profile persistence with localStorage
+        print("\n10. Testing Profile persistence via localStorage...")
+        await page.evaluate("navigateTo('profile')")
+        await asyncio.sleep(0.3)
+        
+        # Change phone number temporarily
+        await page.fill('#prof-phone', '+91 9876543210')
+        await page.click('button[onclick="saveProfile()"]')
+        await asyncio.sleep(0.3)
+
+        # Reload page and verify persistence
+        await page.reload(wait_until='domcontentloaded')
+        await asyncio.sleep(0.5)
+        await page.evaluate("navigateTo('profile')")
+        await asyncio.sleep(0.3)
+        persisted_phone = await page.input_value('#prof-phone')
+        assert persisted_phone == '+91 9876543210', f"Persistence failed! Expected '+91 9876543210', got '{persisted_phone}'"
+        print("✔ Profile updates persist after page reload via localStorage")
+
+        # Reset profile back to original
+        await page.click('button[onclick="resetProfile()"]')
+        await asyncio.sleep(0.3)
+        reset_phone = await page.input_value('#prof-phone')
+        assert reset_phone == '+91 9755755992', f"Reset failed! Got {reset_phone}"
+        print("✔ Profile reset restored default student profile")
+
         # Check Console and Page Errors
-        print("\n8. Checking Errors...")
+        print("\n11. Checking Errors...")
         print(f"Console errors: {len(console_errors)}")
         print(f"Page errors: {len(page_errors)}")
         if console_errors:
@@ -170,6 +219,6 @@ async def run_tests():
         assert len(page_errors) == 0, f"Found {len(page_errors)} page errors"
 
         await browser.close()
-        print("\n🎉 ALL 8 RIGOROUS BROWSER & UI TEST SUITES PASSED FLAWLESSLY WITH 0 ERRORS!")
+        print("\n🎉 ALL 11 RIGOROUS BROWSER & UI TEST SUITES PASSED FLAWLESSLY WITH 0 ERRORS!")
 
 asyncio.run(run_tests())

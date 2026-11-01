@@ -95,10 +95,13 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
         return super().do_GET()
 
+class ThreadingTCPServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
+    daemon_threads = True
+    allow_reuse_address = True
+
 def run_server():
-    socketserver.TCPServer.allow_reuse_address = True
     try:
-        with socketserver.TCPServer(("", PORT), Handler) as httpd:
+        with ThreadingTCPServer(("", PORT), Handler) as httpd:
             print(f"""
 ========================================================================
 🚌 [CAMPUSMOVE TECHNOLOGIES — TRANSIT INTELLIGENCE PLATFORM]
@@ -113,7 +116,7 @@ Press Ctrl+C to stop the CampusMove server.
     except OSError as e:
         if "Address already in use" in str(e):
             print(f"Port {PORT} in use, trying 8080...")
-            with socketserver.TCPServer(("", 8080), Handler) as httpd:
+            with ThreadingTCPServer(("", 8080), Handler) as httpd:
                 print(f"Serving at http://localhost:8080")
                 httpd.serve_forever()
         else:
