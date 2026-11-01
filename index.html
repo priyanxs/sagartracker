@@ -901,6 +901,23 @@
 
       <!-- Filters & Search Toolbar -->
       <div class="bg-amber-100/60 border-2 border-stone-900 p-4 rounded-2xl shadow-[4px_4px_0px_#18181b] space-y-3">
+        <!-- SISTec Branch / Stream Selector Tabs -->
+        <div class="flex items-center gap-1.5 overflow-x-auto no-scrollbar pb-2 border-b border-stone-300">
+          <span class="text-xs font-mono font-bold text-stone-700 mr-1 uppercase flex items-center gap-1 shrink-0">
+            <span>🏛️ SISTec Stream:</span>
+          </span>
+          <button onclick="switchNotesBranch('all')" id="notes-branch-all" class="notes-branch-btn active tactile-btn bg-stone-900 text-white text-xs font-bold px-3 py-1 rounded-lg shrink-0">All Streams</button>
+          <button onclick="switchNotesBranch('CSE')" id="notes-branch-CSE" class="notes-branch-btn tactile-btn bg-white text-stone-900 text-xs font-bold px-3 py-1 rounded-lg shrink-0">CSE (Core)</button>
+          <button onclick="switchNotesBranch('AI-DS')" id="notes-branch-AI-DS" class="notes-branch-btn tactile-btn bg-white text-stone-900 text-xs font-bold px-3 py-1 rounded-lg shrink-0">AI & DS</button>
+          <button onclick="switchNotesBranch('AI-ML')" id="notes-branch-AI-ML" class="notes-branch-btn tactile-btn bg-white text-stone-900 text-xs font-bold px-3 py-1 rounded-lg shrink-0">AI & ML</button>
+          <button onclick="switchNotesBranch('CSIT')" id="notes-branch-CSIT" class="notes-branch-btn tactile-btn bg-white text-stone-900 text-xs font-bold px-3 py-1 rounded-lg shrink-0">CS & IT</button>
+          <button onclick="switchNotesBranch('IOT')" id="notes-branch-IOT" class="notes-branch-btn tactile-btn bg-white text-stone-900 text-xs font-bold px-3 py-1 rounded-lg shrink-0">IoT & Cyber</button>
+          <button onclick="switchNotesBranch('ECE')" id="notes-branch-ECE" class="notes-branch-btn tactile-btn bg-white text-stone-900 text-xs font-bold px-3 py-1 rounded-lg shrink-0">ECE</button>
+          <button onclick="switchNotesBranch('ME')" id="notes-branch-ME" class="notes-branch-btn tactile-btn bg-white text-stone-900 text-xs font-bold px-3 py-1 rounded-lg shrink-0">Mechanical (ME)</button>
+          <button onclick="switchNotesBranch('CE')" id="notes-branch-CE" class="notes-branch-btn tactile-btn bg-white text-stone-900 text-xs font-bold px-3 py-1 rounded-lg shrink-0">Civil (CE)</button>
+          <button onclick="switchNotesBranch('EE')" id="notes-branch-EE" class="notes-branch-btn tactile-btn bg-white text-stone-900 text-xs font-bold px-3 py-1 rounded-lg shrink-0">Electrical (EE/EEE)</button>
+        </div>
+
         <!-- Year Tabs -->
         <div class="flex flex-wrap items-center justify-between gap-3">
           <div class="flex items-center gap-1.5 overflow-x-auto no-scrollbar pb-1">

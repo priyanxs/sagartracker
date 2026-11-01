@@ -101,12 +101,20 @@ It merges all essential college utilities into a single, unified interface:
 
 ---
 
-### 4.5. 📚 RGPV B.Tech Semester Notes & Exam Vault (1st to 4th Year)
-- **Comprehensive 4-Year B.Tech CSE Coverage**: 14+ core RGPV subjects spanning Semesters 1 through 8.
+### 4.5. 📚 RGPV B.Tech Multi-Stream Notes & Exam Vault (All SISTec Gandhi Nagar Streams)
+- **All SISTec Gandhi Nagar Streams Supported**:
+  - **CSE (Core)** • **AI & Data Science (AI & DS)** • **AI & Machine Learning (AI & ML)**
+  - **CSIT (CS & Information Technology)** • **IoT & Cyber Security**
+  - **ECE (Electronics & Communication)** • **Mechanical Engineering (ME)**
+  - **Civil Engineering (CE)** • **Electrical Engineering (EE / EEE)**
+- **Interactive Stream & Branch Filter**: Switch between streams in 1 click or filter by Year (1st–4th Yr) and Semester (Sem 1–8).
 - **High-Yield 5-Unit Cheat Sheets**: Condensed formula sheets, principles, and critical exam definitions.
+- **Architectural Vector SVG Flowcharts**: High-resolution diagrams (Radix-2 FFT, Otto Cycle, Stress-Strain curve, 5-State Process model, Second-order transient response).
 - **7-Mark & 14-Mark University Model Q&A**: Frequent RGPV theory exam questions solved with derivations, diagrams, and bullet points.
 - **Previous 5 Years PYQ Question Bank (2020–2024)**: Tagged with exam sessions (Dec 2024, June 2024, Dec 2023).
-- **1-Click 2–3 Page PDF Generator**: Formatted with Apertu website branding, logo, watermark, and `@media print` layout.
+- **Apertu-Themed A4 PDF Generator**: Aesthetic lined-notebook layout, yellow washi tape, Silkscreen pixel typography, and `@media print` ready.
+
+![SISTec Stream Selector](docs/screenshots/sistec_stream_selector.png)
 
 ![RGPV Notes Vault](docs/screenshots/rgpv_notes_vault.png)
 

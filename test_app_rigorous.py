@@ -39,8 +39,37 @@ async def run_tests():
         print(f"✔ Rendered {len(cards)} subject cards on All Years")
         assert len(cards) >= 10, f"Expected at least 10 cards, got {len(cards)}"
 
+        # Test Branch / Stream Filters (SISTec Gandhi Nagar)
+        print("\n3. Testing SISTec Stream Filters...")
+        await page.click('#notes-branch-ECE')
+        await asyncio.sleep(0.2)
+        ece_cards = await page.query_selector_all('#notes-grid-container > div')
+        print(f"✔ ECE stream cards: {len(ece_cards)}")
+        assert len(ece_cards) >= 6, "ECE stream cards too few"
+
+        await page.click('#notes-branch-ME')
+        await asyncio.sleep(0.2)
+        me_cards = await page.query_selector_all('#notes-grid-container > div')
+        print(f"✔ Mechanical stream cards: {len(me_cards)}")
+        assert len(me_cards) >= 6, "Mechanical stream cards too few"
+
+        await page.click('#notes-branch-CE')
+        await asyncio.sleep(0.2)
+        ce_cards = await page.query_selector_all('#notes-grid-container > div')
+        print(f"✔ Civil stream cards: {len(ce_cards)}")
+        assert len(ce_cards) >= 6, "Civil stream cards too few"
+
+        await page.click('#notes-branch-EE')
+        await asyncio.sleep(0.2)
+        ee_cards = await page.query_selector_all('#notes-grid-container > div')
+        print(f"✔ Electrical stream cards: {len(ee_cards)}")
+        assert len(ee_cards) >= 6, "Electrical stream cards too few"
+
+        await page.click('#notes-branch-all')
+        await asyncio.sleep(0.2)
+
         # Test Year Filters
-        print("\n3. Testing Year Filters...")
+        print("\n3.5. Testing Year Filters...")
         await page.click('#notes-year-1')
         await asyncio.sleep(0.2)
         y1_cards = await page.query_selector_all('#notes-grid-container > div')

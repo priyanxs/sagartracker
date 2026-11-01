@@ -54,6 +54,18 @@
         "year": "Dec 2022",
         "q": "Apply Gibbs Phase Rule to single-component water system and explain triple point."
       }
+    ],
+    "branches": [
+      "ALL",
+      "CSE",
+      "AI-DS",
+      "AI-ML",
+      "CSIT",
+      "IOT",
+      "ECE",
+      "ME",
+      "CE",
+      "EE"
     ]
   },
   {
@@ -113,6 +125,18 @@
         "year": "Dec 2022",
         "q": "Evaluate \u222b_0^1 x^4 (1 - \u221ax)^5 dx using Beta and Gamma functions."
       }
+    ],
+    "branches": [
+      "ALL",
+      "CSE",
+      "AI-DS",
+      "AI-ML",
+      "CSIT",
+      "IOT",
+      "ECE",
+      "ME",
+      "CE",
+      "EE"
     ]
   },
   {
@@ -172,6 +196,18 @@
         "year": "Dec 2022",
         "q": "Explain open-circuit (OC) and short-circuit (SC) tests on a transformer to determine equivalent circuit parameters."
       }
+    ],
+    "branches": [
+      "ALL",
+      "CSE",
+      "AI-DS",
+      "AI-ML",
+      "CSIT",
+      "IOT",
+      "ECE",
+      "ME",
+      "CE",
+      "EE"
     ]
   },
   {
@@ -229,6 +265,18 @@
         "year": "Dec 2022",
         "q": "Explain file handling in C with fopen, fclose, fread, fwrite, fseek, and ftell."
       }
+    ],
+    "branches": [
+      "ALL",
+      "CSE",
+      "AI-DS",
+      "AI-ML",
+      "CSIT",
+      "IOT",
+      "ECE",
+      "ME",
+      "CE",
+      "EE"
     ]
   },
   {
@@ -275,6 +323,18 @@
         "year": "Dec 2023",
         "q": "Explain Meissner Effect and differentiate between Type-I and Type-II superconductors."
       }
+    ],
+    "branches": [
+      "ALL",
+      "CSE",
+      "AI-DS",
+      "AI-ML",
+      "CSIT",
+      "IOT",
+      "ECE",
+      "ME",
+      "CE",
+      "EE"
     ]
   },
   {
@@ -341,6 +401,13 @@
         "year": "Dec 2022",
         "q": "State Pigeonhole Principle. Show that among 13 people, at least two were born in the same month."
       }
+    ],
+    "branches": [
+      "CSE",
+      "AI-DS",
+      "AI-ML",
+      "CSIT",
+      "IOT"
     ]
   },
   {
@@ -399,6 +466,151 @@
         "year": "Dec 2022",
         "q": "Construct a binary tree from Inorder: D B E A F C and Preorder: A B D E C F."
       }
+    ],
+    "branches": [
+      "CSE",
+      "AI-DS",
+      "AI-ML",
+      "CSIT",
+      "IOT"
+    ]
+  },
+  {
+    "code": "ME-302",
+    "title": "Thermodynamics",
+    "year": 2,
+    "sem": 3,
+    "credits": 4,
+    "branch": "Mechanical",
+    "branches": [
+      "ME"
+    ],
+    "roadmap": {
+      "strategy": "First and Second Laws of Thermodynamics and air-standard cycles (Otto, Diesel, Dual) are compulsory numerical and derivation questions.",
+      "pass_target": "Unit 2 (First Law for Closed/Open Systems & SFEE) + Unit 4 (Air Standard Otto & Diesel Cycles) guarantee 35+ marks.",
+      "top_scorer_tip": "Draw neat P-v and T-s diagrams for Otto and Diesel cycles. Show all 4 processes clearly with direction arrows.",
+      "blueprint": "Q1 Zeroth Law & Temperature Scales (7M), Q2 First Law for Non-Flow & Steady Flow SFEE (7M), Q3 Second Law: Kelvin-Planck vs Clausius (7M), Q4 Carnot Cycle & Carnot Theorem (7M), Q5 Entropy Principle & Clausius Inequality (7M), Q6 Air Standard Otto Cycle Thermal Efficiency (7M), Q7 Diesel Cycle Derivation & Cutoff Ratio (7M), Q8 Pure Substances & Steam Tables / Mollier Chart (7M)."
+    },
+    "repeated_topics": [
+      "Air Standard Otto Cycle thermal efficiency derivation in terms of compression ratio (r)",
+      "Steady Flow Energy Equation (SFEE) derivation and application to Nozzle, Turbine, Compressor",
+      "Second Law of Thermodynamics: Equivalence of Kelvin-Planck and Clausius statements"
+    ],
+    "units": [
+      "Unit I: Fundamental Concepts & Zeroth Law (Microscopic vs macroscopic, Thermodynamic systems Closed/Open/Isolated, Properties Extensive/Intensive, Equilibrium, Quasi-static process, Zeroth Law)",
+      "Unit II: First Law of Thermodynamics (Work and heat transfer, First law for closed systems undergoing a cycle and process, Internal energy, Enthalpy, Steady Flow Energy Equation SFEE)",
+      "Unit III: Second Law of Thermodynamics & Entropy (Heat engines, Heat pumps, Refrigerators, Kelvin-Planck and Clausius statements, Carnot cycle and theorem, Clausius Inequality, Principle of entropy increase)",
+      "Unit IV: Air Standard Cycles (Assumptions, Otto cycle, Diesel cycle, Dual combustion cycle, Thermal efficiency and Mean Effective Pressure MEP, Comparison for same compression ratio)",
+      "Unit V: Pure Substances & Properties of Steam (P-v-T surfaces, Phase changes, Dryness fraction, Latent heat, Mollier diagram, Rankine cycle basics)"
+    ],
+    "formulas": [
+      "Steady Flow Energy Equation (SFEE): h\u2081 + (V\u2081\u00b2/2000) + (g\u00b7z\u2081/1000) + q = h\u2082 + (V\u2082\u00b2/2000) + (g\u00b7z\u2082/1000) + w",
+      "Carnot Engine Efficiency: \u03b7_Carnot = 1 - (T_L / T_H)",
+      "Otto Cycle Thermal Efficiency: \u03b7_Otto = 1 - (1 / r^(\u03b3 - 1)) where r = V\u2081/V\u2082",
+      "Diesel Cycle Thermal Efficiency: \u03b7_Diesel = 1 - (1 / r^(\u03b3 - 1)) \u00b7 [ (r_c^\u03b3 - 1) / (\u03b3 \u00b7 (r_c - 1)) ]",
+      "Clausius Inequality: \u222e (dQ / T) \u2264 0 (holds = 0 for reversible, < 0 for irreversible)"
+    ],
+    "diagram_svg": "<svg viewBox=\"0 0 520 200\" xmlns=\"http://www.w3.org/2000/svg\" class=\"w-full max-w-lg mx-auto my-3 border border-stone-800 rounded-lg bg-stone-50 p-2\">\n  <rect x=\"20\" y=\"20\" width=\"480\" height=\"160\" rx=\"8\" fill=\"#fff7ed\" stroke=\"#c2410c\" stroke-width=\"2\"/>\n  <text x=\"260\" y=\"42\" font-family=\"monospace\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#9a3412\">AIR STANDARD OTTO CYCLE (P-V &amp; T-S DIAGRAMS)</text>\n  <!-- P-v Diagram -->\n  <line x1=\"50\" y1=\"150\" x2=\"230\" y2=\"150\" stroke=\"#18181b\" stroke-width=\"2\"/>\n  <text x=\"220\" y=\"165\" font-family=\"sans-serif\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#18181b\">Volume (V)</text>\n  <line x1=\"50\" y1=\"150\" x2=\"50\" y2=\"55\" stroke=\"#18181b\" stroke-width=\"2\"/>\n  <text x=\"35\" y=\"65\" font-family=\"sans-serif\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#18181b\">Pressure (P)</text>\n  <!-- Otto Cycle Path -->\n  <path d=\"M 190 140 Q 120 120 100 95 L 100 65 Q 150 110 190 120 Z\" fill=\"#ffedd5\" stroke=\"#ea580c\" stroke-width=\"2\"/>\n  <circle cx=\"190\" cy=\"140\" r=\"3\" fill=\"#c2410c\"/>\n  <text x=\"200\" y=\"145\" font-family=\"monospace\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#c2410c\">1</text>\n  <circle cx=\"100\" cy=\"95\" r=\"3\" fill=\"#c2410c\"/>\n  <text x=\"85\" y=\"100\" font-family=\"monospace\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#c2410c\">2</text>\n  <circle cx=\"100\" cy=\"65\" r=\"3\" fill=\"#c2410c\"/>\n  <text x=\"85\" y=\"65\" font-family=\"monospace\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#c2410c\">3 (Q_in)</text>\n  <circle cx=\"190\" cy=\"120\" r=\"3\" fill=\"#c2410c\"/>\n  <text x=\"200\" y=\"125\" font-family=\"monospace\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#c2410c\">4 (Q_out)</text>\n  <!-- Right Box (Efficiency) -->\n  <rect x=\"270\" y=\"60\" width=\"210\" height=\"95\" rx=\"5\" fill=\"#ffffff\" stroke=\"#94a3b8\"/>\n  <text x=\"375\" y=\"78\" font-family=\"sans-serif\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#0f172a\">Otto Cycle 4 Processes</text>\n  <text x=\"280\" y=\"96\" font-family=\"monospace\" font-size=\"8\" fill=\"#9a3412\">1-2: Reversible Adiabatic Compression</text>\n  <text x=\"280\" y=\"112\" font-family=\"monospace\" font-size=\"8\" fill=\"#9a3412\">2-3: Constant Volume Heat Addition (Q_in)</text>\n  <text x=\"280\" y=\"128\" font-family=\"monospace\" font-size=\"8\" fill=\"#9a3412\">3-4: Reversible Adiabatic Expansion (Work)</text>\n  <text x=\"280\" y=\"144\" font-family=\"monospace\" font-size=\"8\" fill=\"#9a3412\">4-1: Constant Volume Heat Rejection (Q_out)</text>\n  <text x=\"260\" y=\"172\" font-family=\"monospace\" font-size=\"9\" text-anchor=\"middle\" fill=\"#9a3412\">Thermal Efficiency: \u03b7 = 1 - [1 / r^(\u03b3 - 1)] where r = V\u2081 / V\u2082</text>\n</svg>",
+    "qa": [
+      {
+        "q": "Derive the expression for the Air-Standard Thermal Efficiency of an Otto Cycle in terms of compression ratio (r). [7 Marks]",
+        "a": "<b>1. The Four Processes:</b><br>\u2022 Process 1-2: Isentropic (reversible adiabatic) compression (PV^\u03b3 = C).<br>\u2022 Process 2-3: Constant volume heat addition (Q_in = m c_v (T\u2083 - T\u2082)).<br>\u2022 Process 3-4: Isentropic expansion (Work output, PV^\u03b3 = C).<br>\u2022 Process 4-1: Constant volume heat rejection (Q_out = m c_v (T\u2084 - T\u2081)).<br><b>2. Thermal Efficiency Derivation:</b><br><code>\u03b7 = Work Done / Heat Supplied = (Q_in - Q_out) / Q_in = 1 - (Q_out / Q_in)</code>.<br>Substitute heat expressions:<br><code>\u03b7 = 1 - [m c_v (T\u2084 - T\u2081) / (m c_v (T\u2083 - T\u2082))] = 1 - [(T\u2084 - T\u2081) / (T\u2083 - T\u2082)]</code>.<br>From isentropic relations:<br><code>T\u2082 / T\u2081 = (V\u2081 / V\u2082)^(\u03b3 - 1) = r^(\u03b3 - 1)</code> and <code>T\u2083 / T\u2084 = (V\u2084 / V\u2083)^(\u03b3 - 1) = r^(\u03b3 - 1)</code>.<br>Since V\u2084 = V\u2081 and V\u2083 = V\u2082, we have:<br><code>T\u2082 / T\u2081 = T\u2083 / T\u2084 \u21d2 T\u2083 / T\u2082 = T\u2084 / T\u2081</code>.<br>Rearranging gives: <code>(T\u2084 - T\u2081) / (T\u2083 - T\u2082) = T\u2081 / T\u2082 = 1 / r^(\u03b3 - 1)</code>.<br><b>Final Expression:</b> <code>\u03b7_Otto = 1 - (1 / r^(\u03b3 - 1))</code>."
+      },
+      {
+        "q": "State the Kelvin-Planck and Clausius statements of Second Law of Thermodynamics. Prove their equivalence. [7 Marks]",
+        "a": "<b>1. Kelvin-Planck Statement:</b> It is impossible for any device operating on a thermodynamic cycle to receive heat from a single thermal reservoir and produce an equivalent net amount of work.<br><b>2. Clausius Statement:</b> It is impossible to construct a device operating in a cycle that produces no effect other than the transfer of heat from a lower-temperature body to a higher-temperature body.<br><b>3. Proof of Equivalence:</b><br>\u2022 <i>Violation of Clausius violates Kelvin-Planck:</i> Assume a refrigerator transfers heat Q\u2082 from cold reservoir T\u2082 to hot reservoir T\u2081 with zero work input. Couple this with a heat engine operating between T\u2081 and T\u2082 receiving Q\u2081 and doing work W = Q\u2081 - Q\u2082 while rejecting Q\u2082 to T\u2082. The combined system receives net heat (Q\u2081 - Q\u2082) from a single reservoir T\u2081 and converts all of it into work W with no heat rejected to cold reservoir. This violates Kelvin-Planck.<br>\u2022 Hence, a violation of either statement leads directly to the violation of the other."
+      }
+    ],
+    "pyq": [
+      {
+        "year": "Dec 2024",
+        "q": "Air at 1 bar and 300 K is compressed in an Otto cycle engine with compression ratio r = 8. If maximum temperature is 1800 K, calculate cycle efficiency and work done per kg."
+      },
+      {
+        "year": "June 2024",
+        "q": "Apply the Steady Flow Energy Equation (SFEE) to a Steam Turbine and derive expression for power output."
+      },
+      {
+        "year": "Dec 2023",
+        "q": "Explain Clausius Inequality and prove that entropy of an isolated system always increases or remains constant."
+      },
+      {
+        "year": "June 2023",
+        "q": "Compare Otto, Diesel, and Dual cycles for: (a) Same compression ratio and heat input, (b) Same maximum pressure and temperature."
+      },
+      {
+        "year": "Dec 2022",
+        "q": "Draw Mollier Diagram (h-s chart) for steam and explain throttling calorimeter for dryness fraction measurement."
+      }
+    ]
+  },
+  {
+    "code": "CE-402",
+    "title": "Structural Analysis",
+    "year": 2,
+    "sem": 4,
+    "credits": 4,
+    "branch": "Civil",
+    "branches": [
+      "CE"
+    ],
+    "roadmap": {
+      "strategy": "Moment Distribution Method (Hardy Cross) and Slope Deflection equations for indeterminate continuous beams are compulsory numericals.",
+      "pass_target": "Unit 2 (Slope Deflection Method) + Unit 3 (Moment Distribution Method) guarantee 35+ marks.",
+      "top_scorer_tip": "In Moment Distribution Method, construct distribution factor (DF) table at joints: DF = k / \u2211k. Always check that sum of distribution factors at a rigid joint equals 1.0.",
+      "blueprint": "Q1 Determinacy & Indeterminacy Static/Kinematic (7M), Q2 Strain Energy & Castigliano's Theorems (7M), Q3 Deflection of Beams: Conjugate Beam Method (7M), Q4 Slope Deflection Method on Continuous Beam (7M), Q5 Moment Distribution Method Hardy Cross (7M), Q6 Influence Line Diagrams ILD for Beams & Trusses (7M), Q7 Two-Hinged and Three-Hinged Arches (7M), Q8 Column Buckling Euler's Formula & Rankine (7M)."
+    },
+    "repeated_topics": [
+      "Moment Distribution Method for continuous beam with sinking of supports",
+      "Slope Deflection Equations derivation and application to indeterminate portal frames",
+      "Castigliano's First and Second Theorem statements and beam deflection calculation"
+    ],
+    "units": [
+      "Unit I: Energy Principles & Indeterminacy (Static and kinematic indeterminacy, Virtual work principle, Betti's and Maxwell's reciprocal theorems, Castigliano's theorems, Deflection of beams and frames)",
+      "Unit II: Slope Deflection Method (Slope deflection equations development, Analysis of continuous beams with and without support settlement, Analysis of portal frames with and without sway)",
+      "Unit III: Moment Distribution Method (Stiffness factor, Carry-over factor, Distribution factor DF, Analysis of continuous beams and single-bay single-storey frames)",
+      "Unit IV: Arches & Cables (Three-hinged parabolic and circular arches, Normal thrust and radial shear, Two-hinged arches, Cable suspension bridges with three-hinged stiffening girder)",
+      "Unit V: Moving Loads & Influence Line Diagrams (ILD for reaction, shear force, and bending moment in simply supported beams, M\u00fcller-Breslau Principle for indeterminate structures)"
+    ],
+    "formulas": [
+      "Static Indeterminacy of 2D Frame: D_s = 3m + r - 3j",
+      "Kinematic Indeterminacy of Beam: D_k = 2j - r",
+      "Slope Deflection Equation: M_AB = M_FAB + (2EI/L) \u00b7 [2\u03b8_A + \u03b8_B - 3\u03b4/L]",
+      "Stiffness Factor (Far End Fixed): k = 4EI / L; (Far End Hinged): k = 3EI / L",
+      "Castigliano's Deflection Theorem: \u03b4 = \u2202U / \u2202P"
+    ],
+    "diagram_svg": "<svg viewBox=\"0 0 520 200\" xmlns=\"http://www.w3.org/2000/svg\" class=\"w-full max-w-lg mx-auto my-3 border border-stone-800 rounded-lg bg-stone-50 p-2\">\n  <rect x=\"20\" y=\"20\" width=\"480\" height=\"160\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/>\n  <text x=\"260\" y=\"42\" font-family=\"monospace\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#0f172a\">CONTINUOUS BEAM MOMENT DISTRIBUTION METHOD (HARDY CROSS)</text>\n  <!-- Beam Line -->\n  <line x1=\"60\" y1=\"95\" x2=\"440\" y2=\"95\" stroke=\"#18181b\" stroke-width=\"4\"/>\n  <!-- Supports A, B, C -->\n  <polygon points=\"60,97 50,120 70,120\" fill=\"#64748b\"/>\n  <text x=\"60\" y=\"135\" font-family=\"monospace\" font-size=\"9\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#0f172a\">A (Fixed)</text>\n  <polygon points=\"250,97 240,120 260,120\" fill=\"#64748b\"/>\n  <text x=\"250\" y=\"135\" font-family=\"monospace\" font-size=\"9\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#0f172a\">B (Continuous Joint)</text>\n  <polygon points=\"440,97 430,120 450,120\" fill=\"#64748b\"/>\n  <text x=\"440\" y=\"135\" font-family=\"monospace\" font-size=\"9\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#0f172a\">C (Roller)</text>\n  <!-- Loads -->\n  <line x1=\"155\" y1=\"60\" x2=\"155\" y2=\"90\" stroke=\"#dc2626\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/>\n  <text x=\"155\" y=\"55\" font-family=\"monospace\" font-size=\"8.5\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#dc2626\">W\u2081</text>\n  <path d=\"M 260 85 Q 295 70 330 85 Q 365 70 400 85\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/>\n  <text x=\"350\" y=\"65\" font-family=\"monospace\" font-size=\"8.5\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#2563eb\">UDL (w)</text>\n  <!-- Table Label -->\n  <rect x=\"70\" y=\"145\" width=\"370\" height=\"25\" rx=\"3\" fill=\"#fef08a\" stroke=\"#ca8a04\"/>\n  <text x=\"255\" y=\"161\" font-family=\"monospace\" font-size=\"8.5\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#713f12\">Joint B: DF_BA = k_BA / (k_BA + k_BC) | Carry Over Factor COF = 1/2</text>\n</svg>",
+    "qa": [
+      {
+        "q": "Explain Moment Distribution Method (Hardy Cross). State expressions for Stiffness Factor, Carry Over Factor, and Distribution Factor. [7 Marks]",
+        "a": "<b>1. Principle:</b> An iterative structural analysis method where all joints are initially locked to determine Fixed End Moments (FEMs). Joints are then unlocked sequentially, releasing the out-of-balance moment, distributing it among connected members according to stiffness, and carrying over half to the far ends until convergence.<br><b>2. Key Factors:</b><br>\u2022 <b>Rotational Stiffness (k):</b> Moment required to rotate near end by unit radian.<br>  - Far end fixed: <code>k = 4EI / L</code><br>  - Far end hinged/roller: <code>k = 3EI / L</code>.<br>\u2022 <b>Carry Over Factor (COF):</b> Ratio of moment induced at far end to applied moment at near end. For constant prismatic beam with fixed far end, <code>COF = +1/2</code> (zero for hinged far end).<br>\u2022 <b>Distribution Factor (DF):</b> Fraction of total unbalanced moment absorbed by member i at rigid joint J:<br><code>DF_i = k_i / \u2211 k</code>, where \u2211 DF at any joint must equal 1.0."
+      },
+      {
+        "q": "State and prove Castigliano's Second Theorem. Find vertical deflection at free end of a cantilever beam carrying end point load W. [7 Marks]",
+        "a": "<b>1. Statement:</b> In any linear elastic structure subjected to external loads, the partial derivative of total strain energy U with respect to an external force P_i equals the deflection \u03b4_i in the direction of that force:<br><code>\u03b4_i = \u2202U / \u2202P_i</code>.<br><b>2. Application to Cantilever with End Load W (Length L):</b><br>\u2022 Bending moment at distance x from free end: <code>M(x) = W \u00b7 x</code>.<br>\u2022 Total strain energy due to bending:<br><code>U = \u222b\u2080\u1d38 [M(x)\u00b2 / (2EI)] dx = \u222b\u2080\u1d38 [(W\u00b2 x\u00b2) / (2EI)] dx = (W\u00b2 / 2EI) \u00b7 [x\u00b3 / 3]\u2080\u1d38 = (W\u00b2 L\u00b3) / (6EI)</code>.<br>\u2022 By Castigliano's Theorem, vertical deflection \u03b4 at free end is:<br><code>\u03b4 = \u2202U / \u2202W = \u2202/\u2202W [ (W\u00b2 L\u00b3) / (6EI) ] = (2W L\u00b3) / (6EI) = (W L\u00b3) / (3EI)</code>. (Standard result verified)."
+      }
+    ],
+    "pyq": [
+      {
+        "year": "Dec 2024",
+        "q": "Analyze a continuous beam ABC fixed at A, supported at B and C, loaded with 40 kN at center of AB and 20 kN/m on BC using Slope Deflection Method."
+      },
+      {
+        "year": "June 2024",
+        "q": "Draw influence line diagrams for bending moment and shear force at quarter-span of a 20m simply supported girder."
+      },
+      {
+        "year": "Dec 2023",
+        "q": "Analyze a three-hinged parabolic arch of span 30m and central rise 6m carrying a point load of 50 kN at 10m from left hinge."
+      },
+      {
+        "year": "June 2023",
+        "q": "State M\u00fcller-Breslau Principle and draw qualitative ILD for reaction at intermediate support of a two-span continuous beam."
+      },
+      {
+        "year": "Dec 2022",
+        "q": "Determine static and kinematic indeterminacy for a 3-bay 2-storey rigid portal frame."
+      }
     ]
   },
   {
@@ -444,6 +656,13 @@
         "year": "Dec 2023",
         "q": "Solve 4-Queens problem using Backtracking state-space tree."
       }
+    ],
+    "branches": [
+      "CSE",
+      "AI-DS",
+      "AI-ML",
+      "CSIT",
+      "IOT"
     ]
   },
   {
@@ -502,6 +721,83 @@
         "year": "Dec 2022",
         "q": "Calculate page faults for reference string using FIFO, LRU, and Optimal algorithms with 3 frames."
       }
+    ],
+    "branches": [
+      "CSE",
+      "AI-DS",
+      "AI-ML",
+      "CSIT",
+      "IOT"
+    ]
+  },
+  {
+    "code": "EC-404",
+    "title": "Digital Signal Processing (DSP)",
+    "year": 2,
+    "sem": 4,
+    "credits": 4,
+    "branch": "ECE",
+    "branches": [
+      "ECE",
+      "EE"
+    ],
+    "roadmap": {
+      "strategy": "FFT algorithm butterflies (Radix-2 DIT and DIF) and IIR/FIR filter design (Butterworth & Chebyshev) are 100% predictable numerical questions.",
+      "pass_target": "Unit 2 (DFT & Radix-2 FFT Butterflies) + Unit 3 (IIR Filter Design via Bilinear Transformation) guarantee 35+ marks.",
+      "top_scorer_tip": "Draw the 8-point Radix-2 DIT-FFT butterfly signal flow graph with twiddle factors W_N^k clearly labeled on signal arrows.",
+      "blueprint": "Q1 Discrete Time Signals & Z-Transforms (7M), Q2 DFT Properties & Circular Convolution (7M), Q3 8-Point Radix-2 FFT DIT/DIF (7M), Q4 IIR Butterworth Filter Design (7M), Q5 Bilinear Transformation & Impulse Invariance (7M), Q6 FIR Filter Design using Windows (Hamming/Hanning) (7M), Q7 Multi-rate DSP: Decimation & Interpolation (7M), Q8 Finite Word Length Effects (7M)."
+    },
+    "repeated_topics": [
+      "8-Point Radix-2 Decimation-in-Time (DIT) FFT butterfly computation",
+      "IIR Butterworth low-pass filter design using Bilinear Transformation method",
+      "FIR filter design using Hamming and Rectangular windowing techniques"
+    ],
+    "units": [
+      "Unit I: Discrete-Time Signals & Z-Transforms (LTI systems, Convolution sum, ROC of Z-transform, Inverse Z-transform, System function H(z))",
+      "Unit II: Discrete Fourier Transform (DFT properties, Linear vs Circular convolution, Fast Fourier Transform FFT, Radix-2 DIT and DIF algorithms)",
+      "Unit III: IIR Filter Design (Analog filter approximations Butterworth/Chebyshev, Impulse Invariance Method, Bilinear Transformation, Warping effect)",
+      "Unit IV: FIR Filter Design (Linear phase FIR filters, Windowing techniques Rectangular/Hamming/Hanning/Blackman, Frequency sampling design)",
+      "Unit V: Multi-rate Signal Processing (Decimation, Interpolation, Sampling rate conversion, Applications in audio/speech processing, DSP processor architecture)"
+    ],
+    "formulas": [
+      "DFT Definition: X[k] = \u2211_{n=0}^{N-1} x[n] \u00b7 W_N^{kn} where W_N = e^{-j 2\u03c0 / N}",
+      "Radix-2 FFT Computational Advantage: (N/2) log\u2082 N vs N\u00b2 complex multiplications",
+      "Bilinear Transformation: s = (2/T) \u00b7 [(1 - z\u207b\u00b9) / (1 + z\u207b\u00b9)]",
+      "Frequency Warping Formula: \u03a9 = (2/T) \u00b7 tan(\u03c9 / 2)",
+      "Hamming Window: w[n] = 0.54 - 0.46 cos(2\u03c0n / (M - 1))"
+    ],
+    "diagram_svg": "<svg viewBox=\"0 0 520 200\" xmlns=\"http://www.w3.org/2000/svg\" class=\"w-full max-w-lg mx-auto my-3 border border-stone-800 rounded-lg bg-stone-50 p-2\">\n  <rect x=\"20\" y=\"20\" width=\"480\" height=\"160\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"2\"/>\n  <text x=\"260\" y=\"42\" font-family=\"monospace\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#1e40af\">RADIX-2 DECIMATION-IN-TIME (DIT) FFT BUTTERFLY CORE</text>\n  <!-- Node A -->\n  <text x=\"50\" y=\"85\" font-family=\"monospace\" font-size=\"10\" font-weight=\"bold\" fill=\"#1e3a8a\">x[0]</text>\n  <line x1=\"80\" y1=\"80\" x2=\"380\" y2=\"80\" stroke=\"#1d4ed8\" stroke-width=\"2\"/>\n  <circle cx=\"80\" cy=\"80\" r=\"4\" fill=\"#1d4ed8\"/>\n  <circle cx=\"380\" cy=\"80\" r=\"5\" fill=\"#15803d\"/>\n  <text x=\"400\" y=\"85\" font-family=\"monospace\" font-size=\"10\" font-weight=\"bold\" fill=\"#15803d\">X[0] = x[0] + W_N^k \u00b7 x[1]</text>\n  <!-- Node B -->\n  <text x=\"50\" y=\"145\" font-family=\"monospace\" font-size=\"10\" font-weight=\"bold\" fill=\"#1e3a8a\">x[1]</text>\n  <line x1=\"80\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#1d4ed8\" stroke-width=\"2\"/>\n  <circle cx=\"80\" cy=\"140\" r=\"4\" fill=\"#1d4ed8\"/>\n  <circle cx=\"380\" cy=\"140\" r=\"5\" fill=\"#15803d\"/>\n  <text x=\"400\" y=\"145\" font-family=\"monospace\" font-size=\"10\" font-weight=\"bold\" fill=\"#15803d\">X[1] = x[0] - W_N^k \u00b7 x[1]</text>\n  <!-- Crossing Butterfly Lines -->\n  <line x1=\"160\" y1=\"80\" x2=\"300\" y2=\"140\" stroke=\"#dc2626\" stroke-width=\"2\"/>\n  <line x1=\"160\" y1=\"140\" x2=\"300\" y2=\"80\" stroke=\"#16a34a\" stroke-width=\"2\"/>\n  <!-- Twiddle Factor Bubble -->\n  <rect x=\"180\" y=\"125\" width=\"55\" height=\"20\" rx=\"3\" fill=\"#fef08a\" stroke=\"#ca8a04\"/>\n  <text x=\"207\" y=\"139\" font-family=\"monospace\" font-size=\"8.5\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#713f12\">W_N^k</text>\n  <!-- Minus 1 label -->\n  <text x=\"280\" y=\"152\" font-family=\"monospace\" font-size=\"10\" font-weight=\"bold\" fill=\"#dc2626\">-1</text>\n  <text x=\"260\" y=\"172\" font-family=\"monospace\" font-size=\"9\" text-anchor=\"middle\" fill=\"#1e40af\">Reduces computational complexity from O(N\u00b2) to O(N log\u2082 N)</text>\n</svg>",
+    "qa": [
+      {
+        "q": "Derive the Radix-2 Decimation-In-Time (DIT) FFT algorithm for an 8-point sequence. Draw the complete signal flow butterfly graph. [7 Marks]",
+        "a": "<b>1. Principle:</b> The N-point DFT equation is split into two N/2-point DFTs\u2014one for even-indexed samples and one for odd-indexed samples:<br><code>X[k] = \u2211_{n=0}^{N/2-1} x[2n] W_N^{2kn} + W_N^k \u2211_{n=0}^{N/2-1} x[2n+1] W_N^{2kn}</code>.<br>Since <code>W_N^{2kn} = W_{N/2}^{kn}</code>:<br><code>X[k] = E[k] + W_N^k \u00b7 O[k]</code> for k = 0, 1, ..., N/2 - 1.<br>For the second half (k + N/2):<br>Using periodicity <code>W_N^{k + N/2} = -W_N^k</code>:<br><code>X[k + N/2] = E[k] - W_N^k \u00b7 O[k]</code>.<br><b>2. Computational Savings:</b> Direct DFT requires N\u00b2 = 64 complex multiplications. 8-Point Radix-2 FFT requires only (N/2) log\u2082 N = (8/2) \u00d7 3 = 12 complex multiplications (a 81% reduction in computations!)."
+      },
+      {
+        "q": "Explain Bilinear Transformation method for IIR filter design. What is Frequency Warping and how is pre-warping used? [7 Marks]",
+        "a": "<b>1. Bilinear Transformation:</b> Maps the continuous s-plane to discrete z-plane using trapezoidal numerical integration:<br><code>s = (2 / T) \u00b7 [(1 - z\u207b\u00b9) / (1 + z\u207b\u00b9)]</code>.<br>\u2022 Left-half of s-plane maps inside unit circle |z| &lt; 1 (ensuring stability).<br>\u2022 Imaginary axis j\u03a9 maps onto the unit circle e^{j\u03c9}.<br><b>2. Frequency Warping:</b> Substituting s = j\u03a9 and z = e^{j\u03c9} yields:<br><code>\u03a9 = (2/T) tan(\u03c9/2)</code>.<br>The continuous analog frequency \u03a9 is non-linearly compressed (warped) into discrete frequency \u03c9.<br><b>3. Pre-Warping:</b> To make the digital filter match analog specifications at critical cutoff frequencies \u03a9_c, the designer pre-warps frequencies before designing: <code>\u03a9_c = (2/T) tan(\u03c9_c / 2)</code>."
+      }
+    ],
+    "pyq": [
+      {
+        "year": "Dec 2024",
+        "q": "Compute 8-point DFT of x[n] = {1, 2, 2, 1, 0, 0, 0, 0} using Radix-2 DIT-FFT algorithm."
+      },
+      {
+        "year": "June 2024",
+        "q": "Design a digital Butterworth low-pass filter with passband edge 1 kHz, stopband edge 3 kHz, sampling rate 8 kHz using Bilinear Transformation."
+      },
+      {
+        "year": "Dec 2023",
+        "q": "Design a 7-tap FIR low-pass filter with cutoff frequency \u03c9_c = 0.4\u03c0 rad using Hamming window."
+      },
+      {
+        "year": "June 2023",
+        "q": "Explain Circular Convolution of two discrete sequences using DFT-IDFT method with matrix formula."
+      },
+      {
+        "year": "Dec 2022",
+        "q": "Explain architecture of Texas Instruments TMS320C67xx DSP processor."
+      }
     ]
   },
   {
@@ -559,6 +855,13 @@
         "year": "Dec 2022",
         "q": "Design a Turing Machine to compute 2's complement of a binary string."
       }
+    ],
+    "branches": [
+      "CSE",
+      "AI-DS",
+      "AI-ML",
+      "CSIT",
+      "IOT"
     ]
   },
   {
@@ -616,6 +919,83 @@
         "year": "Dec 2022",
         "q": "Explain ARIES recovery algorithm (Analysis, Redo, Undo phases) with checkpointing."
       }
+    ],
+    "branches": [
+      "CSE",
+      "AI-DS",
+      "AI-ML",
+      "CSIT",
+      "IOT"
+    ]
+  },
+  {
+    "code": "EE-502",
+    "title": "Control Systems Engineering",
+    "year": 3,
+    "sem": 5,
+    "credits": 4,
+    "branch": "Electrical",
+    "branches": [
+      "EE",
+      "ECE"
+    ],
+    "roadmap": {
+      "strategy": "Routh-Hurwitz stability criterion, Root Locus construction, and Bode Plots (Gain Margin & Phase Margin) are guaranteed 100% scoring questions.",
+      "pass_target": "Unit 2 (Time Response Analysis - Peak Overshoot & Settling Time) + Unit 3 (Routh Criterion & Root Locus) easily cross 35+ marks.",
+      "top_scorer_tip": "In Root Locus, list all 8 rules clearly: number of branches = max(P, Z), real-axis root locus, asymptotes angles \u03b8 = (2q+1)180/(P-Z), centroid \u03c3, and breakaway points dK/ds = 0.",
+      "blueprint": "Q1 Transfer Function: Block Diagram Reduction & Mason's Gain Formula (7M), Q2 2nd Order Time Response: Rise time, Peak time, Overshoot, Settling time (7M), Q3 Steady State Error & Error Constants Kp, Kv, Ka (7M), Q4 Routh-Hurwitz Stability Criterion & Special Cases (7M), Q5 Root Locus Technique Rules & Sketch (7M), Q6 Frequency Response: Bode Plot Gain & Phase Margins (7M), Q7 Nyquist Stability Criterion (7M), Q8 State Space Modeling: State Transition Matrix (7M)."
+    },
+    "repeated_topics": [
+      "Mason's Gain Formula for Signal Flow Graph transfer function computation",
+      "Root Locus construction for open-loop transfer function G(s)H(s) = K / [s(s+2)(s+4)]",
+      "Bode Plot drawing to determine Gain Margin (GM), Phase Margin (PM), and Gain Crossover frequency"
+    ],
+    "units": [
+      "Unit I: System Modeling & Feedback (Open vs closed loop, Transfer function, Block diagram reduction rules, Signal Flow Graphs SFG, Mason's Gain formula)",
+      "Unit II: Time-Domain Response Analysis (Standard test inputs Step/Ramp/Parabolic, 1st and 2nd order systems, Transient specifications Delay/Rise/Peak time, Peak overshoot Mp, Settling time, Steady-state errors)",
+      "Unit III: Stability & Root Locus (Concept of stability BIBO, Characteristic equation, Routh-Hurwitz criterion, Root locus technique, Asymptotes, Breakaway points, Stability analysis)",
+      "Unit IV: Frequency Response Analysis (Bode plots, Magnitude and phase plots, Gain margin, Phase margin, Nyquist stability criterion, Polar plots, M and N circles)",
+      "Unit V: State Space & Controllers (State variable formulation, State transition matrix, Controllability and Observability Kalman's test, PID controller P/I/D actions, Lead and Lag compensators)"
+    ],
+    "formulas": [
+      "Mason's Gain Formula: T = (1 / \u0394) \u00b7 \u2211 [P_k \u00b7 \u0394_k]",
+      "2nd Order Characteristic Equation: s\u00b2 + 2\u03b6\u03c9_n s + \u03c9_n\u00b2 = 0",
+      "Peak Percentage Overshoot: %Mp = e^{-(\u03b6\u03c0 / \u221a(1 - \u03b6\u00b2))} \u00d7 100%",
+      "Settling Time (2% tolerance): t_s = 4 / (\u03b6 \u00b7 \u03c9_n)",
+      "Root Locus Asymptote Angles: \u03b8_a = [(2q + 1) \u00b7 180\u00b0] / (P - Z), q = 0, 1, ... (P - Z - 1)"
+    ],
+    "diagram_svg": "<svg viewBox=\"0 0 520 200\" xmlns=\"http://www.w3.org/2000/svg\" class=\"w-full max-w-lg mx-auto my-3 border border-stone-800 rounded-lg bg-stone-50 p-2\">\n  <rect x=\"20\" y=\"20\" width=\"480\" height=\"160\" rx=\"8\" fill=\"#fefce8\" stroke=\"#ca8a04\" stroke-width=\"2\"/>\n  <text x=\"260\" y=\"42\" font-family=\"monospace\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#854d0e\">SECOND-ORDER UNDERDAMPED STEP RESPONSE TRANSIENT METRICS</text>\n  <!-- Axes -->\n  <line x1=\"50\" y1=\"150\" x2=\"450\" y2=\"150\" stroke=\"#18181b\" stroke-width=\"2\"/>\n  <text x=\"440\" y=\"165\" font-family=\"sans-serif\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#18181b\">Time (t)</text>\n  <line x1=\"50\" y1=\"150\" x2=\"50\" y2=\"55\" stroke=\"#18181b\" stroke-width=\"2\"/>\n  <text x=\"35\" y=\"65\" font-family=\"sans-serif\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#18181b\">c(t)</text>\n  <!-- Target line (1.0) -->\n  <line x1=\"50\" y1=\"100\" x2=\"450\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"1.5\" stroke-dasharray=\"4,3\"/>\n  <text x=\"455\" y=\"103\" font-family=\"monospace\" font-size=\"8.5\" fill=\"#475569\">1.0 (Target)</text>\n  <!-- Underdamped Response Curve -->\n  <path d=\"M 50 150 Q 80 145 110 100 Q 135 60 160 70 Q 190 120 220 100 Q 250 90 280 100 L 450 100\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\"/>\n  <!-- Peak Overshoot Mp -->\n  <line x1=\"145\" y1=\"65\" x2=\"145\" y2=\"100\" stroke=\"#dc2626\" stroke-width=\"1.5\"/>\n  <text x=\"150\" y=\"60\" font-family=\"monospace\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#dc2626\">Mp (% Peak Overshoot)</text>\n  <circle cx=\"145\" cy=\"65\" r=\"3\" fill=\"#dc2626\"/>\n  <!-- Peak Time tp -->\n  <line x1=\"145\" y1=\"65\" x2=\"145\" y2=\"150\" stroke=\"#dc2626\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/>\n  <text x=\"145\" y=\"162\" font-family=\"monospace\" font-size=\"8\" text-anchor=\"middle\" fill=\"#dc2626\">tp (\u03c0/\u03c9d)</text>\n  <!-- Settling Time ts -->\n  <line x1=\"280\" y1=\"85\" x2=\"280\" y2=\"150\" stroke=\"#16a34a\" stroke-width=\"1.5\" stroke-dasharray=\"2,2\"/>\n  <text x=\"280\" y=\"162\" font-family=\"monospace\" font-size=\"8\" text-anchor=\"middle\" fill=\"#16a34a\">ts (4 / \u03b6\u03c9n)</text>\n  <text x=\"360\" y=\"130\" font-family=\"sans-serif\" font-size=\"8\" fill=\"#166534\">\u00b12% Tolerance Band</text>\n  <text x=\"260\" y=\"176\" font-family=\"monospace\" font-size=\"8.5\" text-anchor=\"middle\" fill=\"#854d0e\">Damping Ratio \u03b6 &lt; 1 (Underdamped) | Critical Damping \u03b6 = 1 (No Overshoot)</text>\n</svg>",
+    "qa": [
+      {
+        "q": "Using Routh-Hurwitz criterion, determine the stability of a system having characteristic equation: s\u2075 + s\u2074 + 2s\u00b3 + 2s\u00b2 + 3s + 5 = 0. [7 Marks]",
+        "a": "<b>1. Construct Routh Array:</b><br>\u2022 Row s\u2075: 1, 2, 3<br>\u2022 Row s\u2074: 1, 2, 5<br>\u2022 Row s\u00b3: [(1)(2) - (1)(2)] / 1 = 0, [(1)(3) - (1)(5)] / 1 = -2.<br><b>Special Case (First element zero):</b> Replace 0 with small positive number \u03b5 &gt; 0.<br>Row s\u00b3 becomes: <code>\u03b5, -2, 0</code>.<br>\u2022 Row s\u00b2: [(\u03b5)(2) - (1)(-2)] / \u03b5 = (2\u03b5 + 2) / \u03b5 \u2248 2/\u03b5 (large positive), [(\u03b5)(5) - 0] / \u03b5 = 5.<br>\u2022 Row s\u00b9: [ (2/\u03b5)(-2) - (\u03b5)(5) ] / (2/\u03b5) = -2 - (5\u03b5\u00b2/2) \u2248 -2 (Negative).<br>\u2022 Row s\u2070: 5.<br><b>2. Column 1 Signs:</b><br>s\u2075: +1<br>s\u2074: +1<br>s\u00b3: +\u03b5 (+)<br>s\u00b2: +2/\u03b5 (+)<br>s\u00b9: -2 (NEGATIVE! Sign change 1)<br>s\u2070: +5 (POSITIVE! Sign change 2).<br><b>Conclusion:</b> There are <b>2 sign changes</b> in the first column. By Routh's theorem, the system is <b>UNSTABLE</b> with 2 poles lying in the right-half of the s-plane."
+      },
+      {
+        "q": "State Mason's Gain Formula. Explain the terms: Forward path gain P_k, Loop gain, and Non-touching loops with an example. [7 Marks]",
+        "a": "<b>1. Formula:</b> The overall transfer function of a Signal Flow Graph is:<br><code>T = (C(s) / R(s)) = (1 / \u0394) \u00b7 \u2211_{k=1}^N [ P_k \u00b7 \u0394_k ]</code>.<br><b>2. Term Definitions:</b><br>\u2022 <b>P_k:</b> Path gain of the k-th forward path from input node R to output node C.<br>\u2022 <b>\u0394 (Graph Determinant):</b><br><code>\u0394 = 1 - (Sum of all individual loop gains) + (Sum of gain products of all pairs of two non-touching loops) - (Sum of gain products of all triplets of three non-touching loops) + ...</code><br>\u2022 <b>\u0394_k:</b> Value of \u0394 computed for that part of the graph that does not touch the k-th forward path (obtained by eliminating all nodes and branches touching path P_k).<br>\u2022 <b>Non-Touching Loops:</b> Loops that do not share any common node."
+      }
+    ],
+    "pyq": [
+      {
+        "year": "Dec 2024",
+        "q": "Sketch the root locus for unity feedback system with G(s) = K / [s(s + 1)(s + 3)]. Find K for marginal stability."
+      },
+      {
+        "year": "June 2024",
+        "q": "Draw Bode plot for open loop transfer function G(s) = 50 / [s(1 + 0.1s)(1 + 0.2s)]. Determine Gain Margin and Phase Margin."
+      },
+      {
+        "year": "Dec 2023",
+        "q": "Derive expressions for Rise time (tr), Peak time (tp), and Peak Overshoot (Mp) for a 2nd order underdamped control system."
+      },
+      {
+        "year": "June 2023",
+        "q": "Explain effect of adding a Pole and adding a Zero to the open-loop transfer function on system stability and transient response."
+      },
+      {
+        "year": "Dec 2022",
+        "q": "Explain P, PI, and PID controllers with circuit realization using op-amps and frequency response characteristics."
+      }
     ]
   },
   {
@@ -661,6 +1041,13 @@
         "year": "Dec 2023",
         "q": "Explain CSMA/CD protocol with binary exponential back-off algorithm and collision window."
       }
+    ],
+    "branches": [
+      "CSE",
+      "AI-DS",
+      "AI-ML",
+      "CSIT",
+      "IOT"
     ]
   },
   {
@@ -717,6 +1104,13 @@
         "year": "Dec 2022",
         "q": "Explain Cloud identity and access management (IAM) role-based access control (RBAC)."
       }
+    ],
+    "branches": [
+      "CSE",
+      "AI-DS",
+      "AI-ML",
+      "CSIT",
+      "IOT"
     ]
   },
   {
@@ -774,6 +1168,13 @@
         "year": "Dec 2022",
         "q": "Explain Genetic Algorithm operators: Selection, Crossover, and Mutation with example."
       }
+    ],
+    "branches": [
+      "CSE",
+      "AI-DS",
+      "AI-ML",
+      "CSIT",
+      "IOT"
     ]
   },
   {
@@ -819,6 +1220,13 @@
         "year": "Dec 2023",
         "q": "Explain Generative Adversarial Networks (GANs): Generator vs Discriminator minimax game."
       }
+    ],
+    "branches": [
+      "CSE",
+      "AI-DS",
+      "AI-ML",
+      "CSIT",
+      "IOT"
     ]
   }
 ]
