@@ -1,31 +1,54 @@
-# Dependencies
-node_modules/
-package-lock.json.bak
-
-# Expo
-.expo/
-dist/
-web-build/
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-venv/
-.venv/
-
-# Environment & Temp
+# Environment & sensitive credentials
 .env
-.env.local
+*.db
+*.sqlite3
+
+# Python & Caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+
+# OS & Temp
 .DS_Store
 Thumbs.db
-.brave_profile/
+*.bak
+test_*.png
+captcha_*.png
+screenshot_*.png
+apertu_*_page.png
+apertu_attendance*.png
+apertu_dashboard*.png
+apertu_designer*.png
+apertu_fullpage*.png
+apertu_kushwaha*.png
+apertu_logo_attached.png
+apertu_opening_anim.png
+apertu_polished.png
+apertu_sagartracker_data.png
+apertu_schedule*.png
+apertu_transit*.png
+apertu_workspace_revealed.png
+realtime_*.png
+website_*.png
+fullscreen_*.png
+/dashboard.png
+/attendance_page.png
+/logo.jpg
+sagartracker_live_map.png
+sagartracker_live_screenshot.png
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-local_lib/
-video_build/
-*.mp4
-reference_frames/
+# Temporary Scratch Scripts
+build_*.py
+generate_*.py
+update_*.py
+add_*.py
+test_suite.py
+captcha_response.html
+campus_move_*.html
+index_*.html
+
+# Node / IDE
+node_modules/
+.vscode/
+.idea/

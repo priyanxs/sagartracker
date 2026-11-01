@@ -1,0 +1,3314 @@
+{
+  "allRoutes": [
+    {
+      "area": "PIPLANI NIZAMUDDIN",
+      "display_name": "Route 01 - Piplani Nizamuddin",
+      "driver": {
+        "name": "PAWAN",
+        "phone": "7880131501"
+      },
+      "has_live_gps": true,
+      "id": "route_01",
+      "route_no": "ROUTE NO 01",
+      "stops": [
+        {
+          "lat": 23.2655,
+          "lng": 77.4785,
+          "name": "PIPLANI PETROL PUMP",
+          "s_no": 1,
+          "time": "8:10"
+        },
+        {
+          "lat": 23.2358,
+          "lng": 77.4772,
+          "name": "NIZAMUDDIN",
+          "s_no": 2,
+          "time": "8:15"
+        },
+        {
+          "lat": 23.2425,
+          "lng": 77.4715,
+          "name": "INDRAPURI",
+          "s_no": 3,
+          "time": "8:20"
+        },
+        {
+          "lat": 23.2468,
+          "lng": 77.4645,
+          "name": "TANATAN DHABA",
+          "s_no": 4,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.2495,
+          "lng": 77.458,
+          "name": "NARELA JOD",
+          "s_no": 5,
+          "time": "8:35"
+        },
+        {
+          "lat": 23.253,
+          "lng": 77.4515,
+          "name": "SAGAR ENCLAVE",
+          "s_no": 6,
+          "time": "8:37"
+        },
+        {
+          "lat": 23.2625,
+          "lng": 77.4485,
+          "name": "AYODHYA NAGAR CHAURAHA",
+          "s_no": 7,
+          "time": "8:38"
+        },
+        {
+          "lat": 23.2685,
+          "lng": 77.442,
+          "name": "GANESH VILLA",
+          "s_no": 8,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.2755,
+          "lng": 77.432,
+          "name": "SAGAR LANDMARK",
+          "s_no": 9,
+          "time": "8:42"
+        },
+        {
+          "lat": 23.2865,
+          "lng": 77.395,
+          "name": "GREEN VALLEY",
+          "s_no": 10,
+          "time": "8:44"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 11,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3426"
+    },
+    {
+      "area": "KAROND",
+      "display_name": "Route 02 - Karond",
+      "driver": {
+        "name": "DAVID",
+        "phone": "7880131502"
+      },
+      "has_live_gps": true,
+      "id": "route_02",
+      "route_no": "ROUTE NO 02",
+      "stops": [
+        {
+          "lat": 23.294,
+          "lng": 77.398,
+          "name": "KAROND SQUARE",
+          "s_no": 1,
+          "time": "8:50"
+        },
+        {
+          "lat": 23.305,
+          "lng": 77.37,
+          "name": "NEW JAIL ROAD",
+          "s_no": 2,
+          "time": "8:55"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 3,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3425"
+    },
+    {
+      "area": "BHOPAL TRANSIT",
+      "display_name": "Route 03 - Bhopal Transit",
+      "driver": {
+        "name": "SISTec Transport Driver",
+        "phone": "9893837199"
+      },
+      "has_live_gps": true,
+      "id": "route_03",
+      "route_no": "ROUTE NO 03",
+      "stops": [],
+      "vehicle_no": "MP04 ZG 1176"
+    },
+    {
+      "area": "CTO",
+      "display_name": "Route 04 - CTO",
+      "driver": {
+        "name": "RAJESH",
+        "phone": "9893151986"
+      },
+      "has_live_gps": true,
+      "id": "route_04",
+      "route_no": "ROUTE NO 04",
+      "stops": [
+        {
+          "lat": 23.28,
+          "lng": 77.32,
+          "name": "CTO ROAD",
+          "s_no": 1,
+          "time": "8:25"
+        },
+        {
+          "lat": 23.289,
+          "lng": 77.345,
+          "name": "DATA COLONY",
+          "s_no": 2,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.2915,
+          "lng": 77.3485,
+          "name": "AYYAPA MANDIR",
+          "s_no": 3,
+          "time": "8:35"
+        },
+        {
+          "lat": 23.297,
+          "lng": 77.345,
+          "name": "ADITYA AVENUE",
+          "s_no": 4,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 5,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3410"
+    },
+    {
+      "area": "BHOPAL TRANSIT",
+      "display_name": "Route 05 - Bhopal Transit",
+      "driver": {
+        "name": "SISTec Transport Driver",
+        "phone": "9893837199"
+      },
+      "has_live_gps": true,
+      "id": "route_05",
+      "route_no": "ROUTE NO 05",
+      "stops": [],
+      "vehicle_no": "MP04 PA 3411"
+    },
+    {
+      "area": "BHOPAL TRANSIT",
+      "display_name": "Route 06 - Bhopal Transit",
+      "driver": {
+        "name": "SISTec Transport Driver",
+        "phone": "9893837199"
+      },
+      "has_live_gps": true,
+      "id": "route_06",
+      "route_no": "ROUTE NO 06",
+      "stops": [],
+      "vehicle_no": "MP04 PA 3413"
+    },
+    {
+      "area": "GANDHI NAGAR / AIRPORT RD",
+      "display_name": "Route 07 - Gandhi Nagar / Airport Rd",
+      "driver": {
+        "name": "RIZWAN SHEIKH",
+        "phone": "7880131507"
+      },
+      "has_live_gps": true,
+      "id": "route_07",
+      "route_no": "ROUTE NO 07",
+      "stops": [
+        {
+          "lat": 23.3018,
+          "lng": 77.3375,
+          "name": "BANK OF BARODA ATM GANDHI NAGAR",
+          "s_no": 1,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.2965,
+          "lng": 77.3475,
+          "name": "SANJEEV NAGAR",
+          "s_no": 2,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.2895,
+          "lng": 77.355,
+          "name": "NAVRI",
+          "s_no": 3,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.2835,
+          "lng": 77.365,
+          "name": "AIRPORT ROAD",
+          "s_no": 4,
+          "time": "8:55"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 5,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3427"
+    },
+    {
+      "area": "KANHASAIYA PATEL NAGAR",
+      "display_name": "Route 08 - Kanhasaiya Patel Nagar",
+      "driver": {
+        "name": "OM PRAKASH",
+        "phone": "7987255419"
+      },
+      "has_live_gps": true,
+      "id": "route_08",
+      "route_no": "ROUTE NO 08",
+      "stops": [
+        {
+          "lat": 23.245,
+          "lng": 77.535,
+          "name": "KANHASAIYAN",
+          "s_no": 1,
+          "time": "8:05"
+        },
+        {
+          "lat": 23.2615,
+          "lng": 77.4985,
+          "name": "KOKTA TRANSPORT NAGAR",
+          "s_no": 2,
+          "time": "8:10"
+        },
+        {
+          "lat": 23.258,
+          "lng": 77.485,
+          "name": "PATEL NAGAR",
+          "s_no": 3,
+          "time": "8:20"
+        },
+        {
+          "lat": 23.2545,
+          "lng": 77.475,
+          "name": "ANAND NAGAR",
+          "s_no": 4,
+          "time": "8:25"
+        },
+        {
+          "lat": 23.2565,
+          "lng": 77.465,
+          "name": "RATNAGIRI SABJI MANDI",
+          "s_no": 5,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.261,
+          "lng": 77.455,
+          "name": "C G COLONY",
+          "s_no": 6,
+          "time": "8:32"
+        },
+        {
+          "lat": 23.2685,
+          "lng": 77.445,
+          "name": "VRIDHAVAN NAGAR",
+          "s_no": 7,
+          "time": "8:35"
+        },
+        {
+          "lat": 23.274,
+          "lng": 77.435,
+          "name": "AYODHYA EXTENSION",
+          "s_no": 8,
+          "time": "8:38"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 9,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3438"
+    },
+    {
+      "area": "AHMEDPUR CHARNAL",
+      "display_name": "Route 09 - Ahmedpur Charnal",
+      "driver": {
+        "name": "RAJESH",
+        "phone": "7880131509"
+      },
+      "has_live_gps": true,
+      "id": "route_09",
+      "route_no": "ROUTE NO 09",
+      "stops": [
+        {
+          "lat": 23.185,
+          "lng": 77.485,
+          "name": "CHARNAL",
+          "s_no": 1,
+          "time": "7:30"
+        },
+        {
+          "lat": 23.195,
+          "lng": 77.465,
+          "name": "AHMEDPUR",
+          "s_no": 2,
+          "time": "7:45"
+        },
+        {
+          "lat": 23.212,
+          "lng": 77.455,
+          "name": "KHAIKHEDA",
+          "s_no": 3,
+          "time": "8:00"
+        },
+        {
+          "lat": 23.245,
+          "lng": 77.438,
+          "name": "CHOWKI",
+          "s_no": 4,
+          "time": "8:05"
+        },
+        {
+          "lat": 23.268,
+          "lng": 77.425,
+          "name": "DORAHA",
+          "s_no": 5,
+          "time": "8:15"
+        },
+        {
+          "lat": 23.275,
+          "lng": 77.415,
+          "name": "SHYAMPUR",
+          "s_no": 6,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.282,
+          "lng": 77.405,
+          "name": "JHARKHEDA",
+          "s_no": 7,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.288,
+          "lng": 77.395,
+          "name": "SONKATCH",
+          "s_no": 8,
+          "time": "8:50"
+        },
+        {
+          "lat": 23.292,
+          "lng": 77.38,
+          "name": "MUGALIYA HAAT",
+          "s_no": 9,
+          "time": "8:55"
+        },
+        {
+          "lat": 23.298,
+          "lng": 77.36,
+          "name": "PARWALIA",
+          "s_no": 10,
+          "time": "9:00"
+        },
+        {
+          "lat": 23.3015,
+          "lng": 77.35,
+          "name": "KURANA",
+          "s_no": 11,
+          "time": "9:05"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 12,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3433"
+    },
+    {
+      "area": "KAROND",
+      "display_name": "Route 10 - Karond",
+      "driver": {
+        "name": "SADIQ",
+        "phone": "9893837199"
+      },
+      "has_live_gps": true,
+      "id": "route_10",
+      "route_no": "ROUTE NO 10",
+      "stops": [
+        {
+          "lat": 23.3032,
+          "lng": 77.3986,
+          "name": "ADHAR HOSPITAL",
+          "s_no": 1,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.303347,
+          "lng": 77.388758,
+          "name": "KAROND CHAURAHA",
+          "s_no": 2,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.303787,
+          "lng": 77.359233,
+          "name": "NEW JAIL ROAD",
+          "s_no": 3,
+          "time": "8:50"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 4,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3440"
+    },
+    {
+      "area": "CHHOLA ROAD",
+      "display_name": "Route 11 - Chhola Road",
+      "driver": {
+        "name": "SUBHASH",
+        "phone": "9977540136"
+      },
+      "has_live_gps": true,
+      "id": "route_11",
+      "route_no": "ROUTE NO 11",
+      "stops": [
+        {
+          "lat": 23.2745,
+          "lng": 77.4225,
+          "name": "CHOPDA",
+          "s_no": 1,
+          "time": "8:05"
+        },
+        {
+          "lat": 23.278,
+          "lng": 77.4205,
+          "name": "VIDHATA HOSPITAL",
+          "s_no": 2,
+          "time": "8:12"
+        },
+        {
+          "lat": 23.2815,
+          "lng": 77.4175,
+          "name": "CHHOLA DUSHHERA MAIDAN",
+          "s_no": 3,
+          "time": "8:25"
+        },
+        {
+          "lat": 23.286,
+          "lng": 77.414,
+          "name": "SHIV NAGAR",
+          "s_no": 4,
+          "time": "8:27"
+        },
+        {
+          "lat": 23.291,
+          "lng": 77.4105,
+          "name": "BHANPUR UNDER BRIDGE",
+          "s_no": 5,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.2965,
+          "lng": 77.4045,
+          "name": "PEOPLES HOSPITAL",
+          "s_no": 6,
+          "time": "8:32"
+        },
+        {
+          "lat": 23.299,
+          "lng": 77.3985,
+          "name": "PEOPLES MALL",
+          "s_no": 7,
+          "time": "8:34"
+        },
+        {
+          "lat": 23.3015,
+          "lng": 77.392,
+          "name": "BMHRC",
+          "s_no": 8,
+          "time": "8:35"
+        },
+        {
+          "lat": 23.3025,
+          "lng": 77.385,
+          "name": "KALYAN HOSPITAL",
+          "s_no": 9,
+          "time": "8:37"
+        },
+        {
+          "lat": 23.3032,
+          "lng": 77.378,
+          "name": "AADHAR HOSPITAL",
+          "s_no": 10,
+          "time": "8:38"
+        },
+        {
+          "lat": 23.3038,
+          "lng": 77.362,
+          "name": "INDIAN OIL PETROL PUMP",
+          "s_no": 11,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 12,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3420"
+    },
+    {
+      "area": "COACH FACTORY",
+      "display_name": "Route 12 - Coach Factory",
+      "driver": {
+        "name": "JITENDRA",
+        "phone": "7880131512"
+      },
+      "has_live_gps": true,
+      "id": "route_12",
+      "route_no": "ROUTE NO 12",
+      "stops": [
+        {
+          "lat": 23.2845,
+          "lng": 77.408,
+          "name": "COACH FACTORY",
+          "s_no": 1,
+          "time": "8:00"
+        },
+        {
+          "lat": 23.2785,
+          "lng": 77.412,
+          "name": "DWARKA NAGAR",
+          "s_no": 2,
+          "time": "8:02"
+        },
+        {
+          "lat": 23.2685,
+          "lng": 77.4135,
+          "name": "BHOPAL RAILWAY STATION",
+          "s_no": 3,
+          "time": "8:05"
+        },
+        {
+          "lat": 23.266,
+          "lng": 77.4105,
+          "name": "NADRA BUS STOP",
+          "s_no": 4,
+          "time": "8:15"
+        },
+        {
+          "lat": 23.2715,
+          "lng": 77.4075,
+          "name": "PHOOTA MAKBARA",
+          "s_no": 5,
+          "time": "8:17"
+        },
+        {
+          "lat": 23.276,
+          "lng": 77.405,
+          "name": "DHARAM KANTA",
+          "s_no": 6,
+          "time": "8:20"
+        },
+        {
+          "lat": 23.281,
+          "lng": 77.403,
+          "name": "GANESH MANDIR",
+          "s_no": 7,
+          "time": "8:25"
+        },
+        {
+          "lat": 23.2865,
+          "lng": 77.401,
+          "name": "J P NAGAR",
+          "s_no": 8,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.2905,
+          "lng": 77.399,
+          "name": "ARIF NAGAR BRIDGE",
+          "s_no": 9,
+          "time": "8:35"
+        },
+        {
+          "lat": 23.2955,
+          "lng": 77.3965,
+          "name": "MANDI GATE",
+          "s_no": 10,
+          "time": "8:37"
+        },
+        {
+          "lat": 23.2995,
+          "lng": 77.392,
+          "name": "SHIV MANDIR",
+          "s_no": 11,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.302,
+          "lng": 77.384,
+          "name": "BEST PRICE KAROND",
+          "s_no": 12,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.3035,
+          "lng": 77.362,
+          "name": "CENTRAL BANK",
+          "s_no": 13,
+          "time": "8:50"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 14,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP 04 PA 3421"
+    },
+    {
+      "area": "BHOPAL TRANSIT",
+      "display_name": "Route 13 - Bhopal Transit",
+      "driver": {
+        "name": "SISTec Transport Driver",
+        "phone": "9893837199"
+      },
+      "has_live_gps": true,
+      "id": "route_13",
+      "route_no": "ROUTE NO 13",
+      "stops": [],
+      "vehicle_no": "MP04 ZG 1182"
+    },
+    {
+      "area": "KAROND",
+      "display_name": "Route 14 - Karond",
+      "driver": {
+        "name": "RIZWAN",
+        "phone": "7880131514"
+      },
+      "has_live_gps": true,
+      "id": "route_14",
+      "route_no": "ROUTE NO 14",
+      "stops": [
+        {
+          "lat": 23.3032,
+          "lng": 77.3986,
+          "name": "ADHAR HOSPITAL",
+          "s_no": 1,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.303347,
+          "lng": 77.388758,
+          "name": "KAROND CHAURAHA",
+          "s_no": 2,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.303787,
+          "lng": 77.359233,
+          "name": "NEW JAIL ROAD",
+          "s_no": 3,
+          "time": "8:50"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 4,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3423"
+    },
+    {
+      "area": "KAROND",
+      "display_name": "Route 15 - Karond",
+      "driver": {
+        "name": "IMRAAN",
+        "phone": "7880131515"
+      },
+      "has_live_gps": true,
+      "id": "route_15",
+      "route_no": "ROUTE NO 15",
+      "stops": [
+        {
+          "lat": 23.3032,
+          "lng": 77.3986,
+          "name": "ADHAR HOSPITAL",
+          "s_no": 1,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.303347,
+          "lng": 77.388758,
+          "name": "KAROND CHAURAHA",
+          "s_no": 2,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.303787,
+          "lng": 77.359233,
+          "name": "RGPV",
+          "s_no": 3,
+          "time": "8:50"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 4,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3424"
+    },
+    {
+      "area": "BERASIA",
+      "display_name": "Route 16 - Berasia",
+      "driver": {
+        "name": "KAPIL",
+        "phone": "7880131516"
+      },
+      "has_live_gps": true,
+      "id": "route_16",
+      "route_no": "ROUTE NO 16",
+      "stops": [
+        {
+          "lat": 23.63,
+          "lng": 77.43,
+          "name": "BASAI",
+          "s_no": 1,
+          "time": "7:30"
+        },
+        {
+          "lat": 23.635,
+          "lng": 77.433,
+          "name": "CHOPDA BAZAR",
+          "s_no": 2,
+          "time": "7:40"
+        },
+        {
+          "lat": 23.638,
+          "lng": 77.435,
+          "name": "BAL VIHAR",
+          "s_no": 3,
+          "time": "7:42"
+        },
+        {
+          "lat": 23.641,
+          "lng": 77.437,
+          "name": "RANGE CHOURAHA BUS STAND",
+          "s_no": 4,
+          "time": "7:45"
+        },
+        {
+          "lat": 23.58,
+          "lng": 77.42,
+          "name": "NAND GAON",
+          "s_no": 5,
+          "time": "7:50"
+        },
+        {
+          "lat": 23.51,
+          "lng": 77.405,
+          "name": "ICHGIRI",
+          "s_no": 6,
+          "time": "8:10"
+        },
+        {
+          "lat": 23.44,
+          "lng": 77.39,
+          "name": "GUNGA",
+          "s_no": 7,
+          "time": "8:20"
+        },
+        {
+          "lat": 23.36,
+          "lng": 77.37,
+          "name": "DUPADIA",
+          "s_no": 8,
+          "time": "8:25"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 9,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3437"
+    },
+    {
+      "area": "BHOPAL TRANSIT",
+      "display_name": "Route 17 - Bhopal Transit",
+      "driver": {
+        "name": "SISTec Transport Driver",
+        "phone": "9893837199"
+      },
+      "has_live_gps": true,
+      "id": "route_17",
+      "route_no": "ROUTE NO 17",
+      "stops": [],
+      "vehicle_no": "MP04 PA 3408"
+    },
+    {
+      "area": "SHANTI NIKETAN",
+      "display_name": "Route 18 - Shanti Niketan",
+      "driver": {
+        "name": "JITENDRA",
+        "phone": "7880131518"
+      },
+      "has_live_gps": true,
+      "id": "route_18",
+      "route_no": "ROUTE NO 18",
+      "stops": [
+        {
+          "lat": 23.2485,
+          "lng": 77.442,
+          "name": "SHANTI NIKETAN",
+          "s_no": 1,
+          "time": "8:10"
+        },
+        {
+          "lat": 23.2455,
+          "lng": 77.435,
+          "name": "RACHNA NAGAR",
+          "s_no": 2,
+          "time": "8:12"
+        },
+        {
+          "lat": 23.2425,
+          "lng": 77.43,
+          "name": "SEVANTIKA PETROL PUMP",
+          "s_no": 3,
+          "time": "8:15"
+        },
+        {
+          "lat": 23.247,
+          "lng": 77.424,
+          "name": "SUBHASH NAGAR FATAK",
+          "s_no": 4,
+          "time": "8:17"
+        },
+        {
+          "lat": 23.252,
+          "lng": 77.4215,
+          "name": "PRABHAT CHAURAHA",
+          "s_no": 5,
+          "time": "8:20"
+        },
+        {
+          "lat": 23.2585,
+          "lng": 77.4245,
+          "name": "ASHOKA GARDEN MANDI CHAURAHA",
+          "s_no": 6,
+          "time": "8:25"
+        },
+        {
+          "lat": 23.254,
+          "lng": 77.4175,
+          "name": "CAPITAL PETROL PUMP",
+          "s_no": 7,
+          "time": "8:27"
+        },
+        {
+          "lat": 23.2595,
+          "lng": 77.4135,
+          "name": "BHARAT TALKIES",
+          "s_no": 8,
+          "time": "8:35"
+        },
+        {
+          "lat": 23.2645,
+          "lng": 77.411,
+          "name": "ALPANA TIRAHA",
+          "s_no": 9,
+          "time": "8:37"
+        },
+        {
+          "lat": 23.271,
+          "lng": 77.3975,
+          "name": "SHAHJEHANABAD THANA",
+          "s_no": 10,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.2745,
+          "lng": 77.392,
+          "name": "ADARSH HOSPITAL",
+          "s_no": 11,
+          "time": "8:42"
+        },
+        {
+          "lat": 23.2725,
+          "lng": 77.3885,
+          "name": "BAB E ALI STADIUM",
+          "s_no": 12,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.2715,
+          "lng": 77.3845,
+          "name": "PARI BAZAR",
+          "s_no": 13,
+          "time": "8:48"
+        },
+        {
+          "lat": 23.274,
+          "lng": 77.3805,
+          "name": "ST JOSEPH IDGAH HILLS",
+          "s_no": 14,
+          "time": "8:50"
+        },
+        {
+          "lat": 23.2825,
+          "lng": 77.371,
+          "name": "POLICE COLONY",
+          "s_no": 15,
+          "time": "8:52"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 16,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3414"
+    },
+    {
+      "area": "BHOPAL TRANSIT",
+      "display_name": "Route 19 - Bhopal Transit",
+      "driver": {
+        "name": "SISTec Transport Driver",
+        "phone": "9893837199"
+      },
+      "has_live_gps": true,
+      "id": "route_19",
+      "route_no": "ROUTE NO 19",
+      "stops": [],
+      "vehicle_no": "MP04 PA 3560"
+    },
+    {
+      "area": "NEORI MANDIR",
+      "display_name": "Route 24 - Neori Mandir",
+      "driver": {
+        "name": "CHAND",
+        "phone": "7880131524"
+      },
+      "has_live_gps": true,
+      "id": "route_24",
+      "route_no": "ROUTE NO 24",
+      "stops": [
+        {
+          "lat": 23.282,
+          "lng": 77.375,
+          "name": "NEORI MANDIR",
+          "s_no": 1,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.2736,
+          "lng": 77.3633,
+          "name": "LALGHATI",
+          "s_no": 2,
+          "time": "8:50"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 3,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3407"
+    },
+    {
+      "area": "MATA MANDIR",
+      "display_name": "Route 26 - Mata Mandir",
+      "driver": {
+        "name": "NILESH",
+        "phone": "7880131526"
+      },
+      "has_live_gps": true,
+      "id": "route_26",
+      "route_no": "ROUTE NO 26",
+      "stops": [
+        {
+          "lat": 23.2325,
+          "lng": 77.3995,
+          "name": "JAWAHAR CHOWK",
+          "s_no": 1,
+          "time": "8:00"
+        },
+        {
+          "lat": 23.2268,
+          "lng": 77.3912,
+          "name": "DEPOT SQUARE",
+          "s_no": 2,
+          "time": "8:02"
+        },
+        {
+          "lat": 23.2205,
+          "lng": 77.3875,
+          "name": "PNT SQUARE",
+          "s_no": 3,
+          "time": "8:05"
+        },
+        {
+          "lat": 23.2245,
+          "lng": 77.4045,
+          "name": "GEETANJLI SQUARE",
+          "s_no": 4,
+          "time": "8:07"
+        },
+        {
+          "lat": 23.2295,
+          "lng": 77.4025,
+          "name": "JAIN MANDIR",
+          "s_no": 5,
+          "time": "8:10"
+        },
+        {
+          "lat": 23.2135,
+          "lng": 77.4048,
+          "name": "MANIT",
+          "s_no": 6,
+          "time": "8:12"
+        },
+        {
+          "lat": 23.2505,
+          "lng": 77.4115,
+          "name": "LAL PARADE",
+          "s_no": 7,
+          "time": "8:17"
+        },
+        {
+          "lat": 23.2612,
+          "lng": 77.3985,
+          "name": "CHABBAN CHAUARAHA",
+          "s_no": 8,
+          "time": "8:20"
+        },
+        {
+          "lat": 23.252,
+          "lng": 77.417,
+          "name": "JEHANGIRABAD",
+          "s_no": 9,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.2555,
+          "lng": 77.4215,
+          "name": "JINSI CHOWKI",
+          "s_no": 10,
+          "time": "8:37"
+        },
+        {
+          "lat": 23.2655,
+          "lng": 77.4115,
+          "name": "RAMBHA TALKIES",
+          "s_no": 11,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.2575,
+          "lng": 77.4145,
+          "name": "LILI TALKIES CHAURAHA",
+          "s_no": 12,
+          "time": "8:42"
+        },
+        {
+          "lat": 23.248,
+          "lng": 77.4055,
+          "name": "KHATLAPURA",
+          "s_no": 13,
+          "time": "8:44"
+        },
+        {
+          "lat": 23.2428,
+          "lng": 77.3968,
+          "name": "POLYTECNIC SQUARE",
+          "s_no": 14,
+          "time": "8:50"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 15,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3429"
+    },
+    {
+      "area": "MOTI MASJID",
+      "display_name": "Route 27 - Moti Masjid",
+      "driver": {
+        "name": "MOR SINGH",
+        "phone": "7880131527"
+      },
+      "has_live_gps": true,
+      "id": "route_27",
+      "route_no": "ROUTE NO 27",
+      "stops": [
+        {
+          "lat": 23.2595,
+          "lng": 77.401,
+          "name": "MOTI MASJID",
+          "s_no": 1,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.264,
+          "lng": 77.394,
+          "name": "ROYAL MARKET",
+          "s_no": 2,
+          "time": "8:35"
+        },
+        {
+          "lat": 23.267,
+          "lng": 77.388,
+          "name": "STATE BANK CHAURAHA",
+          "s_no": 3,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.271,
+          "lng": 77.378,
+          "name": "KOH E FIZA",
+          "s_no": 4,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.275,
+          "lng": 77.371,
+          "name": "BHOOT BUNGLOW",
+          "s_no": 5,
+          "time": "8:48"
+        },
+        {
+          "lat": 23.2736,
+          "lng": 77.3633,
+          "name": "LALGHATI CIRCLE",
+          "s_no": 6,
+          "time": "8:50"
+        },
+        {
+          "lat": 23.284,
+          "lng": 77.358,
+          "name": "SUDITI HOSPITAL",
+          "s_no": 7,
+          "time": "8:52"
+        },
+        {
+          "lat": 23.292,
+          "lng": 77.351,
+          "name": "DATA COLONY",
+          "s_no": 8,
+          "time": "8:55"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 9,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3415"
+    },
+    {
+      "area": "BHOPAL TRANSIT",
+      "display_name": "Route 29 - Bhopal Transit",
+      "driver": {
+        "name": "SISTec Transport Driver",
+        "phone": "9893837199"
+      },
+      "has_live_gps": true,
+      "id": "route_29",
+      "route_no": "ROUTE NO 29",
+      "stops": [],
+      "vehicle_no": "MP04 PA 3561"
+    },
+    {
+      "area": "KOLAR KAJLIKHEDA",
+      "display_name": "Route 30 - Kolar Kajlikheda",
+      "driver": {
+        "name": "GOMA",
+        "phone": "7880131530"
+      },
+      "has_live_gps": true,
+      "id": "route_30",
+      "route_no": "ROUTE NO 30",
+      "stops": [
+        {
+          "lat": 23.148,
+          "lng": 77.418,
+          "name": "KAJLI KHEDA",
+          "s_no": 1,
+          "time": "7:35"
+        },
+        {
+          "lat": 23.162,
+          "lng": 77.42,
+          "name": "IBD COLONY",
+          "s_no": 2,
+          "time": "7:40"
+        },
+        {
+          "lat": 23.17,
+          "lng": 77.421,
+          "name": "ENGLISH VILLA",
+          "s_no": 3,
+          "time": "7:45"
+        },
+        {
+          "lat": 23.178,
+          "lng": 77.422,
+          "name": "D MART",
+          "s_no": 4,
+          "time": "7:42"
+        },
+        {
+          "lat": 23.185,
+          "lng": 77.4225,
+          "name": "BANSKHEDI COMFORT SCHOOL",
+          "s_no": 5,
+          "time": "7:48"
+        },
+        {
+          "lat": 23.192,
+          "lng": 77.423,
+          "name": "LALITA NAGAR",
+          "s_no": 6,
+          "time": "7:50"
+        },
+        {
+          "lat": 23.197,
+          "lng": 77.4235,
+          "name": "BHOPAL PUBLIC SCHOOL",
+          "s_no": 7,
+          "time": "7:55"
+        },
+        {
+          "lat": 23.203,
+          "lng": 77.424,
+          "name": "GOOD SHEPERD COLONY",
+          "s_no": 8,
+          "time": "7:58"
+        },
+        {
+          "lat": 23.208,
+          "lng": 77.4245,
+          "name": "BIMA KUNJ",
+          "s_no": 9,
+          "time": "8:00"
+        },
+        {
+          "lat": 23.218,
+          "lng": 77.415,
+          "name": "CHUNA BHATTI (KALI MANDIR)",
+          "s_no": 10,
+          "time": "8:15"
+        },
+        {
+          "lat": 23.212,
+          "lng": 77.375,
+          "name": "SURAJ NAGAR RATIBAD ROAD",
+          "s_no": 11,
+          "time": "8:35"
+        },
+        {
+          "lat": 23.219,
+          "lng": 77.379,
+          "name": "BHADBHADA CHUARAHA",
+          "s_no": 12,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.226,
+          "lng": 77.387,
+          "name": "SAYDRI COMPLEX",
+          "s_no": 13,
+          "time": "8:48"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 14,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3419"
+    },
+    {
+      "area": "MANDIDEEP KATARA HILLS",
+      "display_name": "Route 31 - Mandideep Katara Hills",
+      "driver": {
+        "name": "RAJ KUMAR",
+        "phone": "7880131531"
+      },
+      "has_live_gps": true,
+      "id": "route_31",
+      "route_no": "ROUTE NO 31",
+      "stops": [
+        {
+          "lat": 23.085,
+          "lng": 77.525,
+          "name": "NANAKHEDI",
+          "s_no": 1,
+          "time": "7:20"
+        },
+        {
+          "lat": 23.102,
+          "lng": 77.518,
+          "name": "SATLAPUR",
+          "s_no": 2,
+          "time": "7:30"
+        },
+        {
+          "lat": 23.118,
+          "lng": 77.509,
+          "name": "HEG (MANDIDEEP)",
+          "s_no": 3,
+          "time": "7:40"
+        },
+        {
+          "lat": 23.135,
+          "lng": 77.485,
+          "name": "KRISHNAPURAM",
+          "s_no": 4,
+          "time": "7:45"
+        },
+        {
+          "lat": 23.152,
+          "lng": 77.472,
+          "name": "11 MILE SQUARE",
+          "s_no": 5,
+          "time": "7:50"
+        },
+        {
+          "lat": 23.175,
+          "lng": 77.482,
+          "name": "KATARA HILLS",
+          "s_no": 6,
+          "time": "8:10"
+        },
+        {
+          "lat": 23.185,
+          "lng": 77.462,
+          "name": "RAJA BHOJ ARCADE",
+          "s_no": 7,
+          "time": "8:15"
+        },
+        {
+          "lat": 23.1895,
+          "lng": 77.4475,
+          "name": "ASHIMA MALL",
+          "s_no": 8,
+          "time": "8:20"
+        },
+        {
+          "lat": 23.196,
+          "lng": 77.442,
+          "name": "CHINAR COLONY",
+          "s_no": 9,
+          "time": "8:25"
+        },
+        {
+          "lat": 23.203,
+          "lng": 77.438,
+          "name": "DANISH NAGAR",
+          "s_no": 10,
+          "time": "8:27"
+        },
+        {
+          "lat": 23.212,
+          "lng": 77.435,
+          "name": "BAGSEWANIA CHAURAHA",
+          "s_no": 11,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.2195,
+          "lng": 77.432,
+          "name": "BARKATULLAH UNIVERSITY",
+          "s_no": 12,
+          "time": "8:32"
+        },
+        {
+          "lat": 23.2385,
+          "lng": 77.431,
+          "name": "CHETAK BRIDGE",
+          "s_no": 13,
+          "time": "8:35"
+        },
+        {
+          "lat": 23.2335,
+          "lng": 77.4265,
+          "name": "BOARD OFFICE",
+          "s_no": 14,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.2285,
+          "lng": 77.4245,
+          "name": "NUTAN CHAURAHA",
+          "s_no": 15,
+          "time": "8:42"
+        },
+        {
+          "lat": 23.2245,
+          "lng": 77.4215,
+          "name": "5 NO DURGA PETRL PUMP",
+          "s_no": 16,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.2295,
+          "lng": 77.412,
+          "name": "1250 HOSPITAL",
+          "s_no": 17,
+          "time": "8:48"
+        },
+        {
+          "lat": 23.2425,
+          "lng": 77.4015,
+          "name": "ROSHANPURA CHAURAHA",
+          "s_no": 18,
+          "time": "8:50"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 19,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3436"
+    },
+    {
+      "area": "VIDISHA",
+      "display_name": "Route 32 - Vidisha",
+      "driver": {
+        "name": "SHIVRAJ",
+        "phone": "8120346465"
+      },
+      "has_live_gps": true,
+      "id": "route_32",
+      "route_no": "ROUTE NO 32",
+      "stops": [
+        {
+          "lat": 23.535,
+          "lng": 77.818,
+          "name": "BUNTY NAGAR",
+          "s_no": 1,
+          "time": "7:20"
+        },
+        {
+          "lat": 23.528,
+          "lng": 77.81,
+          "name": "AHMEDPUR CIRCLE",
+          "s_no": 2,
+          "time": "7:25"
+        },
+        {
+          "lat": 23.522,
+          "lng": 77.804,
+          "name": "DURGA NAGAR",
+          "s_no": 3,
+          "time": "7:27"
+        },
+        {
+          "lat": 23.518,
+          "lng": 77.798,
+          "name": "NEEMTAL CIRCLE",
+          "s_no": 4,
+          "time": "7:30"
+        },
+        {
+          "lat": 23.512,
+          "lng": 77.791,
+          "name": "GULAB VATIKA",
+          "s_no": 5,
+          "time": "7:33"
+        },
+        {
+          "lat": 23.508,
+          "lng": 77.785,
+          "name": "IDGAH CHAURAHA",
+          "s_no": 6,
+          "time": "7:40"
+        },
+        {
+          "lat": 23.4865,
+          "lng": 77.739,
+          "name": "SANCHI",
+          "s_no": 7,
+          "time": "7:50"
+        },
+        {
+          "lat": 23.418,
+          "lng": 77.625,
+          "name": "DEEWANGANJ",
+          "s_no": 8,
+          "time": "8:25"
+        },
+        {
+          "lat": 23.355,
+          "lng": 77.498,
+          "name": "SUKHI SEWANIA",
+          "s_no": 9,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.342,
+          "lng": 77.458,
+          "name": "ISLAM NAGAR",
+          "s_no": 10,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.328,
+          "lng": 77.425,
+          "name": "ALVAR NAGAR",
+          "s_no": 11,
+          "time": "8:50"
+        },
+        {
+          "lat": 23.341,
+          "lng": 77.385,
+          "name": "ACHARPURA",
+          "s_no": 12,
+          "time": "8:55"
+        },
+        {
+          "lat": 23.325,
+          "lng": 77.365,
+          "name": "DOBRA",
+          "s_no": 13,
+          "time": "8:57"
+        },
+        {
+          "lat": 23.312,
+          "lng": 77.352,
+          "name": "PATANJLI PARISAR",
+          "s_no": 14,
+          "time": "9:00"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 15,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3441"
+    },
+    {
+      "area": "SEHORE",
+      "display_name": "Route 33 - Sehore",
+      "driver": {
+        "name": "IRFAN SHAH",
+        "phone": "7880131533"
+      },
+      "has_live_gps": true,
+      "id": "route_33",
+      "route_no": "ROUTE NO 33",
+      "stops": [
+        {
+          "lat": 23.195,
+          "lng": 77.065,
+          "name": "BIJORI",
+          "s_no": 1,
+          "time": "7:25"
+        },
+        {
+          "lat": 23.1985,
+          "lng": 77.078,
+          "name": "MANDI THANA SEHORE",
+          "s_no": 2,
+          "time": "7:27"
+        },
+        {
+          "lat": 23.2045,
+          "lng": 77.085,
+          "name": "NARSINGARH NAKA",
+          "s_no": 3,
+          "time": "7:30"
+        },
+        {
+          "lat": 23.203,
+          "lng": 77.091,
+          "name": "REST HOUSE CIRCLE",
+          "s_no": 4,
+          "time": "7:35"
+        },
+        {
+          "lat": 23.2015,
+          "lng": 77.0965,
+          "name": "LUNIA CIRCLE",
+          "s_no": 5,
+          "time": "7:40"
+        },
+        {
+          "lat": 23.199,
+          "lng": 77.104,
+          "name": "SUGAR FACTORY",
+          "s_no": 6,
+          "time": "7:45"
+        },
+        {
+          "lat": 23.1975,
+          "lng": 77.112,
+          "name": "TEHSIL CIRCLE",
+          "s_no": 7,
+          "time": "7:48"
+        },
+        {
+          "lat": 23.1995,
+          "lng": 77.1185,
+          "name": "EXCELLENCE SCHOOL",
+          "s_no": 8,
+          "time": "7:50"
+        },
+        {
+          "lat": 23.2035,
+          "lng": 77.125,
+          "name": "INDORE NAKA",
+          "s_no": 9,
+          "time": "7:55"
+        },
+        {
+          "lat": 23.205,
+          "lng": 77.132,
+          "name": "GURUDWARA SAHIB SEHORE",
+          "s_no": 10,
+          "time": "8:00"
+        },
+        {
+          "lat": 23.2065,
+          "lng": 77.138,
+          "name": "SEHORE BUS STAND",
+          "s_no": 11,
+          "time": "8:02"
+        },
+        {
+          "lat": 23.2095,
+          "lng": 77.151,
+          "name": "BHOPAL NAKA",
+          "s_no": 12,
+          "time": "8:05"
+        },
+        {
+          "lat": 23.212,
+          "lng": 77.162,
+          "name": "CHANKYAPURI",
+          "s_no": 13,
+          "time": "8:10"
+        },
+        {
+          "lat": 23.215,
+          "lng": 77.175,
+          "name": "HOUSING BOARD COLONY",
+          "s_no": 14,
+          "time": "8:15"
+        },
+        {
+          "lat": 23.228,
+          "lng": 77.205,
+          "name": "THUNA",
+          "s_no": 15,
+          "time": "8:20"
+        },
+        {
+          "lat": 23.242,
+          "lng": 77.235,
+          "name": "LASUDIA PARIHAR",
+          "s_no": 16,
+          "time": "8:25"
+        },
+        {
+          "lat": 23.256,
+          "lng": 77.262,
+          "name": "FANDA",
+          "s_no": 17,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.268,
+          "lng": 77.284,
+          "name": "KHAJURI",
+          "s_no": 18,
+          "time": "8:35"
+        },
+        {
+          "lat": 23.279,
+          "lng": 77.301,
+          "name": "KOLUKHEDI",
+          "s_no": 19,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.2865,
+          "lng": 77.318,
+          "name": "IISER",
+          "s_no": 20,
+          "time": "8:55"
+        },
+        {
+          "lat": 23.295,
+          "lng": 77.329,
+          "name": "MUBARAKPUR TOLL",
+          "s_no": 21,
+          "time": "9:00"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 22,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3439"
+    },
+    {
+      "area": "NARSINGARH",
+      "display_name": "Route 34 - Narsingarh",
+      "driver": {
+        "name": "SHAREEF",
+        "phone": "7880131534"
+      },
+      "has_live_gps": true,
+      "id": "route_34",
+      "route_no": "ROUTE NO 34",
+      "stops": [
+        {
+          "lat": 23.7085,
+          "lng": 77.042,
+          "name": "NARSINGARH",
+          "s_no": 1,
+          "time": "7:30"
+        },
+        {
+          "lat": 23.675,
+          "lng": 77.058,
+          "name": "TEEJ BADI",
+          "s_no": 2,
+          "time": "7:45"
+        },
+        {
+          "lat": 23.632,
+          "lng": 77.075,
+          "name": "TODINICHA",
+          "s_no": 3,
+          "time": "7:50"
+        },
+        {
+          "lat": 23.585,
+          "lng": 77.098,
+          "name": "JAMUNIA DHABA",
+          "s_no": 4,
+          "time": "7:55"
+        },
+        {
+          "lat": 23.541,
+          "lng": 77.112,
+          "name": "JHADLA",
+          "s_no": 5,
+          "time": "8:00"
+        },
+        {
+          "lat": 23.488,
+          "lng": 77.142,
+          "name": "KURAWAR",
+          "s_no": 6,
+          "time": "8:10"
+        },
+        {
+          "lat": 23.415,
+          "lng": 77.205,
+          "name": "PILU KHEDI",
+          "s_no": 7,
+          "time": "8:20"
+        },
+        {
+          "lat": 23.362,
+          "lng": 77.258,
+          "name": "HINGONI",
+          "s_no": 8,
+          "time": "8:25"
+        },
+        {
+          "lat": 23.315,
+          "lng": 77.312,
+          "name": "MAHADEV",
+          "s_no": 9,
+          "time": "8:35"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 10,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3432"
+    },
+    {
+      "area": "BHOPAL TRANSIT",
+      "display_name": "Route 36 - Bhopal Transit",
+      "driver": {
+        "name": "SISTec Transport Driver",
+        "phone": "9893837199"
+      },
+      "has_live_gps": true,
+      "id": "route_36",
+      "route_no": "ROUTE NO 36",
+      "stops": [],
+      "vehicle_no": "MP04 PA 3476"
+    },
+    {
+      "area": "ASHOKA GARDEN",
+      "display_name": "Route 37 - Ashoka Garden",
+      "driver": {
+        "name": "FAHEEM",
+        "phone": "7880131537"
+      },
+      "has_live_gps": true,
+      "id": "route_37",
+      "route_no": "ROUTE NO 37",
+      "stops": [
+        {
+          "lat": 23.255,
+          "lng": 77.442,
+          "name": "GOVINDPURA BIJLI GATE",
+          "s_no": 1,
+          "time": "8:15"
+        },
+        {
+          "lat": 23.2585,
+          "lng": 77.432,
+          "name": "APSARA TALKIES",
+          "s_no": 2,
+          "time": "8:17"
+        },
+        {
+          "lat": 23.262,
+          "lng": 77.4265,
+          "name": "NEMA CHAURAHA",
+          "s_no": 3,
+          "time": "8:25"
+        },
+        {
+          "lat": 23.2655,
+          "lng": 77.423,
+          "name": "ASHOKA GARDEN PANI KI TANKI",
+          "s_no": 4,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.268,
+          "lng": 77.4205,
+          "name": "ASHOKA GARDEN THANA",
+          "s_no": 5,
+          "time": "8:32"
+        },
+        {
+          "lat": 23.264,
+          "lng": 77.416,
+          "name": "FAMOUS JUICE CENTRE",
+          "s_no": 6,
+          "time": "8:35"
+        },
+        {
+          "lat": 23.269,
+          "lng": 77.411,
+          "name": "SANGAM TENET HOUSE",
+          "s_no": 7,
+          "time": "8:38"
+        },
+        {
+          "lat": 23.275,
+          "lng": 77.408,
+          "name": "PUSHPA NAGAR",
+          "s_no": 8,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.288,
+          "lng": 77.395,
+          "name": "HABIBIYA SCHOOL",
+          "s_no": 9,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 10,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3475"
+    },
+    {
+      "area": "BAIRAGARH",
+      "display_name": "Route 39 - Bairagarh",
+      "driver": {
+        "name": "ROOP SINGH",
+        "phone": "7880131539"
+      },
+      "has_live_gps": true,
+      "id": "route_39",
+      "route_no": "ROUTE NO 39",
+      "stops": [
+        {
+          "lat": 23.345,
+          "lng": 77.295,
+          "name": "TUMDA",
+          "s_no": 1,
+          "time": "8:20"
+        },
+        {
+          "lat": 23.328,
+          "lng": 77.305,
+          "name": "SALAM BARKHEDA",
+          "s_no": 2,
+          "time": "8:25"
+        },
+        {
+          "lat": 23.288,
+          "lng": 77.319,
+          "name": "BHOURI",
+          "s_no": 3,
+          "time": "8:22"
+        },
+        {
+          "lat": 23.277,
+          "lng": 77.332,
+          "name": "AKASH MARRIAGE GARDEN",
+          "s_no": 4,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.2755,
+          "lng": 77.3425,
+          "name": "BAIRAGARH BUS STAND",
+          "s_no": 5,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.2762,
+          "lng": 77.3515,
+          "name": "CHANCHAL CHAURAHA",
+          "s_no": 6,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.279,
+          "lng": 77.3625,
+          "name": "HALALPUR BUS STAND",
+          "s_no": 7,
+          "time": "8:50"
+        },
+        {
+          "lat": 23.284,
+          "lng": 77.371,
+          "name": "LALGHATI CHAURAHA",
+          "s_no": 8,
+          "time": "8:52"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 9,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3564"
+    },
+    {
+      "area": "BHOPAL TRANSIT",
+      "display_name": "Route 40 - Bhopal Transit",
+      "driver": {
+        "name": "SISTec Transport Driver",
+        "phone": "9893837199"
+      },
+      "has_live_gps": true,
+      "id": "route_40",
+      "route_no": "ROUTE NO 40",
+      "stops": [],
+      "vehicle_no": "MP04 PA 3565"
+    },
+    {
+      "area": "KALA PEEPAL",
+      "display_name": "Route 41 - Kala Peepal",
+      "driver": {
+        "name": "SHIV PRASAD",
+        "phone": "7880131541"
+      },
+      "has_live_gps": true,
+      "id": "route_41",
+      "route_no": "ROUTE NO 41",
+      "stops": [
+        {
+          "lat": 23.4,
+          "lng": 76.72,
+          "name": "SHUJALPUR",
+          "s_no": 1,
+          "time": "6:30"
+        },
+        {
+          "lat": 23.38,
+          "lng": 76.79,
+          "name": "SATANKHEDHI",
+          "s_no": 2,
+          "time": "7:15"
+        },
+        {
+          "lat": 23.34,
+          "lng": 76.84,
+          "name": "KALA PIPAL PANCHMUKHI CHAURAHA",
+          "s_no": 3,
+          "time": "7:30"
+        },
+        {
+          "lat": 23.335,
+          "lng": 76.85,
+          "name": "KALA PIPAL GAON",
+          "s_no": 4,
+          "time": "7:35"
+        },
+        {
+          "lat": 23.31,
+          "lng": 76.92,
+          "name": "NAANDANI",
+          "s_no": 5,
+          "time": "7:45"
+        },
+        {
+          "lat": 23.29,
+          "lng": 77.01,
+          "name": "MUNDLA",
+          "s_no": 6,
+          "time": "7:55"
+        },
+        {
+          "lat": 23.27,
+          "lng": 77.11,
+          "name": "CHANDBAD",
+          "s_no": 7,
+          "time": "8:05"
+        },
+        {
+          "lat": 23.25,
+          "lng": 77.2,
+          "name": "SHYAMPUR",
+          "s_no": 8,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 9,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP 04 PA 3514"
+    },
+    {
+      "area": "BHOPAL TRANSIT",
+      "display_name": "Route 42 - Bhopal Transit",
+      "driver": {
+        "name": "SISTec Transport Driver",
+        "phone": "9893837199"
+      },
+      "has_live_gps": true,
+      "id": "route_42",
+      "route_no": "ROUTE NO 42",
+      "stops": [],
+      "vehicle_no": "MP04 PA 3996"
+    },
+    {
+      "area": "BHOPAL TRANSIT",
+      "display_name": "Route 43 - Bhopal Transit",
+      "driver": {
+        "name": "SISTec Transport Driver",
+        "phone": "9893837199"
+      },
+      "has_live_gps": true,
+      "id": "route_43",
+      "route_no": "ROUTE NO 43",
+      "stops": [],
+      "vehicle_no": "MP04 PA 3756"
+    },
+    {
+      "area": "AADHAR HOSPITAL",
+      "display_name": "Route 44 - Aadhar Hospital",
+      "driver": {
+        "name": "SHABAZ",
+        "phone": "7880131544"
+      },
+      "has_live_gps": true,
+      "id": "route_44",
+      "route_no": "ROUTE NO 44",
+      "stops": [
+        {
+          "lat": 23.298,
+          "lng": 77.408,
+          "name": "AADHAR HOSPITAL BHANPUR",
+          "s_no": 1,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.301,
+          "lng": 77.391,
+          "name": "KAROND SQUARE",
+          "s_no": 2,
+          "time": "8:43"
+        },
+        {
+          "lat": 23.297,
+          "lng": 77.362,
+          "name": "SANJEEV NAGAR MAIN ROAD",
+          "s_no": 3,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.3025,
+          "lng": 77.348,
+          "name": "NEW JAIL ROAD",
+          "s_no": 4,
+          "time": "8:50"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 5,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3759"
+    },
+    {
+      "area": "BHOPAL TRANSIT",
+      "display_name": "Route 45 - Bhopal Transit",
+      "driver": {
+        "name": "SISTec Transport Driver",
+        "phone": "9893837199"
+      },
+      "has_live_gps": true,
+      "id": "route_45",
+      "route_no": "ROUTE NO 45",
+      "stops": [],
+      "vehicle_no": "MP04 PA 3755"
+    },
+    {
+      "area": "SHAMSHABAD",
+      "display_name": "Route 46 - Shamshabad",
+      "driver": {
+        "name": "SALIM MIYA",
+        "phone": "7880131546"
+      },
+      "has_live_gps": true,
+      "id": "route_46",
+      "route_no": "ROUTE NO 46",
+      "stops": [
+        {
+          "lat": 23.81,
+          "lng": 77.48,
+          "name": "SHAMSHABAD",
+          "s_no": 1,
+          "time": "7:30"
+        },
+        {
+          "lat": 23.68,
+          "lng": 77.46,
+          "name": "MAHANEEM CIRCLE",
+          "s_no": 2,
+          "time": "7:55"
+        },
+        {
+          "lat": 23.53,
+          "lng": 77.44,
+          "name": "DILLOD",
+          "s_no": 3,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.38,
+          "lng": 77.37,
+          "name": "ACHARPURA",
+          "s_no": 4,
+          "time": "9:05"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 5,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3947"
+    },
+    {
+      "area": "BHOPAL TRANSIT",
+      "display_name": "Route 47 - Bhopal Transit",
+      "driver": {
+        "name": "SISTec Transport Driver",
+        "phone": "9893837199"
+      },
+      "has_live_gps": true,
+      "id": "route_47",
+      "route_no": "ROUTE NO 47",
+      "stops": [],
+      "vehicle_no": "MP04 PA 3948"
+    },
+    {
+      "area": "AWADHPURI",
+      "display_name": "Route 48 - Awadhpuri",
+      "driver": {
+        "name": "ISMAIL",
+        "phone": "7880131548"
+      },
+      "has_live_gps": true,
+      "id": "route_48",
+      "route_no": "ROUTE NO 48",
+      "stops": [
+        {
+          "lat": 23.22,
+          "lng": 77.495,
+          "name": "AWADHPURI BDA COLONY",
+          "s_no": 1,
+          "time": "8:10"
+        },
+        {
+          "lat": 23.224,
+          "lng": 77.482,
+          "name": "VIDYA SAGAR",
+          "s_no": 2,
+          "time": "8:15"
+        },
+        {
+          "lat": 23.228,
+          "lng": 77.472,
+          "name": "BARKHEDA PATHANI",
+          "s_no": 3,
+          "time": "8:20"
+        },
+        {
+          "lat": 23.231,
+          "lng": 77.465,
+          "name": "PATHANI CHAURAHA",
+          "s_no": 4,
+          "time": "8:25"
+        },
+        {
+          "lat": 23.235,
+          "lng": 77.458,
+          "name": "SHAKTI NAGAR DURGA MANDIR",
+          "s_no": 5,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.228,
+          "lng": 77.448,
+          "name": "SPS SAKET NAGAR",
+          "s_no": 6,
+          "time": "8:32"
+        },
+        {
+          "lat": 23.232,
+          "lng": 77.441,
+          "name": "RRL TIRAHA",
+          "s_no": 7,
+          "time": "8:35"
+        },
+        {
+          "lat": 23.235,
+          "lng": 77.435,
+          "name": "BHOPAL FRACTURE HOSPITAL",
+          "s_no": 8,
+          "time": "8:37"
+        },
+        {
+          "lat": 23.228,
+          "lng": 77.427,
+          "name": "1100 QUARTER",
+          "s_no": 9,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.223,
+          "lng": 77.418,
+          "name": "BANS MANDI CHAURAHA",
+          "s_no": 10,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.216,
+          "lng": 77.406,
+          "name": "MANIT SQUARE",
+          "s_no": 11,
+          "time": "8:47"
+        },
+        {
+          "lat": 23.222,
+          "lng": 77.398,
+          "name": "VAISHALI NAGAR",
+          "s_no": 12,
+          "time": "8:50"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 13,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 3998"
+    },
+    {
+      "area": "BHOPAL TRANSIT",
+      "display_name": "Route 49 - Bhopal Transit",
+      "driver": {
+        "name": "SISTec Transport Driver",
+        "phone": "9893837199"
+      },
+      "has_live_gps": true,
+      "id": "route_49",
+      "route_no": "ROUTE NO 49",
+      "stops": [],
+      "vehicle_no": "MP04 PA 4182"
+    },
+    {
+      "area": "NARIYALKHEDA",
+      "display_name": "Route 50 - Nariyalkheda",
+      "driver": {
+        "name": "RASHID",
+        "phone": "9826546898"
+      },
+      "has_live_gps": true,
+      "id": "route_50",
+      "route_no": "ROUTE NO 50",
+      "stops": [
+        {
+          "lat": 23.268,
+          "lng": 77.408,
+          "name": "BHOPAL TALKIES",
+          "s_no": 1,
+          "time": "8:35"
+        },
+        {
+          "lat": 23.273,
+          "lng": 77.405,
+          "name": "QAZI CAMP SUPER BAZAR",
+          "s_no": 2,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.279,
+          "lng": 77.401,
+          "name": "CHOUKSEY NAGAR",
+          "s_no": 3,
+          "time": "8:41"
+        },
+        {
+          "lat": 23.283,
+          "lng": 77.398,
+          "name": "DIG BUNGLOW",
+          "s_no": 4,
+          "time": "8:42"
+        },
+        {
+          "lat": 23.287,
+          "lng": 77.388,
+          "name": "NARIYAL KHEDA",
+          "s_no": 5,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 6,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 4252"
+    },
+    {
+      "area": "GULMOHAR",
+      "display_name": "Route 51 - Gulmohar",
+      "driver": {
+        "name": "ASLAM",
+        "phone": "9752631551"
+      },
+      "has_live_gps": true,
+      "id": "route_51",
+      "route_no": "ROUTE NO 51",
+      "stops": [
+        {
+          "lat": 23.1932,
+          "lng": 77.4335,
+          "name": "SAI BOARD",
+          "s_no": 1,
+          "time": "8:05"
+        },
+        {
+          "lat": 23.1958,
+          "lng": 77.4285,
+          "name": "MAHENDRA PETROL PUMP",
+          "s_no": 2,
+          "time": "8:08"
+        },
+        {
+          "lat": 23.1982,
+          "lng": 77.4258,
+          "name": "SHAHPURA THANA",
+          "s_no": 3,
+          "time": "8:12"
+        },
+        {
+          "lat": 23.1994,
+          "lng": 77.4326,
+          "name": "AURA MALL",
+          "s_no": 4,
+          "time": "8:17"
+        },
+        {
+          "lat": 23.1965,
+          "lng": 77.4385,
+          "name": "GULMOHAR",
+          "s_no": 5,
+          "time": "8:20"
+        },
+        {
+          "lat": 23.203,
+          "lng": 77.4215,
+          "name": "BANSKHEDI CHAURAHA",
+          "s_no": 6,
+          "time": "8:22"
+        },
+        {
+          "lat": 23.2105,
+          "lng": 77.4268,
+          "name": "MANISHA MARKET",
+          "s_no": 7,
+          "time": "8:24"
+        },
+        {
+          "lat": 23.2085,
+          "lng": 77.4125,
+          "name": "CHUNA BHATTI CHAURAHA",
+          "s_no": 8,
+          "time": "8:25"
+        },
+        {
+          "lat": 23.2065,
+          "lng": 77.414,
+          "name": "GUT HOSPITAL",
+          "s_no": 9,
+          "time": "8:27"
+        },
+        {
+          "lat": 23.212,
+          "lng": 77.4135,
+          "name": "KOLAR TIRAHA",
+          "s_no": 10,
+          "time": "8:30"
+        },
+        {
+          "lat": 23.2325,
+          "lng": 77.3975,
+          "name": "RAHUL NAGAR/PANCHSHEEL PULIYA",
+          "s_no": 11,
+          "time": "8:35"
+        },
+        {
+          "lat": 23.2285,
+          "lng": 77.387,
+          "name": "VAISHALI NAGAR",
+          "s_no": 12,
+          "time": "8:38"
+        },
+        {
+          "lat": 23.2238,
+          "lng": 77.3812,
+          "name": "KAMLA NAGAR THANA",
+          "s_no": 13,
+          "time": "8:40"
+        },
+        {
+          "lat": 23.2255,
+          "lng": 77.371,
+          "name": "NEHRU NAGAR",
+          "s_no": 14,
+          "time": "8:42"
+        },
+        {
+          "lat": 23.237,
+          "lng": 77.3755,
+          "name": "DEPOT CHAURAHA",
+          "s_no": 15,
+          "time": "8:45"
+        },
+        {
+          "lat": 23.30408,
+          "lng": 77.33955,
+          "name": "SISTec GN",
+          "s_no": 16,
+          "time": "9:15"
+        }
+      ],
+      "vehicle_no": "MP04 PA 4250"
+    }
+  ],
+  "fleetTelematicsData": {
+    "route_01": {
+      "data_inserted_time": "01-11-2026 13:43:00",
+      "driver_mobile": "7880131501",
+      "driver_name": "PAWAN",
+      "freshness": "Inactive",
+      "heading": 10,
+      "lat": 23.3027089,
+      "lng": 77.3372,
+      "location": "Laxmi Devi Vikyomal Shroff H S SCHOOL GANDHINAGAR BHOPAL, NH 12, Pushp Vihar Colony, Gandhinagar, Bhopal, Gandhi Nagar, Bhopal, Madhya Pradesh (SE)",
+      "route_id": "route_01",
+      "route_no": "ROUTE NO 01",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Inactive",
+      "vehicle_no": "MP04 PA 3426"
+    },
+    "route_02": {
+      "data_inserted_time": "01-11-2026 14:46:00",
+      "driver_mobile": "7880131502",
+      "driver_name": "DAVID",
+      "freshness": "Fresh",
+      "heading": 134.1,
+      "lat": 23.3023022,
+      "lng": 77.3382667,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_02",
+      "route_no": "ROUTE NO 02",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3425"
+    },
+    "route_03": {
+      "data_inserted_time": "31-10-2026 21:06:22",
+      "driver_mobile": "9893837199",
+      "driver_name": "SISTec Transport Driver",
+      "freshness": "Inactive",
+      "heading": 0,
+      "lat": 23.3050399,
+      "lng": 77.3782584,
+      "location": "COLORS INTERNATIONAL SCHOOL BHOPAL, B-2, DWARKADHAM, OPPOSITE, Sanjeev Nagar, Gandhi Nagar, Bhopal, Madhya Pradesh (SE)",
+      "route_id": "route_03",
+      "route_no": "ROUTE NO 03",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Inactive",
+      "vehicle_no": "MP04ZG1176"
+    },
+    "route_04": {
+      "data_inserted_time": "01-11-2026 14:43:00",
+      "driver_mobile": "9893151986",
+      "driver_name": "RAJESH",
+      "freshness": "Fresh",
+      "heading": 134,
+      "lat": 23.2059356,
+      "lng": 77.0761689,
+      "location": "Gayatri Kirana Store, Galla Mandi Rd, Nehru Colony, Sehore, Madhya Pradesh (SW)",
+      "route_id": "route_04",
+      "route_no": "ROUTE NO 04",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3410"
+    },
+    "route_05": {
+      "data_inserted_time": "01-11-2026 14:44:00",
+      "driver_mobile": "9893837199",
+      "driver_name": "SISTec Transport Driver",
+      "freshness": "Fresh",
+      "heading": 63.1,
+      "lat": 23.3021583,
+      "lng": 77.3387189,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_05",
+      "route_no": "ROUTE NO 05",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3411"
+    },
+    "route_06": {
+      "data_inserted_time": "29-10-2026 01:14:00",
+      "driver_mobile": "9893837199",
+      "driver_name": "SISTec Transport Driver",
+      "freshness": "Inactive",
+      "heading": 122.4,
+      "lat": 23.3020089,
+      "lng": 77.3383644,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_06",
+      "route_no": "ROUTE NO 06",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Inactive",
+      "vehicle_no": "MP04PA3413"
+    },
+    "route_07": {
+      "data_inserted_time": "01-11-2026 14:46:00",
+      "driver_mobile": "7880131507",
+      "driver_name": "RIZWAN SHEIKH",
+      "freshness": "Fresh",
+      "heading": 294.3,
+      "lat": 23.3022067,
+      "lng": 77.3385672,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_07",
+      "route_no": "ROUTE NO 07",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3427"
+    },
+    "route_08": {
+      "data_inserted_time": "01-11-2026 14:45:00",
+      "driver_mobile": "7987255419",
+      "driver_name": "OM PRAKASH",
+      "freshness": "Fresh",
+      "heading": 21.1,
+      "lat": 23.3023156,
+      "lng": 77.3385244,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_08",
+      "route_no": "ROUTE NO 08",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3438"
+    },
+    "route_09": {
+      "data_inserted_time": "31-10-2026 20:29:00",
+      "driver_mobile": "7880131509",
+      "driver_name": "RAJESH",
+      "freshness": "Inactive",
+      "heading": 73.2,
+      "lat": 23.5296986,
+      "lng": 77.1660195,
+      "location": "Maa Ganga restaurant & Sweets, Charnal, Madhya Pradesh (NW)",
+      "route_id": "route_09",
+      "route_no": "ROUTE NO 09",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Inactive",
+      "vehicle_no": "MP04 PA 3433"
+    },
+    "route_10": {
+      "data_inserted_time": "01-11-2026 14:45:00",
+      "driver_mobile": "9893837199",
+      "driver_name": "SADIQ",
+      "freshness": "Fresh",
+      "heading": 22.2,
+      "lat": 23.3023244,
+      "lng": 77.3386578,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_10",
+      "route_no": "ROUTE NO 10",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Idle",
+      "vehicle_no": "MP04 PA 3440"
+    },
+    "route_11": {
+      "data_inserted_time": "01-11-2026 14:46:00",
+      "driver_mobile": "9977540136",
+      "driver_name": "SUBHASH",
+      "freshness": "Fresh",
+      "heading": 132.8,
+      "lat": 23.3020089,
+      "lng": 77.3384533,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_11",
+      "route_no": "ROUTE NO 11",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3420"
+    },
+    "route_12": {
+      "data_inserted_time": "01-11-2026 14:43:00",
+      "driver_mobile": "9893837199",
+      "driver_name": "SISTec Transport Driver",
+      "freshness": "Fresh",
+      "heading": 128.3,
+      "lat": 23.3018267,
+      "lng": 77.3375733,
+      "location": "NH 12, Pushp Vihar Colony, Gandhinagar, Bhopal, Gandhi Nagar, Bhopal, Madhya Pradesh (SE)",
+      "route_id": "route_12",
+      "route_no": "ROUTE NO 12",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3421"
+    },
+    "route_13": {
+      "data_inserted_time": "01-11-2026 14:46:00",
+      "driver_mobile": "9893837199",
+      "driver_name": "SISTec Transport Driver",
+      "freshness": "Fresh",
+      "heading": 286.4,
+      "lat": 23.3021584,
+      "lng": 77.3384639,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_13",
+      "route_no": "ROUTE NO 13",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 ZG 1182"
+    },
+    "route_14": {
+      "data_inserted_time": "01-11-2026 14:46:00",
+      "driver_mobile": "7880131514",
+      "driver_name": "RIZWAN",
+      "freshness": "Fresh",
+      "heading": 17.6,
+      "lat": 23.3023933,
+      "lng": 77.3387644,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_14",
+      "route_no": "ROUTE NO 14",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3423"
+    },
+    "route_15": {
+      "data_inserted_time": "01-11-2026 14:45:00",
+      "driver_mobile": "7880131515",
+      "driver_name": "IMRAAN",
+      "freshness": "Fresh",
+      "heading": 263.3,
+      "lat": 23.3022033,
+      "lng": 77.3385817,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_15",
+      "route_no": "ROUTE NO 15",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3424"
+    },
+    "route_16": {
+      "data_inserted_time": "01-11-2026 14:43:00",
+      "driver_mobile": "7880131516",
+      "driver_name": "KAPIL",
+      "freshness": "Fresh",
+      "heading": 282.8,
+      "lat": 23.6138311,
+      "lng": 77.4277778,
+      "location": "MAHATMA GANDHI INSTITUTE BERASIA.DCA,PGDCA, MP SH 23, Ajampur, Madhya Pradesh (SW)",
+      "route_id": "route_16",
+      "route_no": "ROUTE NO 16",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3437"
+    },
+    "route_17": {
+      "data_inserted_time": "25-09-2026 11:24:00",
+      "driver_mobile": "9893837199",
+      "driver_name": "SISTec Transport Driver",
+      "freshness": "Inactive",
+      "heading": 0,
+      "lat": 23.2557089,
+      "lng": 77.4495022,
+      "location": "Model Industrial Training Institute, Govindpura Industrial Area, Bhopal, Madhya Pradesh (NW)",
+      "route_id": "route_17",
+      "route_no": "ROUTE NO 17",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Inactive",
+      "vehicle_no": "MP04 PA 3408"
+    },
+    "route_18": {
+      "data_inserted_time": "01-11-2026 14:45:00",
+      "driver_mobile": "7880131518",
+      "driver_name": "JITENDRA",
+      "freshness": "Fresh",
+      "heading": 25.5,
+      "lat": 23.3020667,
+      "lng": 77.3385156,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_18",
+      "route_no": "ROUTE NO 18",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3414"
+    },
+    "route_19": {
+      "data_inserted_time": "01-11-2026 14:45:00",
+      "driver_mobile": "9893837199",
+      "driver_name": "SISTec Transport Driver",
+      "freshness": "Fresh",
+      "heading": 183.9,
+      "lat": 23.3022911,
+      "lng": 77.3386167,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_19",
+      "route_no": "ROUTE NO 19",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3560"
+    },
+    "route_24": {
+      "data_inserted_time": "01-11-2026 14:45:00",
+      "driver_mobile": "7880131524",
+      "driver_name": "CHAND",
+      "freshness": "Fresh",
+      "heading": 66.2,
+      "lat": 23.3023933,
+      "lng": 77.33872,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_24",
+      "route_no": "ROUTE NO 24",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3407"
+    },
+    "route_26": {
+      "data_inserted_time": "01-11-2026 14:43:00",
+      "driver_mobile": "7880131526",
+      "driver_name": "NILESH",
+      "freshness": "Fresh",
+      "heading": 320.7,
+      "lat": 23.3029622,
+      "lng": 77.3377333,
+      "location": "Laxmi Devi Vikyomal Shroff H S SCHOOL GANDHINAGAR BHOPAL, NH 12, Pushp Vihar Colony, Gandhinagar, Bhopal, Gandhi Nagar, Bhopal, Madhya Pradesh (NE)",
+      "route_id": "route_26",
+      "route_no": "ROUTE NO 26",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3429"
+    },
+    "route_27": {
+      "data_inserted_time": "01-11-2026 14:42:00",
+      "driver_mobile": "7880131527",
+      "driver_name": "MOR SINGH",
+      "freshness": "Fresh",
+      "heading": 33,
+      "lat": 23.3024044,
+      "lng": 77.3387556,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_27",
+      "route_no": "ROUTE NO 27",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3415"
+    },
+    "route_29": {
+      "data_inserted_time": "01-11-2026 14:46:00",
+      "driver_mobile": "9893837199",
+      "driver_name": "SISTec Transport Driver",
+      "freshness": "Fresh",
+      "heading": 342.9,
+      "lat": 23.3023762,
+      "lng": 77.3386243,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_29",
+      "route_no": "ROUTE NO 29",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3561"
+    },
+    "route_30": {
+      "data_inserted_time": "01-11-2026 14:45:00",
+      "driver_mobile": "7880131530",
+      "driver_name": "GOMA",
+      "freshness": "Fresh",
+      "heading": 263.2,
+      "lat": 23.1058356,
+      "lng": 77.3994222,
+      "location": "kolar Tiraha, Kalapani, Madhya Pradesh (SW)",
+      "route_id": "route_30",
+      "route_no": "ROUTE NO 30",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3419"
+    },
+    "route_31": {
+      "data_inserted_time": "01-11-2026 14:46:00",
+      "driver_mobile": "7880131531",
+      "driver_name": "RAJ KUMAR",
+      "freshness": "Fresh",
+      "heading": 161,
+      "lat": 23.1236067,
+      "lng": 77.4969333,
+      "location": "Bachpan Play School, Samardha, 19, Shubhalay Parisar, Hosangabad Road, Samardha, Indus Towne, Srikrishnapuram, Bhopal, Madhya Pradesh (NW)",
+      "route_id": "route_31",
+      "route_no": "ROUTE NO 31",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3436"
+    },
+    "route_32": {
+      "data_inserted_time": "01-11-2026 14:46:00",
+      "driver_mobile": "8120346465",
+      "driver_name": "SHIVRAJ",
+      "freshness": "Fresh",
+      "heading": 25.9,
+      "lat": 23.5318156,
+      "lng": 77.83008,
+      "location": "Sagar Rd, Dabar, Vidisha, Madhya Pradesh (NW)",
+      "route_id": "route_32",
+      "route_no": "ROUTE NO 32",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3441"
+    },
+    "route_33": {
+      "data_inserted_time": "01-11-2026 14:45:00",
+      "driver_mobile": "7880131533",
+      "driver_name": "IRFAN SHAH",
+      "freshness": "Fresh",
+      "heading": 273.3,
+      "lat": 23.2063244,
+      "lng": 77.0748178,
+      "location": "Masjid Khalil Ullah, Qusba, Sehore, Madhya Pradesh (NE)",
+      "route_id": "route_33",
+      "route_no": "ROUTE NO 33",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3439"
+    },
+    "route_34": {
+      "data_inserted_time": "31-10-2026 18:47:00",
+      "driver_mobile": "7880131534",
+      "driver_name": "SHAREEF",
+      "freshness": "Inactive",
+      "heading": 205.3,
+      "lat": 23.7112644,
+      "lng": 77.0789689,
+      "location": "NH46, Narsinghgarh, Madhya Pradesh (NW)",
+      "route_id": "route_34",
+      "route_no": "ROUTE NO 34",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Inactive",
+      "vehicle_no": "MP04 PA 3432"
+    },
+    "route_36": {
+      "data_inserted_time": "01-11-2026 14:46:00",
+      "driver_mobile": "9893837199",
+      "driver_name": "SISTec Transport Driver",
+      "freshness": "Fresh",
+      "heading": 0,
+      "lat": 23.3022938,
+      "lng": 77.338623,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_36",
+      "route_no": "ROUTE NO 36",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3476"
+    },
+    "route_37": {
+      "data_inserted_time": "01-11-2026 14:46:00",
+      "driver_mobile": "7880131537",
+      "driver_name": "FAHEEM",
+      "freshness": "Fresh",
+      "heading": 0,
+      "lat": 23.2880244,
+      "lng": 77.3994133,
+      "location": "Patanjali Store, Nariyalkheda, Bhopal, Madhya Pradesh (NE)",
+      "route_id": "route_37",
+      "route_no": "ROUTE NO 37",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3475"
+    },
+    "route_39": {
+      "data_inserted_time": "01-11-2026 14:46:00",
+      "driver_mobile": "7880131539",
+      "driver_name": "ROOP SINGH",
+      "freshness": "Fresh",
+      "heading": 309.3,
+      "lat": 23.3024853,
+      "lng": 77.3386435,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (NW)",
+      "route_id": "route_39",
+      "route_no": "ROUTE NO 39",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3564"
+    },
+    "route_40": {
+      "data_inserted_time": "01-11-2026 14:46:00",
+      "driver_mobile": "9893837199",
+      "driver_name": "SISTec Transport Driver",
+      "freshness": "Fresh",
+      "heading": 23,
+      "lat": 23.3025333,
+      "lng": 77.3387467,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (NW)",
+      "route_id": "route_40",
+      "route_no": "ROUTE NO 40",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3565"
+    },
+    "route_41": {
+      "data_inserted_time": "01-11-2026 14:46:00",
+      "driver_mobile": "9893837199",
+      "driver_name": "SISTec Transport Driver",
+      "freshness": "Fresh",
+      "heading": 251.8,
+      "lat": 23.3938156,
+      "lng": 76.8924089,
+      "location": "Hanuman Mandir, Ghatti Mukhtyarpur, Madhya Pradesh (SW)",
+      "route_id": "route_41",
+      "route_no": "ROUTE NO 41",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3514"
+    },
+    "route_42": {
+      "data_inserted_time": "01-11-2026 14:45:00",
+      "driver_mobile": "9893837199",
+      "driver_name": "SISTec Transport Driver",
+      "freshness": "Fresh",
+      "heading": 118.7,
+      "lat": 23.30218,
+      "lng": 77.3384533,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_42",
+      "route_no": "ROUTE NO 42",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3996"
+    },
+    "route_43": {
+      "data_inserted_time": "01-11-2026 14:44:00",
+      "driver_mobile": "9893837199",
+      "driver_name": "SISTec Transport Driver",
+      "freshness": "Stale",
+      "heading": 144.7,
+      "lat": 23.1884444,
+      "lng": 77.45224,
+      "location": "\u0905\u0939\u092e\u0926\u092a\u0941\u0930 (B)  Ahamadpur R/C (B), Chinar Fortune City, Bhopal, Madhya Pradesh (NE)",
+      "route_id": "route_43",
+      "route_no": "ROUTE NO 43",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stale",
+      "vehicle_no": "MP04 PA 3756"
+    },
+    "route_44": {
+      "data_inserted_time": "01-11-2026 14:44:00",
+      "driver_mobile": "7880131544",
+      "driver_name": "SHABAZ",
+      "freshness": "Fresh",
+      "heading": 14.9,
+      "lat": 23.3021533,
+      "lng": 77.3385511,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_44",
+      "route_no": "ROUTE NO 44",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3759"
+    },
+    "route_45": {
+      "data_inserted_time": "01-11-2026 14:43:00",
+      "driver_mobile": "9893837199",
+      "driver_name": "SISTec Transport Driver",
+      "freshness": "Fresh",
+      "heading": 15.3,
+      "lat": 23.3024778,
+      "lng": 77.3386578,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (NW)",
+      "route_id": "route_45",
+      "route_no": "ROUTE NO 45",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3755"
+    },
+    "route_46": {
+      "data_inserted_time": "01-11-2026 14:43:00",
+      "driver_mobile": "7880131546",
+      "driver_name": "SALIM MIYA",
+      "freshness": "Fresh",
+      "heading": 134.2,
+      "lat": 23.3022289,
+      "lng": 77.3385156,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_46",
+      "route_no": "ROUTE NO 46",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3947"
+    },
+    "route_47": {
+      "data_inserted_time": "01-11-2026 14:42:00",
+      "driver_mobile": "9893837199",
+      "driver_name": "SISTec Transport Driver",
+      "freshness": "Fresh",
+      "heading": 33,
+      "lat": 23.3024778,
+      "lng": 77.33872,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (NW)",
+      "route_id": "route_47",
+      "route_no": "ROUTE NO 47",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3948"
+    },
+    "route_48": {
+      "data_inserted_time": "01-11-2026 14:45:00",
+      "driver_mobile": "7880131548",
+      "driver_name": "ISMAIL",
+      "freshness": "Fresh",
+      "heading": 96.6,
+      "lat": 23.2109833,
+      "lng": 77.453537,
+      "location": "A-34 alka, Alkapuri, Habib Ganj, Bhopal, Madhya Pradesh (SE)",
+      "route_id": "route_48",
+      "route_no": "ROUTE NO 48",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 3998"
+    },
+    "route_49": {
+      "data_inserted_time": "01-11-2026 14:45:31",
+      "driver_mobile": "9893837199",
+      "driver_name": "SISTec Transport Driver",
+      "freshness": "Fresh",
+      "heading": 0,
+      "lat": 23.2101887,
+      "lng": 77.4528241,
+      "location": "Sushma Provisions Store, 9B Saket Nagar, Habib Ganj, Bhopal, Madhya Pradesh (NE)",
+      "route_id": "route_49",
+      "route_no": "ROUTE NO 49",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04PA4182"
+    },
+    "route_50": {
+      "data_inserted_time": "01-11-2026 14:46:00",
+      "driver_mobile": "9826546898",
+      "driver_name": "RASHID",
+      "freshness": "Fresh",
+      "heading": 185.7,
+      "lat": 23.3055195,
+      "lng": 77.3787925,
+      "location": "COLORS INTERNATIONAL SCHOOL BHOPAL, B-2, DWARKADHAM, OPPOSITE, Sanjeev Nagar, Gandhi Nagar, Bhopal, Madhya Pradesh (SE)",
+      "route_id": "route_50",
+      "route_no": "ROUTE NO 50",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 4252"
+    },
+    "route_51": {
+      "data_inserted_time": "01-11-2026 14:46:00",
+      "driver_mobile": "9752631551",
+      "driver_name": "ASLAM",
+      "freshness": "Fresh",
+      "heading": 305.2,
+      "lat": 23.3021412,
+      "lng": 77.3384236,
+      "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+      "route_id": "route_51",
+      "route_no": "ROUTE NO 51",
+      "speed": 0,
+      "speed_kmh": 0,
+      "status": "Stopped",
+      "vehicle_no": "MP04 PA 4250"
+    }
+  },
+  "latestTelematicsData": {
+    "data_inserted_time": "01-11-2026 14:46:00",
+    "driver_mobile": "7880131507",
+    "driver_name": "RIZWAN SHEIKH",
+    "freshness": "Fresh",
+    "heading": 294.3,
+    "lat": 23.3022067,
+    "lng": 77.3385672,
+    "location": "Bank of Baroda ATM, Gandhi Nagar, Bhopal, Madhya Pradesh (SW)",
+    "route_id": "route_07",
+    "route_no": "ROUTE NO 07",
+    "speed": 0,
+    "speed_kmh": 0,
+    "status": "Stopped",
+    "vehicle_no": "MP04 PA 3427"
+  }
+}
