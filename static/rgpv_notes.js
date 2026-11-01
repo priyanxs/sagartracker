@@ -1,6 +1,7 @@
 // =============================================================================
 // APERTU — OFFICIAL RGPV B.TECH CSE SEMESTER NOTES & QUESTION BANK VAULT
 // Curated for Priyanshu Kushwaha (CSE Core • SISTec Bhopal)
+// Styled to match the Apertu Notebook / Scrapbook Aesthetic
 // =============================================================================
 
 const RGPV_NOTES_DATABASE = [
@@ -237,6 +238,118 @@ const RGPV_NOTES_DATABASE = [
     ]
   },
   {
+    "code": "BT-201",
+    "title": "Engineering Physics",
+    "year": 1,
+    "sem": 2,
+    "credits": 4,
+    "branch": "CSE Core",
+    "units": [
+      "Unit I: Quantum Mechanics (Wave-particle duality, De Broglie, Schrodinger equation, Particle in 1D box)",
+      "Unit II: Wave Optics (Interference in thin films, Newton's Rings, Diffraction grating, Polarization)",
+      "Unit III: Laser & Fiber Optics (Spontaneous & stimulated emission, Population inversion, Optical fibers NA)",
+      "Unit IV: Solid State & Semiconductor Physics (Band theory of solids, Fermi-Dirac distribution, Hall Effect)",
+      "Unit V: Superconductivity & Nanotechnology (Meissner effect, Type-I & Type-II, Carbon nanotubes)"
+    ],
+    "formulas": [
+      "Schrodinger 1D Wave Eq: (-\u0127^2 / 2m)(d^2\u03c8/dx^2) + V(x)\u03c8 = E\u03c8",
+      "Particle in 1D Box Energy: E_n = (n^2 h^2) / (8 m L^2)",
+      "Newton's Rings Diameter: D_n^2 = 4 n \u03bb R (for dark rings)",
+      "Numerical Aperture (Fiber): NA = \u221a(n1^2 - n2^2) = n1 \u221a(2\u0394)",
+      "Hall Coefficient: R_H = 1 / (n x e)"
+    ],
+    "qa": [
+      {
+        "q": "Derive the time-independent Schrodinger wave equation. Calculate the energy eigenvalues of a particle trapped in an infinite 1D potential well. [7 Marks]",
+        "a": "<b>Derivation:</b> A moving particle has an associated de Broglie wave \u03c8(x) = A e^(i(kx - \u03c9t)). Differentiating twice with respect to x gives d^2\u03c8/dx^2 = -k^2 \u03c8 = -(p^2 / \u0127^2) \u03c8. Since Total Energy E = Kinetic Energy + Potential Energy = (p^2 / 2m) + V(x), we have p^2 = 2m(E - V(x)). Substituting yields <b>(-\u0127^2 / 2m)(d^2\u03c8/dx^2) + V(x)\u03c8 = E\u03c8</b>.<br><b>Particle in 1D Box (0 <= x <= L, V=0 inside, V=\u221e outside):</b> Boundary conditions \u03c8(0)=0 and \u03c8(L)=0 require k = n\u03c0/L. Normalization yields \u03c8_n(x) = \u221a(2/L) sin(n\u03c0x/L). Substituting k into energy relation gives <b>E_n = (n^2 h^2) / (8 m L^2)</b>, showing energy quantization!"
+      },
+      {
+        "q": "Explain the construction and working of a Ruby Laser or He-Ne Laser with an energy level diagram. [7 Marks]",
+        "a": "<b>He-Ne Laser:</b> A four-level gas laser producing continuous red light at 632.8 nm.<br>\u2022 <i>Active Medium:</i> Mixture of Helium and Neon gas in 10:1 ratio at low pressure in a quartz discharge tube.<br>\u2022 <i>Pumping:</i> Electric discharge excites He atoms to metastable states (20.61 eV).<br>\u2022 <i>Energy Transfer:</i> Excited He atoms collide with ground-state Ne atoms (resonant collision), transferring energy and creating <b>Population Inversion</b> in Ne atoms.<br>\u2022 <i>Stimulated Emission:</i> Transition from Ne 3s to 2p level emits coherent photons of wavelength <b>632.8 nm</b>. Optical resonator mirrors reflect photons to amplify the laser beam."
+      }
+    ],
+    "pyq": [
+      {
+        "year": "Dec 2024",
+        "q": "Explain the formation of Newton's rings by reflected light and derive expression for diameter of dark rings."
+      },
+      {
+        "year": "June 2024",
+        "q": "What is Hall Effect? Derive the expression for Hall coefficient and explain its engineering applications."
+      },
+      {
+        "year": "Dec 2023",
+        "q": "Explain Meissner Effect and differentiate between Type-I and Type-II superconductors."
+      }
+    ]
+  },
+  {
+    "code": "CS-302",
+    "title": "Discrete Mathematics",
+    "year": 2,
+    "sem": 3,
+    "credits": 4,
+    "branch": "CSE Core",
+    "roadmap": {
+      "strategy": "Mathematical logic proofs, Poset Hasse diagrams, and Graph Theory (Eulerian & Hamiltonian graphs) are repeated every session.",
+      "pass_target": "Unit 1 (Sets, Relations & Functions) + Unit 4 (Graph Theory & Trees) guarantee 35+ marks.",
+      "top_scorer_tip": "Draw Hasse diagrams neatly with upward directed lines omitting transitive and reflexive edges.",
+      "blueprint": "Q1 Equivalence Relations & Partition (7M), Q2 Poset & Hasse Diagrams (7M), Q3 Propositional Logic & Tautology (7M), Q4 Pigeonhole Principle & Permutations (7M), Q5 Groups & Subgroups Lagrange's Theorem (7M), Q6 Rings & Fields (7M), Q7 Graph Isomorphism & Planar Graphs (7M), Q8 Eulerian vs Hamiltonian Graphs (7M)."
+    },
+    "repeated_topics": [
+      "Hasse Diagram of a Poset (e.g. Divisibility relation D\u2083\u2086 or D\u2082\u2084) with maximal/minimal elements",
+      "Lagrange's Theorem for finite groups: Order of subgroup divides order of group",
+      "Euler's formula for connected planar graphs: V - E + R = 2"
+    ],
+    "units": [
+      "Unit I: Set Theory & Relations (Sets, Power set, Cartesian product, Relations, Equivalence relations, Closures Reflexive/Symmetric/Transitive, Partial ordering Poset, Hasse diagram, Lattices)",
+      "Unit II: Propositional & Predicate Logic (Propositions, Connectives truth tables, Tautology, Contradiction, Normal forms DNF and CNF, Predicates and Quantifiers, Rules of inference)",
+      "Unit III: Combinatorics & Recurrence (Pigeonhole principle, Permutations and Combinations, Generating functions, Linear recurrence relations with constant coefficients)",
+      "Unit IV: Algebraic Structures (Semigroups, Monoids, Groups, Abelian groups, Subgroups, Cyclic groups, Cosets, Lagrange's Theorem, Rings, Integral Domains, Fields)",
+      "Unit V: Graph Theory & Trees (Graphs, Degree Handshaking lemma, Paths and circuits, Eulerian & Hamiltonian paths, Planar graphs, Euler's formula V - E + R = 2, Graph coloring, Trees, Spanning trees)"
+    ],
+    "formulas": [
+      "Handshaking Lemma: \u2211 deg(v) = 2 \u00b7 |E|",
+      "Euler's Planar Graph Formula: V - E + R = 2",
+      "Lagrange's Theorem: |G| = [G : H] \u00b7 |H| (Order of subgroup divides order of finite group)",
+      "Pigeonhole Principle: If n items are put into k containers, at least one container has \u2308n/k\u2309 items",
+      "Lattice Distributive Law: a \u2227 (b \u2228 c) = (a \u2227 b) \u2228 (a \u2227 c)"
+    ],
+    "diagram_svg": "<svg viewBox=\"0 0 520 180\" xmlns=\"http://www.w3.org/2000/svg\" class=\"w-full max-w-lg mx-auto my-3 border border-stone-800 rounded-lg bg-stone-50 p-2\">\n  <rect x=\"20\" y=\"20\" width=\"480\" height=\"140\" rx=\"8\" fill=\"#fdf4ff\" stroke=\"#a21caf\" stroke-width=\"2\"/>\n  <text x=\"260\" y=\"42\" font-family=\"monospace\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#701a75\">HASSE DIAGRAM OF POSET (D\u2081\u2082, |) (DIVISIBILITY ON 12)</text>\n  <!-- Node 12 -->\n  <circle cx=\"260\" cy=\"65\" r=\"12\" fill=\"#fae8ff\" stroke=\"#a21caf\" stroke-width=\"2\"/>\n  <text x=\"260\" y=\"69\" font-family=\"monospace\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#701a75\">12</text>\n  <!-- Level 2: 4 and 6 -->\n  <circle cx=\"190\" cy=\"100\" r=\"12\" fill=\"#fae8ff\" stroke=\"#a21caf\" stroke-width=\"2\"/>\n  <text x=\"190\" y=\"104\" font-family=\"monospace\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#701a75\">4</text>\n  <circle cx=\"330\" cy=\"100\" r=\"12\" fill=\"#fae8ff\" stroke=\"#a21caf\" stroke-width=\"2\"/>\n  <text x=\"330\" y=\"104\" font-family=\"monospace\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#701a75\">6</text>\n  <!-- Level 3: 2 and 3 -->\n  <circle cx=\"190\" cy=\"135\" r=\"12\" fill=\"#fae8ff\" stroke=\"#a21caf\" stroke-width=\"2\"/>\n  <text x=\"190\" y=\"139\" font-family=\"monospace\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#701a75\">2</text>\n  <circle cx=\"330\" cy=\"135\" r=\"12\" fill=\"#fae8ff\" stroke=\"#a21caf\" stroke-width=\"2\"/>\n  <text x=\"330\" y=\"139\" font-family=\"monospace\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#701a75\">3</text>\n  <!-- Level 4: 1 -->\n  <circle cx=\"260\" cy=\"155\" r=\"10\" fill=\"#fae8ff\" stroke=\"#a21caf\" stroke-width=\"2\"/>\n  <text x=\"260\" y=\"159\" font-family=\"monospace\" font-size=\"9\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#701a75\">1</text>\n  <!-- Connecting Edges -->\n  <line x1=\"260\" y1=\"77\" x2=\"198\" y2=\"92\" stroke=\"#a21caf\" stroke-width=\"1.5\"/>\n  <line x1=\"260\" y1=\"77\" x2=\"322\" y2=\"92\" stroke=\"#a21caf\" stroke-width=\"1.5\"/>\n  <line x1=\"190\" y1=\"112\" x2=\"190\" y2=\"123\" stroke=\"#a21caf\" stroke-width=\"1.5\"/>\n  <line x1=\"330\" y1=\"112\" x2=\"198\" y2=\"128\" stroke=\"#a21caf\" stroke-width=\"1.5\"/>\n  <line x1=\"330\" y1=\"112\" x2=\"330\" y2=\"123\" stroke=\"#a21caf\" stroke-width=\"1.5\"/>\n  <line x1=\"190\" y1=\"147\" x2=\"252\" y2=\"152\" stroke=\"#a21caf\" stroke-width=\"1.5\"/>\n  <line x1=\"330\" y1=\"147\" x2=\"268\" y2=\"152\" stroke=\"#a21caf\" stroke-width=\"1.5\"/>\n  <!-- Labels -->\n  <text x=\"80\" y=\"65\" font-family=\"sans-serif\" font-size=\"8.5\" fill=\"#701a75\">Greatest: 12 (Maximal)</text>\n  <text x=\"80\" y=\"155\" font-family=\"sans-serif\" font-size=\"8.5\" fill=\"#701a75\">Least: 1 (Minimal)</text>\n</svg>",
+    "qa": [
+      {
+        "q": "State and prove Lagrange's Theorem for finite groups. What is its corollary for prime order groups? [7 Marks]",
+        "a": "<b>1. Theorem Statement:</b> The order of each subgroup H of a finite group G divides the order of G. That is, <code>|G| = [G : H] \u00b7 |H|</code>.<br><b>2. Proof:</b><br>\u2022 Let H = {h\u2081, h\u2082, ..., h_m} be a subgroup of G of order m.<br>\u2022 For any a \u2208 G, the left coset aH = {ah\u2081, ah\u2082, ..., ah_m}.<br>\u2022 All m elements of aH are distinct (if ah_i = ah_j, left cancellation implies h_i = h_j).<br>\u2022 Any two left cosets are either disjoint or identical.<br>\u2022 Since every element g \u2208 G belongs to some coset gH, the distinct left cosets partition the group G.<br>\u2022 If there are k distinct left cosets, then |G| = k \u00b7 |H|.<br>\u2022 Therefore, |H| divides |G|.<br><b>3. Corollary:</b> Any group of prime order p is cyclic and has no non-trivial proper subgroups."
+      },
+      {
+        "q": "State Euler's Formula for connected planar graphs. Prove that for any simple planar graph with V \u2265 3, E \u2264 3V - 6. [7 Marks]",
+        "a": "<b>1. Euler's Formula:</b> In any connected planar graph with V vertices, E edges, and R regions (faces), <code>V - E + R = 2</code>.<br><b>2. Proof of E \u2264 3V - 6:</b><br>\u2022 Every region in a simple planar graph is bounded by at least 3 edges (since there are no multiple edges or loops).<br>\u2022 Each edge separates at most 2 regions.<br>\u2022 Summing edge boundaries over all regions gives: <code>2E = \u2211 degree(Region) \u2265 3R \u21d2 R \u2264 (2/3) E</code>.<br>\u2022 Substitute into Euler's formula V - E + R = 2:<br><code>V - E + (2/3) E \u2265 2  \u21d2  V - (1/3) E \u2265 2</code><br>Multiply by 3:<br><code>3V - E \u2265 6  \u21d2  E \u2264 3V - 6</code>. (Hence Proved)."
+      }
+    ],
+    "pyq": [
+      {
+        "year": "Dec 2024",
+        "q": "Show that the proposition (p \u2227 (p \u2192 q)) \u2192 q is a tautology using truth tables."
+      },
+      {
+        "year": "June 2024",
+        "q": "Differentiate between Eulerian graph and Hamiltonian graph. State necessary and sufficient conditions for each."
+      },
+      {
+        "year": "Dec 2023",
+        "q": "Solve recurrence relation a_n = 5 a_{n-1} - 6 a_{n-2} with initial conditions a\u2080 = 1, a\u2081 = 4."
+      },
+      {
+        "year": "June 2023",
+        "q": "Show that the set G = {1, 2, 3, 4, 5, 6} forms an abelian group under multiplication modulo 7."
+      },
+      {
+        "year": "Dec 2022",
+        "q": "State Pigeonhole Principle. Show that among 13 people, at least two were born in the same month."
+      }
+    ]
+  },
+  {
     "code": "CS-303",
     "title": "Data Structures & Algorithms",
     "year": 2,
@@ -291,6 +404,51 @@ const RGPV_NOTES_DATABASE = [
       {
         "year": "Dec 2022",
         "q": "Construct a binary tree from Inorder: D B E A F C and Preorder: A B D E C F."
+      }
+    ]
+  },
+  {
+    "code": "CS-402",
+    "title": "Analysis & Design of Algorithms (ADA)",
+    "year": 2,
+    "sem": 4,
+    "credits": 4,
+    "branch": "CSE Core",
+    "units": [
+      "Unit I: Algorithm Analysis & Recurrences (Asymptotic bounds, Master Theorem, Substitution, Recursion tree)",
+      "Unit II: Divide & Conquer (Strassen's matrix multiplication, Convex Hull, Binary search analysis)",
+      "Unit III: Greedy Method (Knapsack problem, Huffman coding, Job sequencing with deadlines)",
+      "Unit IV: Dynamic Programming (0/1 Knapsack, Matrix Chain Multiplication, Longest Common Subsequence LCS, Floyd-Warshall)",
+      "Unit V: Backtracking, Branch & Bound, NP-Completeness (N-Queens, Graph Coloring, Travelling Salesperson, P vs NP, NP-Hard)"
+    ],
+    "formulas": [
+      "Master Theorem: T(n) = a T(n/b) + \u0398(n^k log^p n); compare a with b^k",
+      "Strassen's Multiplication: T(n) = 7 T(n/2) + O(n^2) \u21d2 O(n^log2 7) \u2248 O(n^2.81)",
+      "Dynamic Programming 0/1 Knapsack: V[i, w] = max(V[i-1, w], val[i] + V[i-1, w - wt[i]])",
+      "LCS Recurrence: c[i, j] = c[i-1, j-1] + 1 if X[i]==Y[j] else max(c[i-1, j], c[i, j-1])"
+    ],
+    "qa": [
+      {
+        "q": "Explain the 0/1 Knapsack problem using Dynamic Programming. Solve for capacity W=5, items with weights [2, 3, 4] and profits [3, 4, 5]. [7 Marks]",
+        "a": "<b>DP Formulation:</b> Let V[i, w] be the maximum profit with first i items and capacity w.<br><b>Recurrence:</b><br>\u2022 If wt[i] > w: V[i, w] = V[i-1, w]<br>\u2022 Else: V[i, w] = max(V[i-1, w], profit[i] + V[i-1, w - wt[i]])<br><b>Table Computation (W=0 to 5):</b><br>\u2022 Row 1 (Item 1, wt=2, p=3): V[1, 0..1]=0, V[1, 2..5]=3.<br>\u2022 Row 2 (Item 2, wt=3, p=4): V[2, 0..1]=0, V[2, 2]=3, V[2, 3]=4, V[2, 4]=4, V[2, 5]=max(3, 4+V[1, 2]) = <b>7</b> (Items 1 and 2).<br>\u2022 Row 3 (Item 3, wt=4, p=5): V[3, 5]=max(V[2, 5], 5 + V[2, 1]) = max(7, 5+0) = 7.<br><b>Optimal Profit:</b> <b>7</b> (Select Item 1 and Item 2, Total Weight = 2 + 3 = 5 <= 5)."
+      },
+      {
+        "q": "Differentiate between P, NP, NP-Complete, and NP-Hard classes with a neat Euler diagram. [7 Marks]",
+        "a": "<b>Class Definitions:</b><br>\u2022 <b>P (Polynomial time):</b> Set of decision problems solvable by a Deterministic Turing Machine in polynomial time O(n^k). E.g. Sorting, Shortest Path.<br>\u2022 <b>NP (Nondeterministic Polynomial):</b> Decision problems whose proposed solutions can be VERIFIED in polynomial time by a DTM.<br>\u2022 <b>NP-Hard:</b> A problem X is NP-Hard if every problem Y in NP can be reduced to X in polynomial time (Y <=_p X). It does not need to be in NP itself.<br>\u2022 <b>NP-Complete (NPC):</b> A problem X is NP-Complete if (1) X \u2208 NP, and (2) X is NP-Hard. (Hardest problems in NP, e.g. 3-SAT, Clique, Hamiltonian Cycle, Traveling Salesperson Decision)."
+      }
+    ],
+    "pyq": [
+      {
+        "year": "Dec 2024",
+        "q": "Solve Matrix Chain Multiplication for dimensions [40, 20, 30, 10, 30] using dynamic programming."
+      },
+      {
+        "year": "June 2024",
+        "q": "Explain Huffman Coding algorithm and construct optimal prefix code tree for given frequencies."
+      },
+      {
+        "year": "Dec 2023",
+        "q": "Solve 4-Queens problem using Backtracking state-space tree."
       }
     ]
   },
@@ -467,6 +625,51 @@ const RGPV_NOTES_DATABASE = [
     ]
   },
   {
+    "code": "CS-601",
+    "title": "Computer Networks",
+    "year": 3,
+    "sem": 6,
+    "credits": 4,
+    "branch": "CSE Core",
+    "units": [
+      "Unit I: Physical & Data Link Layer (OSI vs TCP/IP, Framing, Error detection CRC, Flow control Sliding Window, HDLC)",
+      "Unit II: Medium Access Control (Pure & Slotted ALOHA, CSMA/CD, Ethernet IEEE 802.3, Wireless LAN 802.11)",
+      "Unit III: Network Layer & Routing (IPv4 addressing & subnetting, CIDR, Distance Vector Routing, Link State OSPF, BGP)",
+      "Unit IV: Transport Layer (TCP 3-way handshake, Flow control, TCP Congestion control Slow Start, UDP vs TCP)",
+      "Unit V: Application Layer & Network Security (DNS, HTTP/HTTPS, SMTP, Public key cryptography RSA, Firewalls)"
+    ],
+    "formulas": [
+      "Maximum ALOHA Throughput: Pure ALOHA = 1/(2e) \u2248 18.4%; Slotted ALOHA = 1/e \u2248 36.8%",
+      "Cyclic Redundancy Check (CRC): Transmitted Frame = (Message << r) + Remainder[ (M << r) / Generator ]",
+      "Subnet Masking: Usable Hosts = 2^(32 - Prefix) - 2 (subtract Network & Broadcast addresses)",
+      "TCP Congestion Window: Threshold reached \u21d2 Switch from Exponential Growth to Linear Additive Increase"
+    ],
+    "qa": [
+      {
+        "q": "Explain IPv4 Classless Inter-Domain Routing (CIDR) and Subnetting. An organization is granted block 200.16.0.0/16. Divide it into 4 equal subnets. [7 Marks]",
+        "a": "<b>Subnetting Solution:</b><br>\u2022 Original Block: <code>200.16.0.0/16</code> (Mask: 255.255.0.0).<br>\u2022 We need 4 subnets: 2^2 = 4, so borrow <b>2 bits</b> from host ID.<br>\u2022 New Prefix: 16 + 2 = <b>/18</b> (Subnet Mask: 255.255.192.0).<br>\u2022 Block increment = 256 - 192 = 64 in the 3rd octet.<br><b>Subnets:</b><br>1. <b>Subnet 1:</b> 200.16.0.0/18 (Host Range: 200.16.0.1 to 200.16.63.254, Broadcast: 200.16.63.255)<br>2. <b>Subnet 2:</b> 200.16.64.0/18 (Host Range: 200.16.64.1 to 200.16.127.254, Broadcast: 200.16.127.255)<br>3. <b>Subnet 3:</b> 200.16.128.0/18 (Host Range: 200.16.128.1 to 200.16.191.254, Broadcast: 200.16.191.255)<br>4. <b>Subnet 4:</b> 200.16.192.0/18 (Host Range: 200.16.192.1 to 200.16.255.254, Broadcast: 200.16.255.255)"
+      },
+      {
+        "q": "Explain TCP 3-Way Handshake connection establishment and TCP Congestion Control mechanisms (Slow Start, Congestion Avoidance, Fast Retransmit). [7 Marks]",
+        "a": "<b>TCP 3-Way Handshake:</b><br>1. <i>SYN:</i> Client sends <code>SYN=1, seq=x</code> to Server.<br>2. <i>SYN-ACK:</i> Server responds with <code>SYN=1, ACK=1, seq=y, ack=x+1</code>.<br>3. <i>ACK:</i> Client sends <code>ACK=1, ack=y+1</code>. Connection established.<br><b>Congestion Control:</b><br>\u2022 <b>Slow Start:</b> cwnd starts at 1 MSS and doubles every RTT (exponential growth: 1, 2, 4, 8...) until <code>ssthresh</code>.<br>\u2022 <b>Congestion Avoidance:</b> Once cwnd >= ssthresh, growth switches to Additive Increase (increases by 1 MSS per RTT).<br>\u2022 <b>On Timeout:</b> ssthresh = cwnd / 2, cwnd reset to 1 MSS (Multiplicative Decrease).<br>\u2022 <b>Fast Retransmit & Fast Recovery:</b> Upon 3 duplicate ACKs, retransmits immediately without waiting for timeout, sets ssthresh = cwnd / 2 and cwnd = ssthresh + 3."
+      }
+    ],
+    "pyq": [
+      {
+        "year": "Dec 2024",
+        "q": "Compare Distance Vector Routing (Bellman-Ford & Count-to-Infinity) with Link State Routing (Dijkstra)."
+      },
+      {
+        "year": "June 2024",
+        "q": "Explain RSA public key encryption algorithm with a numerical example: p=3, q=11, e=7."
+      },
+      {
+        "year": "Dec 2023",
+        "q": "Explain CSMA/CD protocol with binary exponential back-off algorithm and collision window."
+      }
+    ]
+  },
+  {
     "code": "CS-701",
     "title": "Cloud Computing & Virtualization",
     "year": 4,
@@ -576,142 +779,6 @@ const RGPV_NOTES_DATABASE = [
       {
         "year": "Dec 2022",
         "q": "Explain Genetic Algorithm operators: Selection, Crossover, and Mutation with example."
-      }
-    ]
-  },
-  {
-    "code": "BT-201",
-    "title": "Engineering Physics",
-    "year": 1,
-    "sem": 2,
-    "credits": 4,
-    "branch": "CSE Core",
-    "units": [
-      "Unit I: Quantum Mechanics (Wave-particle duality, De Broglie, Schrodinger equation, Particle in 1D box)",
-      "Unit II: Wave Optics (Interference in thin films, Newton's Rings, Diffraction grating, Polarization)",
-      "Unit III: Laser & Fiber Optics (Spontaneous & stimulated emission, Population inversion, Optical fibers NA)",
-      "Unit IV: Solid State & Semiconductor Physics (Band theory of solids, Fermi-Dirac distribution, Hall Effect)",
-      "Unit V: Superconductivity & Nanotechnology (Meissner effect, Type-I & Type-II, Carbon nanotubes)"
-    ],
-    "formulas": [
-      "Schrodinger 1D Wave Eq: (-\u0127^2 / 2m)(d^2\u03c8/dx^2) + V(x)\u03c8 = E\u03c8",
-      "Particle in 1D Box Energy: E_n = (n^2 h^2) / (8 m L^2)",
-      "Newton's Rings Diameter: D_n^2 = 4 n \u03bb R (for dark rings)",
-      "Numerical Aperture (Fiber): NA = \u221a(n1^2 - n2^2) = n1 \u221a(2\u0394)",
-      "Hall Coefficient: R_H = 1 / (n x e)"
-    ],
-    "qa": [
-      {
-        "q": "Derive the time-independent Schrodinger wave equation. Calculate the energy eigenvalues of a particle trapped in an infinite 1D potential well. [7 Marks]",
-        "a": "<b>Derivation:</b> A moving particle has an associated de Broglie wave \u03c8(x) = A e^(i(kx - \u03c9t)). Differentiating twice with respect to x gives d^2\u03c8/dx^2 = -k^2 \u03c8 = -(p^2 / \u0127^2) \u03c8. Since Total Energy E = Kinetic Energy + Potential Energy = (p^2 / 2m) + V(x), we have p^2 = 2m(E - V(x)). Substituting yields <b>(-\u0127^2 / 2m)(d^2\u03c8/dx^2) + V(x)\u03c8 = E\u03c8</b>.<br><b>Particle in 1D Box (0 <= x <= L, V=0 inside, V=\u221e outside):</b> Boundary conditions \u03c8(0)=0 and \u03c8(L)=0 require k = n\u03c0/L. Normalization yields \u03c8_n(x) = \u221a(2/L) sin(n\u03c0x/L). Substituting k into energy relation gives <b>E_n = (n^2 h^2) / (8 m L^2)</b>, showing energy quantization!"
-      },
-      {
-        "q": "Explain the construction and working of a Ruby Laser or He-Ne Laser with an energy level diagram. [7 Marks]",
-        "a": "<b>He-Ne Laser:</b> A four-level gas laser producing continuous red light at 632.8 nm.<br>\u2022 <i>Active Medium:</i> Mixture of Helium and Neon gas in 10:1 ratio at low pressure in a quartz discharge tube.<br>\u2022 <i>Pumping:</i> Electric discharge excites He atoms to metastable states (20.61 eV).<br>\u2022 <i>Energy Transfer:</i> Excited He atoms collide with ground-state Ne atoms (resonant collision), transferring energy and creating <b>Population Inversion</b> in Ne atoms.<br>\u2022 <i>Stimulated Emission:</i> Transition from Ne 3s to 2p level emits coherent photons of wavelength <b>632.8 nm</b>. Optical resonator mirrors reflect photons to amplify the laser beam."
-      }
-    ],
-    "pyq": [
-      {
-        "year": "Dec 2024",
-        "q": "Explain the formation of Newton's rings by reflected light and derive expression for diameter of dark rings."
-      },
-      {
-        "year": "June 2024",
-        "q": "What is Hall Effect? Derive the expression for Hall coefficient and explain its engineering applications."
-      },
-      {
-        "year": "Dec 2023",
-        "q": "Explain Meissner Effect and differentiate between Type-I and Type-II superconductors."
-      }
-    ]
-  },
-  {
-    "code": "CS-402",
-    "title": "Analysis & Design of Algorithms (ADA)",
-    "year": 2,
-    "sem": 4,
-    "credits": 4,
-    "branch": "CSE Core",
-    "units": [
-      "Unit I: Algorithm Analysis & Recurrences (Asymptotic bounds, Master Theorem, Substitution, Recursion tree)",
-      "Unit II: Divide & Conquer (Strassen's matrix multiplication, Convex Hull, Binary search analysis)",
-      "Unit III: Greedy Method (Knapsack problem, Huffman coding, Job sequencing with deadlines)",
-      "Unit IV: Dynamic Programming (0/1 Knapsack, Matrix Chain Multiplication, Longest Common Subsequence LCS, Floyd-Warshall)",
-      "Unit V: Backtracking, Branch & Bound, NP-Completeness (N-Queens, Graph Coloring, Travelling Salesperson, P vs NP, NP-Hard)"
-    ],
-    "formulas": [
-      "Master Theorem: T(n) = a T(n/b) + \u0398(n^k log^p n); compare a with b^k",
-      "Strassen's Multiplication: T(n) = 7 T(n/2) + O(n^2) \u21d2 O(n^log2 7) \u2248 O(n^2.81)",
-      "Dynamic Programming 0/1 Knapsack: V[i, w] = max(V[i-1, w], val[i] + V[i-1, w - wt[i]])",
-      "LCS Recurrence: c[i, j] = c[i-1, j-1] + 1 if X[i]==Y[j] else max(c[i-1, j], c[i, j-1])"
-    ],
-    "qa": [
-      {
-        "q": "Explain the 0/1 Knapsack problem using Dynamic Programming. Solve for capacity W=5, items with weights [2, 3, 4] and profits [3, 4, 5]. [7 Marks]",
-        "a": "<b>DP Formulation:</b> Let V[i, w] be the maximum profit with first i items and capacity w.<br><b>Recurrence:</b><br>\u2022 If wt[i] > w: V[i, w] = V[i-1, w]<br>\u2022 Else: V[i, w] = max(V[i-1, w], profit[i] + V[i-1, w - wt[i]])<br><b>Table Computation (W=0 to 5):</b><br>\u2022 Row 1 (Item 1, wt=2, p=3): V[1, 0..1]=0, V[1, 2..5]=3.<br>\u2022 Row 2 (Item 2, wt=3, p=4): V[2, 0..1]=0, V[2, 2]=3, V[2, 3]=4, V[2, 4]=4, V[2, 5]=max(3, 4+V[1, 2]) = <b>7</b> (Items 1 and 2).<br>\u2022 Row 3 (Item 3, wt=4, p=5): V[3, 5]=max(V[2, 5], 5 + V[2, 1]) = max(7, 5+0) = 7.<br><b>Optimal Profit:</b> <b>7</b> (Select Item 1 and Item 2, Total Weight = 2 + 3 = 5 <= 5)."
-      },
-      {
-        "q": "Differentiate between P, NP, NP-Complete, and NP-Hard classes with a neat Euler diagram. [7 Marks]",
-        "a": "<b>Class Definitions:</b><br>\u2022 <b>P (Polynomial time):</b> Set of decision problems solvable by a Deterministic Turing Machine in polynomial time O(n^k). E.g. Sorting, Shortest Path.<br>\u2022 <b>NP (Nondeterministic Polynomial):</b> Decision problems whose proposed solutions can be VERIFIED in polynomial time by a DTM.<br>\u2022 <b>NP-Hard:</b> A problem X is NP-Hard if every problem Y in NP can be reduced to X in polynomial time (Y <=_p X). It does not need to be in NP itself.<br>\u2022 <b>NP-Complete (NPC):</b> A problem X is NP-Complete if (1) X \u2208 NP, and (2) X is NP-Hard. (Hardest problems in NP, e.g. 3-SAT, Clique, Hamiltonian Cycle, Traveling Salesperson Decision)."
-      }
-    ],
-    "pyq": [
-      {
-        "year": "Dec 2024",
-        "q": "Solve Matrix Chain Multiplication for dimensions [40, 20, 30, 10, 30] using dynamic programming."
-      },
-      {
-        "year": "June 2024",
-        "q": "Explain Huffman Coding algorithm and construct optimal prefix code tree for given frequencies."
-      },
-      {
-        "year": "Dec 2023",
-        "q": "Solve 4-Queens problem using Backtracking state-space tree."
-      }
-    ]
-  },
-  {
-    "code": "CS-601",
-    "title": "Computer Networks",
-    "year": 3,
-    "sem": 6,
-    "credits": 4,
-    "branch": "CSE Core",
-    "units": [
-      "Unit I: Physical & Data Link Layer (OSI vs TCP/IP, Framing, Error detection CRC, Flow control Sliding Window, HDLC)",
-      "Unit II: Medium Access Control (Pure & Slotted ALOHA, CSMA/CD, Ethernet IEEE 802.3, Wireless LAN 802.11)",
-      "Unit III: Network Layer & Routing (IPv4 addressing & subnetting, CIDR, Distance Vector Routing, Link State OSPF, BGP)",
-      "Unit IV: Transport Layer (TCP 3-way handshake, Flow control, TCP Congestion control Slow Start, UDP vs TCP)",
-      "Unit V: Application Layer & Network Security (DNS, HTTP/HTTPS, SMTP, Public key cryptography RSA, Firewalls)"
-    ],
-    "formulas": [
-      "Maximum ALOHA Throughput: Pure ALOHA = 1/(2e) \u2248 18.4%; Slotted ALOHA = 1/e \u2248 36.8%",
-      "Cyclic Redundancy Check (CRC): Transmitted Frame = (Message << r) + Remainder[ (M << r) / Generator ]",
-      "Subnet Masking: Usable Hosts = 2^(32 - Prefix) - 2 (subtract Network & Broadcast addresses)",
-      "TCP Congestion Window: Threshold reached \u21d2 Switch from Exponential Growth to Linear Additive Increase"
-    ],
-    "qa": [
-      {
-        "q": "Explain IPv4 Classless Inter-Domain Routing (CIDR) and Subnetting. An organization is granted block 200.16.0.0/16. Divide it into 4 equal subnets. [7 Marks]",
-        "a": "<b>Subnetting Solution:</b><br>\u2022 Original Block: <code>200.16.0.0/16</code> (Mask: 255.255.0.0).<br>\u2022 We need 4 subnets: 2^2 = 4, so borrow <b>2 bits</b> from host ID.<br>\u2022 New Prefix: 16 + 2 = <b>/18</b> (Subnet Mask: 255.255.192.0).<br>\u2022 Block increment = 256 - 192 = 64 in the 3rd octet.<br><b>Subnets:</b><br>1. <b>Subnet 1:</b> 200.16.0.0/18 (Host Range: 200.16.0.1 to 200.16.63.254, Broadcast: 200.16.63.255)<br>2. <b>Subnet 2:</b> 200.16.64.0/18 (Host Range: 200.16.64.1 to 200.16.127.254, Broadcast: 200.16.127.255)<br>3. <b>Subnet 3:</b> 200.16.128.0/18 (Host Range: 200.16.128.1 to 200.16.191.254, Broadcast: 200.16.191.255)<br>4. <b>Subnet 4:</b> 200.16.192.0/18 (Host Range: 200.16.192.1 to 200.16.255.254, Broadcast: 200.16.255.255)"
-      },
-      {
-        "q": "Explain TCP 3-Way Handshake connection establishment and TCP Congestion Control mechanisms (Slow Start, Congestion Avoidance, Fast Retransmit). [7 Marks]",
-        "a": "<b>TCP 3-Way Handshake:</b><br>1. <i>SYN:</i> Client sends <code>SYN=1, seq=x</code> to Server.<br>2. <i>SYN-ACK:</i> Server responds with <code>SYN=1, ACK=1, seq=y, ack=x+1</code>.<br>3. <i>ACK:</i> Client sends <code>ACK=1, ack=y+1</code>. Connection established.<br><b>Congestion Control:</b><br>\u2022 <b>Slow Start:</b> cwnd starts at 1 MSS and doubles every RTT (exponential growth: 1, 2, 4, 8...) until <code>ssthresh</code>.<br>\u2022 <b>Congestion Avoidance:</b> Once cwnd >= ssthresh, growth switches to Additive Increase (increases by 1 MSS per RTT).<br>\u2022 <b>On Timeout:</b> ssthresh = cwnd / 2, cwnd reset to 1 MSS (Multiplicative Decrease).<br>\u2022 <b>Fast Retransmit & Fast Recovery:</b> Upon 3 duplicate ACKs, retransmits immediately without waiting for timeout, sets ssthresh = cwnd / 2 and cwnd = ssthresh + 3."
-      }
-    ],
-    "pyq": [
-      {
-        "year": "Dec 2024",
-        "q": "Compare Distance Vector Routing (Bellman-Ford & Count-to-Infinity) with Link State Routing (Dijkstra)."
-      },
-      {
-        "year": "June 2024",
-        "q": "Explain RSA public key encryption algorithm with a numerical example: p=3, q=11, e=7."
-      },
-      {
-        "year": "Dec 2023",
-        "q": "Explain CSMA/CD protocol with binary exponential back-off algorithm and collision window."
       }
     ]
   },
@@ -853,6 +920,13 @@ function renderNotesCards() {
         <h3 class="text-lg font-black text-stone-900 leading-tight mb-2">
           ${sub.title}
         </h3>
+        
+        <!-- Strategy Pill -->
+        <div class="bg-amber-50/80 border border-amber-300/80 rounded-lg p-2.5 mb-3 text-[11px] text-amber-950">
+          <span class="font-bold block text-[10px] uppercase font-mono tracking-wider text-amber-800">Exam Strategy Blueprint</span>
+          <span class="line-clamp-2">${sub.roadmap ? sub.roadmap.strategy : 'Complete 5-unit high-yield curriculum with solved derivations and past year PYQs.'}</span>
+        </div>
+
         <div class="space-y-1 mb-4 text-[11px] text-stone-600 font-medium">
           <div class="flex items-center gap-1.5 text-stone-800">
             <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
@@ -860,7 +934,7 @@ function renderNotesCards() {
           </div>
           <div class="flex items-center gap-1.5 text-stone-800">
             <span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-            <b>${sub.qa.length} Detailed 7/14M Q&A</b> + Solved Derivations
+            <b>${sub.qa.length} Detailed 7/14M Q&A</b> + Vector Flowcharts
           </div>
           <div class="flex items-center gap-1.5 text-stone-800">
             <span class="w-1.5 h-1.5 rounded-full bg-purple-500"></span>
@@ -870,12 +944,12 @@ function renderNotesCards() {
       </div>
       <div class="pt-3 border-t border-stone-200 flex items-center justify-between gap-2">
         <button onclick="openNotesModal('${sub.code}')" class="tactile-btn flex-1 bg-stone-900 text-white text-xs font-bold py-2 px-3 rounded-lg flex items-center justify-center gap-1.5">
-          <span>Read 2-3 Page Notes</span>
+          <span>Read Roadmap & Notes</span>
           <i data-lucide="book-open" class="w-3.5 h-3.5"></i>
         </button>
-        <button onclick="printNotesPDF('${sub.code}')" class="tactile-btn bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold py-2 px-3 rounded-lg flex items-center gap-1 shadow-sm" title="Download / Print PDF">
-          <i data-lucide="download" class="w-3.5 h-3.5"></i>
-          <span>PDF</span>
+        <button onclick="printNotesPDF('${sub.code}')" class="tactile-btn bg-amber-400 hover:bg-amber-500 text-stone-900 border border-stone-800 text-xs font-black py-2 px-3 rounded-lg flex items-center gap-1 shadow-[2px_2px_0px_#18181b]" title="Download / Print Aesthetic PDF">
+          <i data-lucide="printer" class="w-3.5 h-3.5"></i>
+          <span>Themed PDF</span>
         </button>
       </div>
     </div>
@@ -893,6 +967,7 @@ function openNotesModal(code) {
   if (!modal || !content) return;
 
   content.innerHTML = `
+    <!-- Top Modal Header -->
     <div class="sticky top-0 z-20 bg-stone-900 text-white p-4 rounded-t-xl flex items-center justify-between shadow-lg print:hidden">
       <div class="flex items-center gap-3">
         <div class="w-8 h-8 rounded-lg bg-amber-400 text-stone-900 font-pixel font-bold flex items-center justify-center text-sm shadow">A</div>
@@ -902,14 +977,18 @@ function openNotesModal(code) {
         </div>
       </div>
       <div class="flex items-center gap-2">
-        <button onclick="printNotesPDF('${sub.code}')" class="tactile-btn bg-emerald-500 hover:bg-emerald-400 text-stone-950 font-black text-xs px-3.5 py-1.5 rounded-lg flex items-center gap-1.5 shadow">
+        <button onclick="printNotesPDF('${sub.code}')" class="tactile-btn bg-amber-400 hover:bg-amber-300 text-stone-950 font-black text-xs px-3.5 py-1.5 rounded-lg flex items-center gap-1.5 shadow-[2px_2px_0px_#18181b]">
           <i data-lucide="printer" class="w-3.5 h-3.5"></i>
-          <span>Print / Save as PDF</span>
+          <span>Save Themed PDF</span>
         </button>
         <button onclick="closeNotesModal()" class="w-8 h-8 rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-300 hover:text-white flex items-center justify-center font-bold">✕</button>
       </div>
     </div>
-    <div id="printable-notes-doc" class="bg-white p-6 sm:p-10 space-y-8 font-sans text-stone-900">
+
+    <!-- Modal Body Content -->
+    <div id="printable-notes-doc" class="bg-[#fcfbf7] p-6 sm:p-10 space-y-8 font-sans text-stone-900 border-x-2 border-b-2 border-stone-800 rounded-b-xl">
+      
+      <!-- Top Branding -->
       <div class="border-b-4 border-stone-900 pb-6">
         <div class="flex flex-wrap items-center justify-between gap-4 mb-4">
           <div class="flex items-center gap-3">
@@ -921,170 +1000,622 @@ function openNotesModal(code) {
           </div>
           <div class="text-right">
             <span class="stamp-pill bg-stone-900 text-white font-mono text-xs">${sub.code}</span>
-            <span class="block text-[10px] font-bold text-stone-500 mt-1">B.Tech CSE • Year ${sub.year} (Sem ${sub.sem})</span>
+            <span class="block text-[10px] font-bold text-stone-500 mt-1">B.Tech CSE • Year ${sub.year} (Sem ${sub.sem}) • ${sub.credits} Credits</span>
           </div>
         </div>
-        <div class="bg-amber-50 border-2 border-stone-900 rounded-xl p-4 shadow-[3px_3px_0px_#18181b]">
+
+        <div class="bg-amber-100/70 border-2 border-stone-900 rounded-xl p-4 shadow-[3px_3px_0px_#18181b]">
           <h2 class="text-xl font-black text-stone-900 mb-1">${sub.title}</h2>
           <p class="text-xs text-stone-700 font-medium">Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV) Bhopal • Complete Examination Booster Note</p>
         </div>
       </div>
-      <div>
-        <div class="flex items-center gap-2 mb-3">
-          <span class="font-mono text-xs font-black bg-stone-900 text-white px-2 py-0.5 rounded">SECTION 01</span>
-          <h3 class="text-base font-black text-stone-900 uppercase tracking-wide">5-Unit Syllabus Summary</h3>
+
+      <!-- STRATEGIC STUDY ROADMAP (HOW TO STUDY) -->
+      ${sub.roadmap ? `
+      <div class="space-y-3">
+        <div class="flex items-center gap-2">
+          <span class="text-xl">🗺️</span>
+          <h3 class="text-base font-black text-stone-900 uppercase font-mono tracking-wider">
+            Subject Study Roadmap &amp; Exam Strategy (70/70 Blueprint)
+          </h3>
         </div>
-        <div class="grid grid-cols-1 gap-2 text-xs">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="bg-white border-2 border-stone-900 rounded-xl p-4 shadow-[3px_3px_0px_#18181b]">
+            <span class="text-[10px] font-mono font-bold uppercase text-emerald-800 bg-emerald-100 px-2 py-0.5 rounded border border-emerald-300">
+              Pass Guarantee Strategy (35+ Marks)
+            </span>
+            <p class="text-xs text-stone-700 mt-2 leading-relaxed">
+              ${sub.roadmap.pass_target}
+            </p>
+          </div>
+          <div class="bg-white border-2 border-stone-900 rounded-xl p-4 shadow-[3px_3px_0px_#18181b]">
+            <span class="text-[10px] font-mono font-bold uppercase text-purple-800 bg-purple-100 px-2 py-0.5 rounded border border-purple-300">
+              Top Scorer / 9+ CGPA Tip
+            </span>
+            <p class="text-xs text-stone-700 mt-2 leading-relaxed">
+              ${sub.roadmap.top_scorer_tip}
+            </p>
+          </div>
+        </div>
+        <div class="bg-stone-100 border border-stone-300 rounded-xl p-3 text-xs text-stone-700 font-mono">
+          <b class="text-stone-900">RGPV Question Blueprint:</b> ${sub.roadmap.blueprint}
+        </div>
+      </div>
+      ` : ''}
+
+      <!-- VECTOR SVG FLOWCHART / ARCHITECTURE DIAGRAM -->
+      ${sub.diagram_svg ? `
+      <div class="space-y-3">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="text-xl">📐</span>
+            <h3 class="text-base font-black text-stone-900 uppercase font-mono tracking-wider">
+              High-Resolution Concept Architecture &amp; Flowchart
+            </h3>
+          </div>
+          <span class="stamp-pill bg-blue-100 text-blue-900 border-blue-400 font-mono text-[10px]">
+            Vector SVG • 300 DPI Ready
+          </span>
+        </div>
+        <div class="bg-white border-2 border-stone-900 rounded-xl p-3 shadow-[3px_3px_0px_#18181b] overflow-x-auto">
+          ${sub.diagram_svg}
+        </div>
+      </div>
+      ` : ''}
+
+      <!-- 1. SYLLABUS -->
+      <div class="space-y-3">
+        <div class="flex items-center gap-2">
+          <span class="text-xl">📋</span>
+          <h3 class="text-base font-black text-stone-900 uppercase font-mono tracking-wider">
+            1. Complete 5-Unit RGPV Syllabus Coverage
+          </h3>
+        </div>
+        <div class="bg-white border-2 border-stone-900 rounded-xl p-4 shadow-[3px_3px_0px_#18181b] space-y-2">
           ${sub.units.map(u => `
-            <div class="p-2.5 rounded-lg bg-stone-50 border border-stone-300 flex items-start gap-2">
-              <span class="text-emerald-600 font-bold">✔</span>
-              <span class="font-medium text-stone-800">${u}</span>
+            <div class="text-xs text-stone-800 font-medium pb-2 border-b border-stone-100 last:border-b-0">
+              ${u}
             </div>
           `).join('')}
         </div>
       </div>
-      <div>
-        <div class="flex items-center gap-2 mb-3">
-          <span class="font-mono text-xs font-black bg-stone-900 text-white px-2 py-0.5 rounded">SECTION 02</span>
-          <h3 class="text-base font-black text-stone-900 uppercase tracking-wide">High-Yield Formulas & Cheat Sheet</h3>
+
+      <!-- 2. HIGH-YIELD FORMULAS -->
+      <div class="space-y-3">
+        <div class="flex items-center gap-2">
+          <span class="text-xl">⚡</span>
+          <h3 class="text-base font-black text-stone-900 uppercase font-mono tracking-wider">
+            2. High-Yield Formulas, Laws &amp; Cheat Sheet
+          </h3>
         </div>
-        <div class="bg-stone-900 text-amber-300 font-mono text-xs p-5 rounded-xl border-2 border-stone-800 space-y-2 shadow-inner">
+        <div class="bg-stone-900 text-amber-300 font-mono text-xs p-5 rounded-xl border-2 border-stone-900 space-y-2 shadow-[4px_4px_0px_#18181b]">
           ${sub.formulas.map(f => `
             <div class="flex items-start gap-2">
-              <span class="text-emerald-400 font-bold">▶</span>
-              <span>${f}</span>
+              <span class="text-amber-400 font-bold">▶</span>
+              <span class="leading-relaxed">${f}</span>
             </div>
           `).join('')}
         </div>
       </div>
-      <div class="pt-6 border-t-2 border-stone-800">
-        <div class="flex items-center gap-2 mb-4">
-          <span class="font-mono text-xs font-black bg-rose-600 text-white px-2 py-0.5 rounded">SECTION 03</span>
-          <h3 class="text-base font-black text-stone-900 uppercase tracking-wide">Most Frequent RGPV University Questions with Model Answers</h3>
+
+      <!-- 3. DETAILED 7M / 14M UNIVERSITY QUESTIONS & ANSWERS -->
+      <div class="space-y-4">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="text-xl">🎯</span>
+            <h3 class="text-base font-black text-stone-900 uppercase font-mono tracking-wider">
+              3. Most Frequent 7-Mark &amp; 14-Mark University Questions &amp; Answers
+            </h3>
+          </div>
+          <span class="stamp-pill bg-purple-100 text-purple-900 border-purple-400 font-mono text-[10px]">Step-by-Step Model Solutions</span>
         </div>
-        <div class="space-y-6">
+        
+        <div class="space-y-4">
           ${sub.qa.map((item, idx) => `
-            <div class="border-2 border-stone-900 rounded-xl p-5 bg-stone-50 relative shadow-[3px_3px_0px_#18181b]">
-              <div class="flex items-center justify-between mb-2">
-                <span class="font-mono text-[11px] font-black text-stone-600 uppercase">QUESTION ${idx + 1}</span>
-                <span class="stamp-pill bg-rose-100 text-rose-900 border-rose-300 text-[10px]">7 MARKS • FREQUENT</span>
+            <div class="bg-white border-2 border-stone-900 rounded-xl p-5 shadow-[4px_4px_0px_#18181b] relative">
+              <div class="flex items-start justify-between gap-3 mb-3 border-b border-stone-200 pb-2">
+                <h4 class="font-bold text-stone-900 text-sm leading-snug">
+                  Q${idx + 1}: ${item.q}
+                </h4>
+                <span class="shrink-0 stamp-pill bg-emerald-100 text-emerald-900 border-emerald-400 text-[10px] font-mono">
+                  7M / 14M Target
+                </span>
               </div>
-              <h4 class="text-sm font-black text-stone-900 mb-3">${item.q}</h4>
-              <div class="text-xs text-stone-800 leading-relaxed bg-white p-4 rounded-lg border border-stone-200">
+              <div class="text-xs text-stone-700 leading-relaxed font-sans space-y-2 bg-stone-50/70 p-3.5 rounded-lg border border-stone-200">
                 ${item.a}
               </div>
             </div>
           `).join('')}
         </div>
       </div>
-      <div class="pt-6 border-t-2 border-stone-800">
-        <div class="flex items-center gap-2 mb-4">
-          <span class="font-mono text-xs font-black bg-purple-600 text-white px-2 py-0.5 rounded">SECTION 04</span>
-          <h3 class="text-base font-black text-stone-900 uppercase tracking-wide">Previous 5 Years Question Bank (PYQ 2020–2024)</h3>
+
+      <!-- 4. PAST 5 YEARS PYQ BANK -->
+      <div class="space-y-3">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="text-xl">📚</span>
+            <h3 class="text-base font-black text-stone-900 uppercase font-mono tracking-wider">
+              4. Previous 5 Years RGPV Question Bank (2020–2024)
+            </h3>
+          </div>
+          <span class="stamp-pill bg-amber-100 text-amber-900 border-amber-400 font-mono text-[10px]">Official Exam Papers</span>
         </div>
-        <div class="grid grid-cols-1 gap-2.5">
+
+        <div class="bg-white border-2 border-stone-900 rounded-xl p-4 shadow-[3px_3px_0px_#18181b] divide-y divide-stone-200">
           ${sub.pyq.map((p, idx) => `
-            <div class="p-3 bg-white border border-stone-300 rounded-lg flex items-start justify-between gap-3 shadow-sm">
-              <div class="flex items-start gap-2 text-xs">
-                <span class="font-mono font-bold text-stone-500">${idx + 1}.</span>
-                <span class="font-semibold text-stone-900">${p.q}</span>
+            <div class="py-2.5 flex items-start justify-between gap-4 text-xs">
+              <div class="text-stone-800">
+                <span class="font-bold text-stone-900 font-mono">Q${idx + 1}.</span> ${p.q}
               </div>
-              <span class="stamp-pill bg-purple-100 text-purple-900 border-purple-300 text-[10px] whitespace-nowrap shrink-0">
+              <span class="shrink-0 font-mono font-bold bg-purple-100 text-purple-900 px-2 py-0.5 rounded text-[10px] border border-purple-300">
                 ${p.year}
               </span>
             </div>
           `).join('')}
         </div>
       </div>
-      <div class="pt-6 border-t border-stone-300 flex items-center justify-between text-[11px] font-mono text-stone-500">
-        <span>APERTU ACADEMIC OS • NOTES VAULT</span>
-        <span>PREPARED FOR PRIYANSHU KUSHWAHA • SISTEC BHOPAL</span>
-        <span>PAGE 1 OF 3</span>
+
+      <!-- FOOTER NOTEBOOK BRANDING -->
+      <div class="pt-6 border-t-2 border-stone-800 flex flex-wrap items-center justify-between gap-3 text-xs font-mono text-stone-600">
+        <div class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+          <span>Apertu Academic OS • SISTec Gandhi Nagar Bhopal</span>
+        </div>
+        <div class="text-right">
+          <span>Student: Priyanshu Kushwaha (CS-3) • Roll: 6523402</span>
+        </div>
       </div>
+
     </div>
   `;
 
   modal.classList.remove('hidden');
+  document.body.classList.add('overflow-hidden');
   if (window.lucide) lucide.createIcons();
 }
 
 function closeNotesModal() {
   const modal = document.getElementById('notes-reader-modal');
   if (modal) modal.classList.add('hidden');
+  document.body.classList.remove('overflow-hidden');
 }
 
+// =============================================================================
+// APERTU AESTHETIC THEMED PDF & PRINT GENERATOR
+// Renders notebook lined background, washi tape, stamp badges, vector diagrams
+// =============================================================================
 function printNotesPDF(code) {
   const sub = RGPV_NOTES_DATABASE.find(s => s.code === code);
   if (!sub) return;
 
   const printWindow = window.open('', '_blank');
   if (!printWindow) {
-    alert('Please allow popups to download or print your RGPV notes PDF.');
+    alert('Please allow popups to download or print your aesthetic RGPV notes PDF.');
     return;
   }
 
   const html = `
     <!DOCTYPE html>
-    <html>
+    <html lang="en">
     <head>
-      <title>APERTU — ${sub.code} ${sub.title} (RGPV Notes)</title>
+      <title>Apertu Notes — ${sub.code} ${sub.title} (RGPV B.Tech)</title>
       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <style>
-        @page { size: A4; margin: 15mm; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #18181b; line-height: 1.5; font-size: 11pt; }
-        .header { border-bottom: 3px solid #18181b; padding-bottom: 12px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; }
-        .brand { font-size: 20pt; font-weight: 900; letter-spacing: 1px; color: #18181b; }
-        .sub-badge { background: #fef08a; border: 1px solid #18181b; padding: 3px 8px; border-radius: 4px; font-weight: bold; font-size: 9pt; }
-        .box { border: 1.5px solid #18181b; border-radius: 8px; padding: 12px; margin-bottom: 15px; background: #fafaf9; }
-        .q-title { font-weight: bold; margin-bottom: 6px; color: #18181b; font-size: 11pt; }
-        .answer { background: #ffffff; border: 1px solid #e7e5e4; padding: 10px; border-radius: 6px; font-size: 10pt; line-height: 1.45; }
-        .formula-box { background: #18181b; color: #fef08a; padding: 12px; border-radius: 6px; font-family: monospace; font-size: 9.5pt; margin-bottom: 15px; }
-        .footer { border-top: 1px solid #d6d3d1; padding-top: 8px; margin-top: 25px; display: flex; justify-content: space-between; font-size: 8pt; color: #78716c; font-family: monospace; }
-        .page-break { page-break-after: always; }
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Silkscreen:wght@700&family=Space+Grotesk:wght@500;700&display=swap');
+
+        @page {
+          size: A4;
+          margin: 12mm 12mm 12mm 12mm;
+        }
+
+        * {
+          box-sizing: border-box;
+          -webkit-print-color-adjust: exact !important;
+          print-color-adjust: exact !important;
+        }
+
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+          color: #18181b;
+          background-color: #fcfbf7;
+          background-image: 
+            linear-gradient(to right, #f1ede4 1px, transparent 1px),
+            linear-gradient(to bottom, #f1ede4 1px, transparent 1px);
+          background-size: 20px 20px;
+          line-height: 1.5;
+          font-size: 10pt;
+        }
+
+        .print-toolbar {
+          position: sticky;
+          top: 0;
+          z-index: 9999;
+          background: #18181b;
+          color: #ffffff;
+          padding: 10px 18px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: 2px solid #27272a;
+          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+        }
+
+        .print-toolbar-btn {
+          background: #facc15;
+          color: #18181b;
+          border: 1.5px solid #18181b;
+          font-weight: 800;
+          padding: 6px 14px;
+          border-radius: 6px;
+          cursor: pointer;
+          font-family: inherit;
+          font-size: 9pt;
+          box-shadow: 2px 2px 0px #000000;
+          transition: all 0.15s;
+        }
+        .print-toolbar-btn:hover {
+          transform: translate(-1px, -1px);
+          box-shadow: 3px 3px 0px #000000;
+        }
+
+        .container {
+          max-width: 820px;
+          margin: 0 auto;
+          padding: 20px 25px;
+          background: #fdfcf9;
+          border: 2px solid #18181b;
+          box-shadow: 5px 5px 0px #18181b;
+          border-radius: 12px;
+          position: relative;
+        }
+
+        .washi-tape {
+          position: absolute;
+          top: -10px;
+          right: 35px;
+          width: 110px;
+          height: 24px;
+          background: rgba(254, 240, 138, 0.9);
+          border: 1px dashed rgba(202, 138, 4, 0.6);
+          transform: rotate(2deg);
+          box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .header {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          border-bottom: 3px solid #18181b;
+          padding-bottom: 12px;
+          margin-bottom: 18px;
+        }
+
+        .brand-box {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+
+        .brand-logo {
+          background: #facc15;
+          border: 2px solid #18181b;
+          box-shadow: 2px 2px 0px #18181b;
+          border-radius: 8px;
+          font-family: 'Silkscreen', monospace;
+          font-weight: 700;
+          font-size: 13pt;
+          padding: 6px 10px;
+          color: #18181b;
+        }
+
+        .brand-text h1 {
+          margin: 0;
+          font-size: 15pt;
+          font-weight: 900;
+          letter-spacing: -0.3px;
+        }
+        .brand-text p {
+          margin: 2px 0 0 0;
+          font-size: 8pt;
+          color: #52525b;
+          font-family: monospace;
+        }
+
+        .stamp-badge {
+          background: #18181b;
+          color: #ffffff;
+          padding: 4px 10px;
+          border-radius: 4px;
+          font-family: monospace;
+          font-size: 9pt;
+          font-weight: bold;
+        }
+
+        .sub-meta {
+          font-size: 8pt;
+          color: #52525b;
+          margin-top: 4px;
+          font-family: monospace;
+          text-align: right;
+        }
+
+        .title-card {
+          background: #fef08a;
+          border: 2px solid #18181b;
+          box-shadow: 3px 3px 0px #18181b;
+          border-radius: 8px;
+          padding: 12px 16px;
+          margin-bottom: 16px;
+        }
+        .title-card h2 {
+          margin: 0 0 3px 0;
+          font-size: 14pt;
+          font-weight: 900;
+        }
+        .title-card p {
+          margin: 0;
+          font-size: 8.5pt;
+          color: #44403c;
+          font-weight: 600;
+        }
+
+        .section-head {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          font-size: 10.5pt;
+          font-weight: 900;
+          text-transform: uppercase;
+          font-family: monospace;
+          border-bottom: 1.5px solid #18181b;
+          padding-bottom: 3px;
+          margin: 18px 0 10px 0;
+        }
+
+        .roadmap-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 10px;
+          margin-bottom: 12px;
+        }
+
+        .roadmap-box {
+          background: #ffffff;
+          border: 1.5px solid #18181b;
+          box-shadow: 2px 2px 0px #18181b;
+          border-radius: 6px;
+          padding: 10px;
+          font-size: 8.5pt;
+        }
+        .roadmap-tag {
+          display: inline-block;
+          font-family: monospace;
+          font-weight: bold;
+          font-size: 7.5pt;
+          padding: 2px 6px;
+          border-radius: 3px;
+          margin-bottom: 4px;
+        }
+
+        .tag-green { background: #dcfce7; color: #166534; border: 1px solid #86efac; }
+        .tag-purple { background: #f3e8ff; color: #6b21a8; border: 1px solid #d8b4fe; }
+        .tag-yellow { background: #fef9c3; color: #854d0e; border: 1px solid #fde047; }
+
+        .diagram-container {
+          background: #ffffff;
+          border: 2px solid #18181b;
+          box-shadow: 3px 3px 0px #18181b;
+          border-radius: 8px;
+          padding: 10px;
+          margin: 12px 0;
+          text-align: center;
+        }
+
+        .formula-box {
+          background: #18181b;
+          color: #fde047;
+          border-radius: 8px;
+          padding: 12px 14px;
+          font-family: monospace;
+          font-size: 8.5pt;
+          margin-bottom: 14px;
+          line-height: 1.6;
+        }
+
+        .qa-card {
+          background: #ffffff;
+          border: 1.5px solid #18181b;
+          box-shadow: 2px 2px 0px #18181b;
+          border-radius: 8px;
+          padding: 12px;
+          margin-bottom: 12px;
+          page-break-inside: avoid;
+        }
+        .qa-title {
+          font-weight: 800;
+          font-size: 9.5pt;
+          margin-bottom: 6px;
+          color: #18181b;
+          border-bottom: 1px dashed #d4d4d8;
+          padding-bottom: 4px;
+        }
+        .qa-answer {
+          background: #fafaf9;
+          border-left: 3px solid #facc15;
+          padding: 8px 10px;
+          border-radius: 4px;
+          font-size: 8.5pt;
+          line-height: 1.45;
+          color: #27272a;
+        }
+
+        .pyq-table {
+          width: 100%;
+          border-collapse: collapse;
+          font-size: 8pt;
+          background: #ffffff;
+          border: 1.5px solid #18181b;
+          border-radius: 6px;
+          overflow: hidden;
+        }
+        .pyq-table th {
+          background: #18181b;
+          color: #ffffff;
+          text-align: left;
+          padding: 6px 10px;
+          font-family: monospace;
+        }
+        .pyq-table td {
+          padding: 6px 10px;
+          border-bottom: 1px solid #e4e4e7;
+        }
+
+        .footer {
+          border-top: 2px solid #18181b;
+          margin-top: 20px;
+          padding-top: 8px;
+          display: flex;
+          justify-content: space-between;
+          font-family: monospace;
+          font-size: 7.5pt;
+          color: #52525b;
+        }
+
+        .page-break {
+          page-break-before: always;
+          break-before: page;
+        }
+
+        @media print {
+          .print-toolbar {
+            display: none !important;
+          }
+          body {
+            background: #ffffff !important;
+            background-image: none !important;
+          }
+          .container {
+            border: 1.5px solid #18181b !important;
+            box-shadow: none !important;
+            padding: 0 !important;
+            max-width: 100% !important;
+          }
+        }
       </style>
     </head>
     <body>
-      <div class="header">
-        <div>
-          <div class="brand">APERTU — RGPV NOTES VAULT</div>
-          <div style="font-size: 9pt; color: #57534e;">Academic OS • SISTec Bhopal • Priyanshu Kushwaha (CS-3)</div>
+      <div class="print-toolbar">
+        <div style="font-family: monospace; font-size: 9pt; font-weight: bold; display: flex; align-items: center; gap: 8px;">
+          <span>APERTU ACADEMIC OS — AESTHETIC RGPV NOTES VAULT</span>
+          <span style="background: #facc15; color: #18181b; padding: 2px 6px; border-radius: 4px;">A4 PRINT READY</span>
         </div>
-        <div style="text-align: right;">
-          <span class="sub-badge">${sub.code}</span>
-          <div style="font-size: 8.5pt; margin-top: 4px; font-weight: bold;">Year ${sub.year} • Sem ${sub.sem} (${sub.credits} Credits)</div>
+        <div style="display: flex; gap: 8px;">
+          <button onclick="window.print()" class="print-toolbar-btn">🖨️ Print / Save as PDF</button>
+          <button onclick="window.close()" class="print-toolbar-btn" style="background: #e4e4e7;">✕ Close</button>
         </div>
       </div>
-      <div style="margin-bottom: 15px;">
-        <h2 style="margin: 0 0 4px 0; font-size: 16pt;">${sub.title}</h2>
-        <div style="font-size: 9.5pt; color: #44403c;">Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV) Bhopal — Examination Booster & Question Bank</div>
-      </div>
-      <h3 style="font-size: 12pt; border-bottom: 1px solid #18181b; padding-bottom: 4px; margin-top: 15px;">1. High-Yield Formulas & Cheat Sheet</h3>
-      <div class="formula-box">
-        ${sub.formulas.map(f => `<div>▶ ${f}</div>`).join('')}
-      </div>
-      <h3 style="font-size: 12pt; border-bottom: 1px solid #18181b; padding-bottom: 4px; margin-top: 20px;">2. Most Frequent 7-Mark & 14-Mark University Questions & Answers</h3>
-      ${sub.qa.map((item, idx) => `
-        <div class="box">
-          <div class="q-title">Q${idx + 1}: ${item.q}</div>
-          <div class="answer">${item.a}</div>
+
+      <div style="padding: 15px 10px;">
+        <div class="container">
+          <div class="washi-tape"></div>
+
+          <!-- Header -->
+          <div class="header">
+            <div class="brand-box">
+              <div class="brand-logo">APERTU</div>
+              <div class="brand-text">
+                <h1>APERTU — ACADEMIC OS</h1>
+                <p>Curated for Priyanshu Kushwaha (CSE Core • SISTec Bhopal • Roll: 6523402 • OBC Category)</p>
+              </div>
+            </div>
+            <div>
+              <div class="stamp-badge">${sub.code}</div>
+              <div class="sub-meta">Year ${sub.year} • Sem ${sub.sem} (${sub.credits} Credits)</div>
+            </div>
+          </div>
+
+          <!-- Title Card -->
+          <div class="title-card">
+            <h2>${sub.title}</h2>
+            <p>Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV) Bhopal • Complete Examination Booster Note</p>
+          </div>
+
+          <!-- STRATEGIC ROADMAP -->
+          ${sub.roadmap ? `
+            <div class="section-head">🗺️ 1. Exam Blueprint &amp; Strategic Roadmap</div>
+            <div class="roadmap-grid">
+              <div class="roadmap-box">
+                <span class="roadmap-tag tag-green">PASS GUARANTEE (35+ MARKS)</span>
+                <div>${sub.roadmap.pass_target}</div>
+              </div>
+              <div class="roadmap-box">
+                <span class="roadmap-tag tag-purple">TOP SCORER TIP (9+ CGPA)</span>
+                <div>${sub.roadmap.top_scorer_tip}</div>
+              </div>
+            </div>
+            <div class="roadmap-box" style="margin-bottom: 12px; font-family: monospace; font-size: 8pt; background: #f4f4f5;">
+              <b>RGPV Marking Blueprint:</b> ${sub.roadmap.blueprint}
+            </div>
+          ` : ''}
+
+          <!-- SVG DIAGRAM -->
+          ${sub.diagram_svg ? `
+            <div class="section-head">📐 2. High-Yield Architectural Diagram / Flowchart</div>
+            <div class="diagram-container">
+              ${sub.diagram_svg}
+            </div>
+          ` : ''}
+
+          <!-- FORMULAS CHEAT SHEET -->
+          <div class="section-head">⚡ 3. High-Yield Formulas, Laws &amp; Cheat Sheet</div>
+          <div class="formula-box">
+            ${sub.formulas.map(f => `<div>▶ ${f}</div>`).join('')}
+          </div>
+
+          <div class="page-break"></div>
+
+          <!-- 7M / 14M SOLVED QUESTIONS -->
+          <div class="section-head">🎯 4. Most Frequent 7-Mark &amp; 14-Mark University Questions &amp; Answers</div>
+          ${sub.qa.map((item, idx) => `
+            <div class="qa-card">
+              <div class="qa-title">Q${idx + 1}: ${item.q}</div>
+              <div class="qa-answer">${item.a}</div>
+            </div>
+          `).join('')}
+
+          <!-- PREVIOUS 5 YEARS PYQS -->
+          <div class="section-head">📚 5. Previous 5 Years RGPV Question Bank (2020–2024)</div>
+          <table class="pyq-table">
+            <thead>
+              <tr>
+                <th style="width: 40px;">No.</th>
+                <th>RGPV University Exam Question</th>
+                <th style="width: 90px; text-align: center;">Session</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${sub.pyq.map((p, idx) => `
+                <tr>
+                  <td style="font-family: monospace; font-weight: bold;">Q${idx + 1}</td>
+                  <td>${p.q}</td>
+                  <td style="text-align: center; font-family: monospace; font-weight: bold; color: #6b21a8;">${p.year}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+
+          <!-- Footer -->
+          <div class="footer">
+            <span>APERTU ACADEMIC OS • OFFICIAL RGPV CSE NOTES</span>
+            <span>VERIFIED FOR PRIYANSHU KUSHWAHA (SISTEC BHOPAL)</span>
+            <span>PRINTED VIA SAGARTRACKER / APERTU</span>
+          </div>
+
         </div>
-      `).join('')}
-      <div class="page-break"></div>
-      <h3 style="font-size: 12pt; border-bottom: 1px solid #18181b; padding-bottom: 4px; margin-top: 10px;">3. Previous 5 Years RGPV Question Bank (2020–2024)</h3>
-      ${sub.pyq.map((p, idx) => `
-        <div style="padding: 6px 0; border-bottom: 1px dashed #d6d3d1; font-size: 9.5pt; display: flex; justify-content: space-between;">
-          <span><b>Q${idx + 1}.</b> ${p.q}</span>
-          <span style="font-family: monospace; font-weight: bold; background: #e0e7ff; padding: 2px 6px; border-radius: 3px; font-size: 8pt; height: fit-content;">${p.year}</span>
-        </div>
-      `).join('')}
-      <div class="footer">
-        <span>APERTU ACADEMIC OS — STUDENT NOTES REPOSITORY</span>
-        <span>WWW.SAGARTRACKER.XYZ / APERTU</span>
-        <span>PRINTED FROM APERTU</span>
       </div>
-      <script>
-        window.onload = function() { window.print(); };
-      </script>
     </body>
     </html>
   `;

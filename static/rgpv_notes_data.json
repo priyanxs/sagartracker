@@ -232,6 +232,118 @@
     ]
   },
   {
+    "code": "BT-201",
+    "title": "Engineering Physics",
+    "year": 1,
+    "sem": 2,
+    "credits": 4,
+    "branch": "CSE Core",
+    "units": [
+      "Unit I: Quantum Mechanics (Wave-particle duality, De Broglie, Schrodinger equation, Particle in 1D box)",
+      "Unit II: Wave Optics (Interference in thin films, Newton's Rings, Diffraction grating, Polarization)",
+      "Unit III: Laser & Fiber Optics (Spontaneous & stimulated emission, Population inversion, Optical fibers NA)",
+      "Unit IV: Solid State & Semiconductor Physics (Band theory of solids, Fermi-Dirac distribution, Hall Effect)",
+      "Unit V: Superconductivity & Nanotechnology (Meissner effect, Type-I & Type-II, Carbon nanotubes)"
+    ],
+    "formulas": [
+      "Schrodinger 1D Wave Eq: (-\u0127^2 / 2m)(d^2\u03c8/dx^2) + V(x)\u03c8 = E\u03c8",
+      "Particle in 1D Box Energy: E_n = (n^2 h^2) / (8 m L^2)",
+      "Newton's Rings Diameter: D_n^2 = 4 n \u03bb R (for dark rings)",
+      "Numerical Aperture (Fiber): NA = \u221a(n1^2 - n2^2) = n1 \u221a(2\u0394)",
+      "Hall Coefficient: R_H = 1 / (n x e)"
+    ],
+    "qa": [
+      {
+        "q": "Derive the time-independent Schrodinger wave equation. Calculate the energy eigenvalues of a particle trapped in an infinite 1D potential well. [7 Marks]",
+        "a": "<b>Derivation:</b> A moving particle has an associated de Broglie wave \u03c8(x) = A e^(i(kx - \u03c9t)). Differentiating twice with respect to x gives d^2\u03c8/dx^2 = -k^2 \u03c8 = -(p^2 / \u0127^2) \u03c8. Since Total Energy E = Kinetic Energy + Potential Energy = (p^2 / 2m) + V(x), we have p^2 = 2m(E - V(x)). Substituting yields <b>(-\u0127^2 / 2m)(d^2\u03c8/dx^2) + V(x)\u03c8 = E\u03c8</b>.<br><b>Particle in 1D Box (0 <= x <= L, V=0 inside, V=\u221e outside):</b> Boundary conditions \u03c8(0)=0 and \u03c8(L)=0 require k = n\u03c0/L. Normalization yields \u03c8_n(x) = \u221a(2/L) sin(n\u03c0x/L). Substituting k into energy relation gives <b>E_n = (n^2 h^2) / (8 m L^2)</b>, showing energy quantization!"
+      },
+      {
+        "q": "Explain the construction and working of a Ruby Laser or He-Ne Laser with an energy level diagram. [7 Marks]",
+        "a": "<b>He-Ne Laser:</b> A four-level gas laser producing continuous red light at 632.8 nm.<br>\u2022 <i>Active Medium:</i> Mixture of Helium and Neon gas in 10:1 ratio at low pressure in a quartz discharge tube.<br>\u2022 <i>Pumping:</i> Electric discharge excites He atoms to metastable states (20.61 eV).<br>\u2022 <i>Energy Transfer:</i> Excited He atoms collide with ground-state Ne atoms (resonant collision), transferring energy and creating <b>Population Inversion</b> in Ne atoms.<br>\u2022 <i>Stimulated Emission:</i> Transition from Ne 3s to 2p level emits coherent photons of wavelength <b>632.8 nm</b>. Optical resonator mirrors reflect photons to amplify the laser beam."
+      }
+    ],
+    "pyq": [
+      {
+        "year": "Dec 2024",
+        "q": "Explain the formation of Newton's rings by reflected light and derive expression for diameter of dark rings."
+      },
+      {
+        "year": "June 2024",
+        "q": "What is Hall Effect? Derive the expression for Hall coefficient and explain its engineering applications."
+      },
+      {
+        "year": "Dec 2023",
+        "q": "Explain Meissner Effect and differentiate between Type-I and Type-II superconductors."
+      }
+    ]
+  },
+  {
+    "code": "CS-302",
+    "title": "Discrete Mathematics",
+    "year": 2,
+    "sem": 3,
+    "credits": 4,
+    "branch": "CSE Core",
+    "roadmap": {
+      "strategy": "Mathematical logic proofs, Poset Hasse diagrams, and Graph Theory (Eulerian & Hamiltonian graphs) are repeated every session.",
+      "pass_target": "Unit 1 (Sets, Relations & Functions) + Unit 4 (Graph Theory & Trees) guarantee 35+ marks.",
+      "top_scorer_tip": "Draw Hasse diagrams neatly with upward directed lines omitting transitive and reflexive edges.",
+      "blueprint": "Q1 Equivalence Relations & Partition (7M), Q2 Poset & Hasse Diagrams (7M), Q3 Propositional Logic & Tautology (7M), Q4 Pigeonhole Principle & Permutations (7M), Q5 Groups & Subgroups Lagrange's Theorem (7M), Q6 Rings & Fields (7M), Q7 Graph Isomorphism & Planar Graphs (7M), Q8 Eulerian vs Hamiltonian Graphs (7M)."
+    },
+    "repeated_topics": [
+      "Hasse Diagram of a Poset (e.g. Divisibility relation D\u2083\u2086 or D\u2082\u2084) with maximal/minimal elements",
+      "Lagrange's Theorem for finite groups: Order of subgroup divides order of group",
+      "Euler's formula for connected planar graphs: V - E + R = 2"
+    ],
+    "units": [
+      "Unit I: Set Theory & Relations (Sets, Power set, Cartesian product, Relations, Equivalence relations, Closures Reflexive/Symmetric/Transitive, Partial ordering Poset, Hasse diagram, Lattices)",
+      "Unit II: Propositional & Predicate Logic (Propositions, Connectives truth tables, Tautology, Contradiction, Normal forms DNF and CNF, Predicates and Quantifiers, Rules of inference)",
+      "Unit III: Combinatorics & Recurrence (Pigeonhole principle, Permutations and Combinations, Generating functions, Linear recurrence relations with constant coefficients)",
+      "Unit IV: Algebraic Structures (Semigroups, Monoids, Groups, Abelian groups, Subgroups, Cyclic groups, Cosets, Lagrange's Theorem, Rings, Integral Domains, Fields)",
+      "Unit V: Graph Theory & Trees (Graphs, Degree Handshaking lemma, Paths and circuits, Eulerian & Hamiltonian paths, Planar graphs, Euler's formula V - E + R = 2, Graph coloring, Trees, Spanning trees)"
+    ],
+    "formulas": [
+      "Handshaking Lemma: \u2211 deg(v) = 2 \u00b7 |E|",
+      "Euler's Planar Graph Formula: V - E + R = 2",
+      "Lagrange's Theorem: |G| = [G : H] \u00b7 |H| (Order of subgroup divides order of finite group)",
+      "Pigeonhole Principle: If n items are put into k containers, at least one container has \u2308n/k\u2309 items",
+      "Lattice Distributive Law: a \u2227 (b \u2228 c) = (a \u2227 b) \u2228 (a \u2227 c)"
+    ],
+    "diagram_svg": "<svg viewBox=\"0 0 520 180\" xmlns=\"http://www.w3.org/2000/svg\" class=\"w-full max-w-lg mx-auto my-3 border border-stone-800 rounded-lg bg-stone-50 p-2\">\n  <rect x=\"20\" y=\"20\" width=\"480\" height=\"140\" rx=\"8\" fill=\"#fdf4ff\" stroke=\"#a21caf\" stroke-width=\"2\"/>\n  <text x=\"260\" y=\"42\" font-family=\"monospace\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#701a75\">HASSE DIAGRAM OF POSET (D\u2081\u2082, |) (DIVISIBILITY ON 12)</text>\n  <!-- Node 12 -->\n  <circle cx=\"260\" cy=\"65\" r=\"12\" fill=\"#fae8ff\" stroke=\"#a21caf\" stroke-width=\"2\"/>\n  <text x=\"260\" y=\"69\" font-family=\"monospace\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#701a75\">12</text>\n  <!-- Level 2: 4 and 6 -->\n  <circle cx=\"190\" cy=\"100\" r=\"12\" fill=\"#fae8ff\" stroke=\"#a21caf\" stroke-width=\"2\"/>\n  <text x=\"190\" y=\"104\" font-family=\"monospace\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#701a75\">4</text>\n  <circle cx=\"330\" cy=\"100\" r=\"12\" fill=\"#fae8ff\" stroke=\"#a21caf\" stroke-width=\"2\"/>\n  <text x=\"330\" y=\"104\" font-family=\"monospace\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#701a75\">6</text>\n  <!-- Level 3: 2 and 3 -->\n  <circle cx=\"190\" cy=\"135\" r=\"12\" fill=\"#fae8ff\" stroke=\"#a21caf\" stroke-width=\"2\"/>\n  <text x=\"190\" y=\"139\" font-family=\"monospace\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#701a75\">2</text>\n  <circle cx=\"330\" cy=\"135\" r=\"12\" fill=\"#fae8ff\" stroke=\"#a21caf\" stroke-width=\"2\"/>\n  <text x=\"330\" y=\"139\" font-family=\"monospace\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#701a75\">3</text>\n  <!-- Level 4: 1 -->\n  <circle cx=\"260\" cy=\"155\" r=\"10\" fill=\"#fae8ff\" stroke=\"#a21caf\" stroke-width=\"2\"/>\n  <text x=\"260\" y=\"159\" font-family=\"monospace\" font-size=\"9\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#701a75\">1</text>\n  <!-- Connecting Edges -->\n  <line x1=\"260\" y1=\"77\" x2=\"198\" y2=\"92\" stroke=\"#a21caf\" stroke-width=\"1.5\"/>\n  <line x1=\"260\" y1=\"77\" x2=\"322\" y2=\"92\" stroke=\"#a21caf\" stroke-width=\"1.5\"/>\n  <line x1=\"190\" y1=\"112\" x2=\"190\" y2=\"123\" stroke=\"#a21caf\" stroke-width=\"1.5\"/>\n  <line x1=\"330\" y1=\"112\" x2=\"198\" y2=\"128\" stroke=\"#a21caf\" stroke-width=\"1.5\"/>\n  <line x1=\"330\" y1=\"112\" x2=\"330\" y2=\"123\" stroke=\"#a21caf\" stroke-width=\"1.5\"/>\n  <line x1=\"190\" y1=\"147\" x2=\"252\" y2=\"152\" stroke=\"#a21caf\" stroke-width=\"1.5\"/>\n  <line x1=\"330\" y1=\"147\" x2=\"268\" y2=\"152\" stroke=\"#a21caf\" stroke-width=\"1.5\"/>\n  <!-- Labels -->\n  <text x=\"80\" y=\"65\" font-family=\"sans-serif\" font-size=\"8.5\" fill=\"#701a75\">Greatest: 12 (Maximal)</text>\n  <text x=\"80\" y=\"155\" font-family=\"sans-serif\" font-size=\"8.5\" fill=\"#701a75\">Least: 1 (Minimal)</text>\n</svg>",
+    "qa": [
+      {
+        "q": "State and prove Lagrange's Theorem for finite groups. What is its corollary for prime order groups? [7 Marks]",
+        "a": "<b>1. Theorem Statement:</b> The order of each subgroup H of a finite group G divides the order of G. That is, <code>|G| = [G : H] \u00b7 |H|</code>.<br><b>2. Proof:</b><br>\u2022 Let H = {h\u2081, h\u2082, ..., h_m} be a subgroup of G of order m.<br>\u2022 For any a \u2208 G, the left coset aH = {ah\u2081, ah\u2082, ..., ah_m}.<br>\u2022 All m elements of aH are distinct (if ah_i = ah_j, left cancellation implies h_i = h_j).<br>\u2022 Any two left cosets are either disjoint or identical.<br>\u2022 Since every element g \u2208 G belongs to some coset gH, the distinct left cosets partition the group G.<br>\u2022 If there are k distinct left cosets, then |G| = k \u00b7 |H|.<br>\u2022 Therefore, |H| divides |G|.<br><b>3. Corollary:</b> Any group of prime order p is cyclic and has no non-trivial proper subgroups."
+      },
+      {
+        "q": "State Euler's Formula for connected planar graphs. Prove that for any simple planar graph with V \u2265 3, E \u2264 3V - 6. [7 Marks]",
+        "a": "<b>1. Euler's Formula:</b> In any connected planar graph with V vertices, E edges, and R regions (faces), <code>V - E + R = 2</code>.<br><b>2. Proof of E \u2264 3V - 6:</b><br>\u2022 Every region in a simple planar graph is bounded by at least 3 edges (since there are no multiple edges or loops).<br>\u2022 Each edge separates at most 2 regions.<br>\u2022 Summing edge boundaries over all regions gives: <code>2E = \u2211 degree(Region) \u2265 3R \u21d2 R \u2264 (2/3) E</code>.<br>\u2022 Substitute into Euler's formula V - E + R = 2:<br><code>V - E + (2/3) E \u2265 2  \u21d2  V - (1/3) E \u2265 2</code><br>Multiply by 3:<br><code>3V - E \u2265 6  \u21d2  E \u2264 3V - 6</code>. (Hence Proved)."
+      }
+    ],
+    "pyq": [
+      {
+        "year": "Dec 2024",
+        "q": "Show that the proposition (p \u2227 (p \u2192 q)) \u2192 q is a tautology using truth tables."
+      },
+      {
+        "year": "June 2024",
+        "q": "Differentiate between Eulerian graph and Hamiltonian graph. State necessary and sufficient conditions for each."
+      },
+      {
+        "year": "Dec 2023",
+        "q": "Solve recurrence relation a_n = 5 a_{n-1} - 6 a_{n-2} with initial conditions a\u2080 = 1, a\u2081 = 4."
+      },
+      {
+        "year": "June 2023",
+        "q": "Show that the set G = {1, 2, 3, 4, 5, 6} forms an abelian group under multiplication modulo 7."
+      },
+      {
+        "year": "Dec 2022",
+        "q": "State Pigeonhole Principle. Show that among 13 people, at least two were born in the same month."
+      }
+    ]
+  },
+  {
     "code": "CS-303",
     "title": "Data Structures & Algorithms",
     "year": 2,
@@ -286,6 +398,51 @@
       {
         "year": "Dec 2022",
         "q": "Construct a binary tree from Inorder: D B E A F C and Preorder: A B D E C F."
+      }
+    ]
+  },
+  {
+    "code": "CS-402",
+    "title": "Analysis & Design of Algorithms (ADA)",
+    "year": 2,
+    "sem": 4,
+    "credits": 4,
+    "branch": "CSE Core",
+    "units": [
+      "Unit I: Algorithm Analysis & Recurrences (Asymptotic bounds, Master Theorem, Substitution, Recursion tree)",
+      "Unit II: Divide & Conquer (Strassen's matrix multiplication, Convex Hull, Binary search analysis)",
+      "Unit III: Greedy Method (Knapsack problem, Huffman coding, Job sequencing with deadlines)",
+      "Unit IV: Dynamic Programming (0/1 Knapsack, Matrix Chain Multiplication, Longest Common Subsequence LCS, Floyd-Warshall)",
+      "Unit V: Backtracking, Branch & Bound, NP-Completeness (N-Queens, Graph Coloring, Travelling Salesperson, P vs NP, NP-Hard)"
+    ],
+    "formulas": [
+      "Master Theorem: T(n) = a T(n/b) + \u0398(n^k log^p n); compare a with b^k",
+      "Strassen's Multiplication: T(n) = 7 T(n/2) + O(n^2) \u21d2 O(n^log2 7) \u2248 O(n^2.81)",
+      "Dynamic Programming 0/1 Knapsack: V[i, w] = max(V[i-1, w], val[i] + V[i-1, w - wt[i]])",
+      "LCS Recurrence: c[i, j] = c[i-1, j-1] + 1 if X[i]==Y[j] else max(c[i-1, j], c[i, j-1])"
+    ],
+    "qa": [
+      {
+        "q": "Explain the 0/1 Knapsack problem using Dynamic Programming. Solve for capacity W=5, items with weights [2, 3, 4] and profits [3, 4, 5]. [7 Marks]",
+        "a": "<b>DP Formulation:</b> Let V[i, w] be the maximum profit with first i items and capacity w.<br><b>Recurrence:</b><br>\u2022 If wt[i] > w: V[i, w] = V[i-1, w]<br>\u2022 Else: V[i, w] = max(V[i-1, w], profit[i] + V[i-1, w - wt[i]])<br><b>Table Computation (W=0 to 5):</b><br>\u2022 Row 1 (Item 1, wt=2, p=3): V[1, 0..1]=0, V[1, 2..5]=3.<br>\u2022 Row 2 (Item 2, wt=3, p=4): V[2, 0..1]=0, V[2, 2]=3, V[2, 3]=4, V[2, 4]=4, V[2, 5]=max(3, 4+V[1, 2]) = <b>7</b> (Items 1 and 2).<br>\u2022 Row 3 (Item 3, wt=4, p=5): V[3, 5]=max(V[2, 5], 5 + V[2, 1]) = max(7, 5+0) = 7.<br><b>Optimal Profit:</b> <b>7</b> (Select Item 1 and Item 2, Total Weight = 2 + 3 = 5 <= 5)."
+      },
+      {
+        "q": "Differentiate between P, NP, NP-Complete, and NP-Hard classes with a neat Euler diagram. [7 Marks]",
+        "a": "<b>Class Definitions:</b><br>\u2022 <b>P (Polynomial time):</b> Set of decision problems solvable by a Deterministic Turing Machine in polynomial time O(n^k). E.g. Sorting, Shortest Path.<br>\u2022 <b>NP (Nondeterministic Polynomial):</b> Decision problems whose proposed solutions can be VERIFIED in polynomial time by a DTM.<br>\u2022 <b>NP-Hard:</b> A problem X is NP-Hard if every problem Y in NP can be reduced to X in polynomial time (Y <=_p X). It does not need to be in NP itself.<br>\u2022 <b>NP-Complete (NPC):</b> A problem X is NP-Complete if (1) X \u2208 NP, and (2) X is NP-Hard. (Hardest problems in NP, e.g. 3-SAT, Clique, Hamiltonian Cycle, Traveling Salesperson Decision)."
+      }
+    ],
+    "pyq": [
+      {
+        "year": "Dec 2024",
+        "q": "Solve Matrix Chain Multiplication for dimensions [40, 20, 30, 10, 30] using dynamic programming."
+      },
+      {
+        "year": "June 2024",
+        "q": "Explain Huffman Coding algorithm and construct optimal prefix code tree for given frequencies."
+      },
+      {
+        "year": "Dec 2023",
+        "q": "Solve 4-Queens problem using Backtracking state-space tree."
       }
     ]
   },
@@ -462,6 +619,51 @@
     ]
   },
   {
+    "code": "CS-601",
+    "title": "Computer Networks",
+    "year": 3,
+    "sem": 6,
+    "credits": 4,
+    "branch": "CSE Core",
+    "units": [
+      "Unit I: Physical & Data Link Layer (OSI vs TCP/IP, Framing, Error detection CRC, Flow control Sliding Window, HDLC)",
+      "Unit II: Medium Access Control (Pure & Slotted ALOHA, CSMA/CD, Ethernet IEEE 802.3, Wireless LAN 802.11)",
+      "Unit III: Network Layer & Routing (IPv4 addressing & subnetting, CIDR, Distance Vector Routing, Link State OSPF, BGP)",
+      "Unit IV: Transport Layer (TCP 3-way handshake, Flow control, TCP Congestion control Slow Start, UDP vs TCP)",
+      "Unit V: Application Layer & Network Security (DNS, HTTP/HTTPS, SMTP, Public key cryptography RSA, Firewalls)"
+    ],
+    "formulas": [
+      "Maximum ALOHA Throughput: Pure ALOHA = 1/(2e) \u2248 18.4%; Slotted ALOHA = 1/e \u2248 36.8%",
+      "Cyclic Redundancy Check (CRC): Transmitted Frame = (Message << r) + Remainder[ (M << r) / Generator ]",
+      "Subnet Masking: Usable Hosts = 2^(32 - Prefix) - 2 (subtract Network & Broadcast addresses)",
+      "TCP Congestion Window: Threshold reached \u21d2 Switch from Exponential Growth to Linear Additive Increase"
+    ],
+    "qa": [
+      {
+        "q": "Explain IPv4 Classless Inter-Domain Routing (CIDR) and Subnetting. An organization is granted block 200.16.0.0/16. Divide it into 4 equal subnets. [7 Marks]",
+        "a": "<b>Subnetting Solution:</b><br>\u2022 Original Block: <code>200.16.0.0/16</code> (Mask: 255.255.0.0).<br>\u2022 We need 4 subnets: 2^2 = 4, so borrow <b>2 bits</b> from host ID.<br>\u2022 New Prefix: 16 + 2 = <b>/18</b> (Subnet Mask: 255.255.192.0).<br>\u2022 Block increment = 256 - 192 = 64 in the 3rd octet.<br><b>Subnets:</b><br>1. <b>Subnet 1:</b> 200.16.0.0/18 (Host Range: 200.16.0.1 to 200.16.63.254, Broadcast: 200.16.63.255)<br>2. <b>Subnet 2:</b> 200.16.64.0/18 (Host Range: 200.16.64.1 to 200.16.127.254, Broadcast: 200.16.127.255)<br>3. <b>Subnet 3:</b> 200.16.128.0/18 (Host Range: 200.16.128.1 to 200.16.191.254, Broadcast: 200.16.191.255)<br>4. <b>Subnet 4:</b> 200.16.192.0/18 (Host Range: 200.16.192.1 to 200.16.255.254, Broadcast: 200.16.255.255)"
+      },
+      {
+        "q": "Explain TCP 3-Way Handshake connection establishment and TCP Congestion Control mechanisms (Slow Start, Congestion Avoidance, Fast Retransmit). [7 Marks]",
+        "a": "<b>TCP 3-Way Handshake:</b><br>1. <i>SYN:</i> Client sends <code>SYN=1, seq=x</code> to Server.<br>2. <i>SYN-ACK:</i> Server responds with <code>SYN=1, ACK=1, seq=y, ack=x+1</code>.<br>3. <i>ACK:</i> Client sends <code>ACK=1, ack=y+1</code>. Connection established.<br><b>Congestion Control:</b><br>\u2022 <b>Slow Start:</b> cwnd starts at 1 MSS and doubles every RTT (exponential growth: 1, 2, 4, 8...) until <code>ssthresh</code>.<br>\u2022 <b>Congestion Avoidance:</b> Once cwnd >= ssthresh, growth switches to Additive Increase (increases by 1 MSS per RTT).<br>\u2022 <b>On Timeout:</b> ssthresh = cwnd / 2, cwnd reset to 1 MSS (Multiplicative Decrease).<br>\u2022 <b>Fast Retransmit & Fast Recovery:</b> Upon 3 duplicate ACKs, retransmits immediately without waiting for timeout, sets ssthresh = cwnd / 2 and cwnd = ssthresh + 3."
+      }
+    ],
+    "pyq": [
+      {
+        "year": "Dec 2024",
+        "q": "Compare Distance Vector Routing (Bellman-Ford & Count-to-Infinity) with Link State Routing (Dijkstra)."
+      },
+      {
+        "year": "June 2024",
+        "q": "Explain RSA public key encryption algorithm with a numerical example: p=3, q=11, e=7."
+      },
+      {
+        "year": "Dec 2023",
+        "q": "Explain CSMA/CD protocol with binary exponential back-off algorithm and collision window."
+      }
+    ]
+  },
+  {
     "code": "CS-701",
     "title": "Cloud Computing & Virtualization",
     "year": 4,
@@ -571,142 +773,6 @@
       {
         "year": "Dec 2022",
         "q": "Explain Genetic Algorithm operators: Selection, Crossover, and Mutation with example."
-      }
-    ]
-  },
-  {
-    "code": "BT-201",
-    "title": "Engineering Physics",
-    "year": 1,
-    "sem": 2,
-    "credits": 4,
-    "branch": "CSE Core",
-    "units": [
-      "Unit I: Quantum Mechanics (Wave-particle duality, De Broglie, Schrodinger equation, Particle in 1D box)",
-      "Unit II: Wave Optics (Interference in thin films, Newton's Rings, Diffraction grating, Polarization)",
-      "Unit III: Laser & Fiber Optics (Spontaneous & stimulated emission, Population inversion, Optical fibers NA)",
-      "Unit IV: Solid State & Semiconductor Physics (Band theory of solids, Fermi-Dirac distribution, Hall Effect)",
-      "Unit V: Superconductivity & Nanotechnology (Meissner effect, Type-I & Type-II, Carbon nanotubes)"
-    ],
-    "formulas": [
-      "Schrodinger 1D Wave Eq: (-\u0127^2 / 2m)(d^2\u03c8/dx^2) + V(x)\u03c8 = E\u03c8",
-      "Particle in 1D Box Energy: E_n = (n^2 h^2) / (8 m L^2)",
-      "Newton's Rings Diameter: D_n^2 = 4 n \u03bb R (for dark rings)",
-      "Numerical Aperture (Fiber): NA = \u221a(n1^2 - n2^2) = n1 \u221a(2\u0394)",
-      "Hall Coefficient: R_H = 1 / (n x e)"
-    ],
-    "qa": [
-      {
-        "q": "Derive the time-independent Schrodinger wave equation. Calculate the energy eigenvalues of a particle trapped in an infinite 1D potential well. [7 Marks]",
-        "a": "<b>Derivation:</b> A moving particle has an associated de Broglie wave \u03c8(x) = A e^(i(kx - \u03c9t)). Differentiating twice with respect to x gives d^2\u03c8/dx^2 = -k^2 \u03c8 = -(p^2 / \u0127^2) \u03c8. Since Total Energy E = Kinetic Energy + Potential Energy = (p^2 / 2m) + V(x), we have p^2 = 2m(E - V(x)). Substituting yields <b>(-\u0127^2 / 2m)(d^2\u03c8/dx^2) + V(x)\u03c8 = E\u03c8</b>.<br><b>Particle in 1D Box (0 <= x <= L, V=0 inside, V=\u221e outside):</b> Boundary conditions \u03c8(0)=0 and \u03c8(L)=0 require k = n\u03c0/L. Normalization yields \u03c8_n(x) = \u221a(2/L) sin(n\u03c0x/L). Substituting k into energy relation gives <b>E_n = (n^2 h^2) / (8 m L^2)</b>, showing energy quantization!"
-      },
-      {
-        "q": "Explain the construction and working of a Ruby Laser or He-Ne Laser with an energy level diagram. [7 Marks]",
-        "a": "<b>He-Ne Laser:</b> A four-level gas laser producing continuous red light at 632.8 nm.<br>\u2022 <i>Active Medium:</i> Mixture of Helium and Neon gas in 10:1 ratio at low pressure in a quartz discharge tube.<br>\u2022 <i>Pumping:</i> Electric discharge excites He atoms to metastable states (20.61 eV).<br>\u2022 <i>Energy Transfer:</i> Excited He atoms collide with ground-state Ne atoms (resonant collision), transferring energy and creating <b>Population Inversion</b> in Ne atoms.<br>\u2022 <i>Stimulated Emission:</i> Transition from Ne 3s to 2p level emits coherent photons of wavelength <b>632.8 nm</b>. Optical resonator mirrors reflect photons to amplify the laser beam."
-      }
-    ],
-    "pyq": [
-      {
-        "year": "Dec 2024",
-        "q": "Explain the formation of Newton's rings by reflected light and derive expression for diameter of dark rings."
-      },
-      {
-        "year": "June 2024",
-        "q": "What is Hall Effect? Derive the expression for Hall coefficient and explain its engineering applications."
-      },
-      {
-        "year": "Dec 2023",
-        "q": "Explain Meissner Effect and differentiate between Type-I and Type-II superconductors."
-      }
-    ]
-  },
-  {
-    "code": "CS-402",
-    "title": "Analysis & Design of Algorithms (ADA)",
-    "year": 2,
-    "sem": 4,
-    "credits": 4,
-    "branch": "CSE Core",
-    "units": [
-      "Unit I: Algorithm Analysis & Recurrences (Asymptotic bounds, Master Theorem, Substitution, Recursion tree)",
-      "Unit II: Divide & Conquer (Strassen's matrix multiplication, Convex Hull, Binary search analysis)",
-      "Unit III: Greedy Method (Knapsack problem, Huffman coding, Job sequencing with deadlines)",
-      "Unit IV: Dynamic Programming (0/1 Knapsack, Matrix Chain Multiplication, Longest Common Subsequence LCS, Floyd-Warshall)",
-      "Unit V: Backtracking, Branch & Bound, NP-Completeness (N-Queens, Graph Coloring, Travelling Salesperson, P vs NP, NP-Hard)"
-    ],
-    "formulas": [
-      "Master Theorem: T(n) = a T(n/b) + \u0398(n^k log^p n); compare a with b^k",
-      "Strassen's Multiplication: T(n) = 7 T(n/2) + O(n^2) \u21d2 O(n^log2 7) \u2248 O(n^2.81)",
-      "Dynamic Programming 0/1 Knapsack: V[i, w] = max(V[i-1, w], val[i] + V[i-1, w - wt[i]])",
-      "LCS Recurrence: c[i, j] = c[i-1, j-1] + 1 if X[i]==Y[j] else max(c[i-1, j], c[i, j-1])"
-    ],
-    "qa": [
-      {
-        "q": "Explain the 0/1 Knapsack problem using Dynamic Programming. Solve for capacity W=5, items with weights [2, 3, 4] and profits [3, 4, 5]. [7 Marks]",
-        "a": "<b>DP Formulation:</b> Let V[i, w] be the maximum profit with first i items and capacity w.<br><b>Recurrence:</b><br>\u2022 If wt[i] > w: V[i, w] = V[i-1, w]<br>\u2022 Else: V[i, w] = max(V[i-1, w], profit[i] + V[i-1, w - wt[i]])<br><b>Table Computation (W=0 to 5):</b><br>\u2022 Row 1 (Item 1, wt=2, p=3): V[1, 0..1]=0, V[1, 2..5]=3.<br>\u2022 Row 2 (Item 2, wt=3, p=4): V[2, 0..1]=0, V[2, 2]=3, V[2, 3]=4, V[2, 4]=4, V[2, 5]=max(3, 4+V[1, 2]) = <b>7</b> (Items 1 and 2).<br>\u2022 Row 3 (Item 3, wt=4, p=5): V[3, 5]=max(V[2, 5], 5 + V[2, 1]) = max(7, 5+0) = 7.<br><b>Optimal Profit:</b> <b>7</b> (Select Item 1 and Item 2, Total Weight = 2 + 3 = 5 <= 5)."
-      },
-      {
-        "q": "Differentiate between P, NP, NP-Complete, and NP-Hard classes with a neat Euler diagram. [7 Marks]",
-        "a": "<b>Class Definitions:</b><br>\u2022 <b>P (Polynomial time):</b> Set of decision problems solvable by a Deterministic Turing Machine in polynomial time O(n^k). E.g. Sorting, Shortest Path.<br>\u2022 <b>NP (Nondeterministic Polynomial):</b> Decision problems whose proposed solutions can be VERIFIED in polynomial time by a DTM.<br>\u2022 <b>NP-Hard:</b> A problem X is NP-Hard if every problem Y in NP can be reduced to X in polynomial time (Y <=_p X). It does not need to be in NP itself.<br>\u2022 <b>NP-Complete (NPC):</b> A problem X is NP-Complete if (1) X \u2208 NP, and (2) X is NP-Hard. (Hardest problems in NP, e.g. 3-SAT, Clique, Hamiltonian Cycle, Traveling Salesperson Decision)."
-      }
-    ],
-    "pyq": [
-      {
-        "year": "Dec 2024",
-        "q": "Solve Matrix Chain Multiplication for dimensions [40, 20, 30, 10, 30] using dynamic programming."
-      },
-      {
-        "year": "June 2024",
-        "q": "Explain Huffman Coding algorithm and construct optimal prefix code tree for given frequencies."
-      },
-      {
-        "year": "Dec 2023",
-        "q": "Solve 4-Queens problem using Backtracking state-space tree."
-      }
-    ]
-  },
-  {
-    "code": "CS-601",
-    "title": "Computer Networks",
-    "year": 3,
-    "sem": 6,
-    "credits": 4,
-    "branch": "CSE Core",
-    "units": [
-      "Unit I: Physical & Data Link Layer (OSI vs TCP/IP, Framing, Error detection CRC, Flow control Sliding Window, HDLC)",
-      "Unit II: Medium Access Control (Pure & Slotted ALOHA, CSMA/CD, Ethernet IEEE 802.3, Wireless LAN 802.11)",
-      "Unit III: Network Layer & Routing (IPv4 addressing & subnetting, CIDR, Distance Vector Routing, Link State OSPF, BGP)",
-      "Unit IV: Transport Layer (TCP 3-way handshake, Flow control, TCP Congestion control Slow Start, UDP vs TCP)",
-      "Unit V: Application Layer & Network Security (DNS, HTTP/HTTPS, SMTP, Public key cryptography RSA, Firewalls)"
-    ],
-    "formulas": [
-      "Maximum ALOHA Throughput: Pure ALOHA = 1/(2e) \u2248 18.4%; Slotted ALOHA = 1/e \u2248 36.8%",
-      "Cyclic Redundancy Check (CRC): Transmitted Frame = (Message << r) + Remainder[ (M << r) / Generator ]",
-      "Subnet Masking: Usable Hosts = 2^(32 - Prefix) - 2 (subtract Network & Broadcast addresses)",
-      "TCP Congestion Window: Threshold reached \u21d2 Switch from Exponential Growth to Linear Additive Increase"
-    ],
-    "qa": [
-      {
-        "q": "Explain IPv4 Classless Inter-Domain Routing (CIDR) and Subnetting. An organization is granted block 200.16.0.0/16. Divide it into 4 equal subnets. [7 Marks]",
-        "a": "<b>Subnetting Solution:</b><br>\u2022 Original Block: <code>200.16.0.0/16</code> (Mask: 255.255.0.0).<br>\u2022 We need 4 subnets: 2^2 = 4, so borrow <b>2 bits</b> from host ID.<br>\u2022 New Prefix: 16 + 2 = <b>/18</b> (Subnet Mask: 255.255.192.0).<br>\u2022 Block increment = 256 - 192 = 64 in the 3rd octet.<br><b>Subnets:</b><br>1. <b>Subnet 1:</b> 200.16.0.0/18 (Host Range: 200.16.0.1 to 200.16.63.254, Broadcast: 200.16.63.255)<br>2. <b>Subnet 2:</b> 200.16.64.0/18 (Host Range: 200.16.64.1 to 200.16.127.254, Broadcast: 200.16.127.255)<br>3. <b>Subnet 3:</b> 200.16.128.0/18 (Host Range: 200.16.128.1 to 200.16.191.254, Broadcast: 200.16.191.255)<br>4. <b>Subnet 4:</b> 200.16.192.0/18 (Host Range: 200.16.192.1 to 200.16.255.254, Broadcast: 200.16.255.255)"
-      },
-      {
-        "q": "Explain TCP 3-Way Handshake connection establishment and TCP Congestion Control mechanisms (Slow Start, Congestion Avoidance, Fast Retransmit). [7 Marks]",
-        "a": "<b>TCP 3-Way Handshake:</b><br>1. <i>SYN:</i> Client sends <code>SYN=1, seq=x</code> to Server.<br>2. <i>SYN-ACK:</i> Server responds with <code>SYN=1, ACK=1, seq=y, ack=x+1</code>.<br>3. <i>ACK:</i> Client sends <code>ACK=1, ack=y+1</code>. Connection established.<br><b>Congestion Control:</b><br>\u2022 <b>Slow Start:</b> cwnd starts at 1 MSS and doubles every RTT (exponential growth: 1, 2, 4, 8...) until <code>ssthresh</code>.<br>\u2022 <b>Congestion Avoidance:</b> Once cwnd >= ssthresh, growth switches to Additive Increase (increases by 1 MSS per RTT).<br>\u2022 <b>On Timeout:</b> ssthresh = cwnd / 2, cwnd reset to 1 MSS (Multiplicative Decrease).<br>\u2022 <b>Fast Retransmit & Fast Recovery:</b> Upon 3 duplicate ACKs, retransmits immediately without waiting for timeout, sets ssthresh = cwnd / 2 and cwnd = ssthresh + 3."
-      }
-    ],
-    "pyq": [
-      {
-        "year": "Dec 2024",
-        "q": "Compare Distance Vector Routing (Bellman-Ford & Count-to-Infinity) with Link State Routing (Dijkstra)."
-      },
-      {
-        "year": "June 2024",
-        "q": "Explain RSA public key encryption algorithm with a numerical example: p=3, q=11, e=7."
-      },
-      {
-        "year": "Dec 2023",
-        "q": "Explain CSMA/CD protocol with binary exponential back-off algorithm and collision window."
       }
     ]
   },
