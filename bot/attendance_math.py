@@ -20,6 +20,13 @@ class SubjectAttendance:
     total: int
     code: str = ""
     target_quota: float = 75.0
+    subject_type: str = "Theory"
+
+    def __post_init__(self):
+        try:
+            self.target_quota = float(self.target_quota)
+        except (ValueError, TypeError):
+            self.target_quota = 75.0
 
     @property
     def percentage(self) -> float:
